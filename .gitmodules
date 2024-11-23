@@ -1,0 +1,6 @@
+[submodule "drivers"]
+	path = drivers
+	url = https://github.com/KamilPol/STM32_G4_DRV.git
+[submodule "lib"]
+	path = lib
+	url = https://github.com/KamilPol/STM32_LIBS.git
