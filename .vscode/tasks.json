@@ -1,0 +1,55 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Build Project",
+            "command": "make",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": {
+                "base": "$gcc",
+                "fileLocation": "relative"
+            }
+        },
+        {
+            "label": "Flash",
+            "command": "stm32_programmer_cli",
+            "args": ["-c", "port=SWD", "mode=UR", "-w", "build/BINARY.bin", "0x08000000", "-v", "-hardRst"],
+        },
+        {
+            "label": "Reset and Flash",
+            "dependsOrder": "sequence",
+            "dependsOn": ["Build Project", "Flash"]
+        }
+        // {
+        //     "label": "Reset",
+        //     "command": "stm32_programmer_cli",
+        //     "type": "shell",
+        //     "args": ["-c", "port=SWD", "||", "sleep", "1"],
+        //     "options": {
+        //         "shell": {
+        //             "executable": "cmd.exe",
+        //             "args": [
+        //                 "/d", "/c"
+        //             ]
+        //         }
+        //     }
+        // },
+        // {
+        //     "label": "Flash",
+        //     "command": "dfu-util",
+        //     "args": ["-a", "1", "-D", "build/${workspaceFolderBasename}.stm32"],
+        // },
+        // {
+        //     "label": "Reset and Flash",
+        //     "dependsOrder": "sequence",
+        //     "dependsOn": ["Build Project", "Reset", "Flash"]
+        // }
+    ]
+}

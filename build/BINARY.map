@@ -1,0 +1,2013 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-malloc.o)
+                              build/obj/lib/stubs/new_delete.o (symbol from plugin) (malloc)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-malloc.o) (_malloc_r)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o) (__malloc_lock)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-impure.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-malloc.o) (_impure_ptr)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sbrkr.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o) (_sbrk_r)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
+                              build/obj/drivers/startup/startup_stm32g474retx.o (__libc_init_array)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o) (__retarget_lock_acquire_recursive)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sysconf.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o) (sysconf)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-malloc.o) (_free_r)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-impure.o) (__sf)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fwalk.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o) (_fwalk_sglue)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o) (__sread)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memset.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o) (memset)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-closer.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o) (_close_r)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-reent.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sbrkr.o) (errno)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lseekr.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o) (_lseek_r)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-readr.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o) (_read_r)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-writer.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o) (_write_r)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o) (_fclose_r)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o) (__sflush_r)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o)
+                              build/obj/./main.o (symbol from plugin) (cosf)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_sin.o)
+                              build/obj/./main.o (symbol from plugin) (sinf)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_cos.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o) (__kernel_cosf)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_sin.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o) (__kernel_sinf)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o) (__ieee754_rem_pio2f)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_fabs.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o) (fabsf)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o) (__kernel_rem_pio2f)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_scalbn.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o) (scalbnf)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_floor.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o) (floorf)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+                              C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o (__aeabi_f2d)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_truncdfsf2.o)
+                              C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o (__aeabi_d2f)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
+                              C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o (__aeabi_l2f)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixsfdi.o)
+                              C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o (__aeabi_f2lz)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixsfdi.o) (__aeabi_f2ulz)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldf3.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o) (__aeabi_dmul)
+c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixunsdfsi.o)
+                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o) (__aeabi_d2uiz)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .data          0x00000000        0x0 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.sineLookUp
+                0x00000000      0x5a0 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.sineLookUp2
+                0x00000000      0x5a0 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.sineLookUp3
+                0x00000000      0x5a0 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.ADCVin    0x00000000        0x2 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.printProcessLastTime
+                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.UARTprevTime
+                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.prevTick  0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.dataReadyToPrint
+                0x00000000        0x1 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .data.LCDstring
+                0x00000000       0x14 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.checkFlag
+                0x00000000        0x1 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.i2cData   0x00000000        0x1 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .data.sineFreq
+                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.acceltime
+                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.lastacceltime
+                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.lastAngle
+                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.lastTimeAngle
+                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.lastPrintTime
+                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.lastAngleOffsetChange
+                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss._ZL8speedMul
+                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.pidOUT    0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._Z12generateSinePmmmm
+                0x00000000       0xc8 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.ticks     0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .data.clockFreq
+                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._Z5delaym
+                0x00000000       0x30 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._Z3mapfffff
+                0x00000000       0x52 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN6Serial7printlnEPKc
+                0x00000000       0x24 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN6Serial7printlnEi
+                0x00000000       0x24 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN12ClockManager6microsEv
+                0x00000000       0xa4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .rodata._ZN12ClockManager12clockSummaryEv.str1.4
+                0x00000000        0x9 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN12ClockManager12clockSummaryEv
+                0x00000000       0x4c C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN4GPIO5resetEv
+                0x00000000       0x26 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN4GPIO6toggleEv
+                0x00000000       0x24 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN4GPIO10setPinModeE8GPIOmode
+                0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN3I2C8sendByteEPhh
+                0x00000000       0xa4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN3I2C9sendBytesEPhhh
+                0x00000000       0xcc C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN3I2C11recieveByteEh
+                0x00000000       0x64 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZSt25__throw_bad_function_callv
+                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZSt17__throw_bad_allocv
+                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZSt20__throw_length_errorPKc
+                0x00000000        0x8 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text.__cxa_pure_virtual
+                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._Znwj    0x00000000       0x16 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZdlPv   0x00000000       0x14 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._Znaj    0x00000000       0x16 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZdaPv   0x00000000       0x14 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZnwjSt9nothrow_t
+                0x00000000       0x1a C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZdlPvSt9nothrow_t
+                0x00000000       0x18 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZdlPvj  0x00000000       0x16 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZnajSt9nothrow_t
+                0x00000000       0x1a C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZdaPvSt9nothrow_t
+                0x00000000       0x18 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZdaPvj  0x00000000       0x16 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss._ZL8heap_end
+                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._Z13get_heap_sizev
+                0x00000000       0x18 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._sbrk    0x00000000       0x4c C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN13typeConverter13stringToFloatEPKc
+                0x00000000       0x84 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN13typeConverter11stringToIntEPKc
+                0x00000000       0x80 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss._ZN6States6pickerE
+                0x00000000        0x1 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss._ZN6States15currentStateIntE
+                0x00000000        0x1 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss._ZN6States11maxStateIntE
+                0x00000000        0x1 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN6States8setStateE10StateNames
+                0x00000000       0x18 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN6States11updateStateEv
+                0x00000000       0x3c C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN6States12setInitStateE10StateNames
+                0x00000000       0x18 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN6States10checkStateEv
+                0x00000000       0x10 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN7HD44780C2EP3I2Chhh
+                0x00000000       0x42 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN7HD447804InitEv
+                0x00000000       0x96 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN7HD4478012sendHalfByteEh5modes
+                0x00000000       0xaa C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN7HD447808sendByteEh5modes
+                0x00000000       0x36 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN7HD447809backLightEb
+                0x00000000       0x4a C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN7HD447808sendCharEc
+                0x00000000       0x22 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN7HD447805printEPKc
+                0x00000000       0x2c C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN7HD447805clearEv
+                0x00000000       0x18 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN7HD4478010returnHomeEv
+                0x00000000       0x18 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN7HD447804busyEv
+                0x00000000       0x98 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN7HD4478016executeIfNotBusyEPFvvE
+                0x00000000       0x26 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN7HD4478011setPositionEhh
+                0x00000000       0x44 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN3PIDC2Ev
+                0x00000000        0xc C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN3PIDC2EPfS0_S0_fff13PIDCD_TypeDef
+                0x00000000       0x44 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN3PID4InitEPfS0_S0_fff14PIDPON_TypeDef13PIDCD_TypeDef
+                0x00000000       0x84 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN3PID4InitEPfS0_S0_fff13PIDCD_TypeDef
+                0x00000000       0x42 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN3PID7GetModeEv
+                0x00000000       0x18 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN3PID10SetTuningsEfff
+                0x00000000       0x32 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN3PID12GetDirectionEv
+                0x00000000        0xe C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN3PID13SetSampleTimeEl
+                0x00000000       0x5e C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN3PID5GetKpEv
+                0x00000000       0x14 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN3PID5GetKiEv
+                0x00000000       0x14 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN3PID5GetKdEv
+                0x00000000       0x14 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.__errno   0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .data.__dso_handle
+                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._fini    0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._kill    0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._close   0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._lseek   0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._read    0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._write   0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._getpid  0x00000000        0x6 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._exit    0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.motor_t   0x00000000        0x0 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.uQ1       0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.uD1       0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.iA1       0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.iB1       0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.iC1       0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.uAlpha1   0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.uBeta1    0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.iQ1       0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.iD1       0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.filterediQ1
+                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.filterediD1
+                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.angle1    0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.setiQ1    0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.setiD1    0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccK0psBq.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\cc6F1UOa.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\cc2NmgiU.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccoxaidD.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccw72S4p.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\cc6Fn8dc.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccIfS0OX.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccW616TM.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccgjz84B.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccwB86Cr.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccUBIzdg.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccSOpve4.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccs3ZRoS.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccIF3sRF.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\cc6RLAmx.debug.temp.o
+ .text          0x00000000       0x14 build/obj/drivers/startup/startup_stm32g474retx.o
+ .data          0x00000000        0x0 build/obj/drivers/startup/startup_stm32g474retx.o
+ .bss           0x00000000        0x0 build/obj/drivers/startup/startup_stm32g474retx.o
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-malloc.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-malloc.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-malloc.o)
+ .text.malloc   0x00000000       0x10 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-malloc.o)
+ .text.free     0x00000000       0x10 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-malloc.o)
+ .debug_frame   0x00000000       0x30 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-malloc.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-malloc.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+ .text._malloc_r
+                0x00000000      0x55c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+ .bss.__malloc_current_mallinfo
+                0x00000000       0x28 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+ .bss.__malloc_max_total_mem
+                0x00000000        0x4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+ .bss.__malloc_max_sbrked_mem
+                0x00000000        0x4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+ .data.__malloc_sbrk_base
+                0x00000000        0x4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+ .bss.__malloc_top_pad
+                0x00000000        0x4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+ .data.__malloc_trim_threshold
+                0x00000000        0x4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+ .data.__malloc_av_
+                0x00000000      0x408 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+ .debug_frame   0x00000000       0x48 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
+ .text.__malloc_lock
+                0x00000000        0xc c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
+ .text.__malloc_unlock
+                0x00000000        0xc c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
+ .debug_frame   0x00000000       0x30 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-impure.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-impure.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-impure.o)
+ .data._impure_data
+                0x00000000      0x120 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-impure.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-impure.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sbrkr.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sbrkr.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sbrkr.o)
+ .text._sbrk_r  0x00000000       0x24 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sbrkr.o)
+ .debug_frame   0x00000000       0x2c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sbrkr.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sbrkr.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
+ .debug_frame   0x00000000       0x2c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .text.__retarget_lock_init
+                0x00000000        0x4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x00000000        0x4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .text.__retarget_lock_close
+                0x00000000        0x4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x00000000        0x4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x00000000        0x4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .text.__retarget_lock_acquire_recursive
+                0x00000000        0x4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x00000000        0x4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x00000000        0x4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .text.__retarget_lock_release
+                0x00000000        0x4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .text.__retarget_lock_release_recursive
+                0x00000000        0x4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .bss.__lock___arc4random_mutex
+                0x00000000        0x1 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .bss.__lock___dd_hash_mutex
+                0x00000000        0x1 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .bss.__lock___tz_mutex
+                0x00000000        0x1 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .bss.__lock___env_recursive_mutex
+                0x00000000        0x1 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .bss.__lock___malloc_recursive_mutex
+                0x00000000        0x1 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .bss.__lock___at_quick_exit_mutex
+                0x00000000        0x1 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .bss.__lock___atexit_recursive_mutex
+                0x00000000        0x1 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .bss.__lock___sfp_recursive_mutex
+                0x00000000        0x1 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .debug_frame   0x00000000       0xb0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sysconf.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sysconf.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sysconf.o)
+ .text.sysconf  0x00000000       0x1c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sysconf.o)
+ .debug_frame   0x00000000       0x28 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sysconf.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sysconf.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+ .text._malloc_trim_r
+                0x00000000       0xb8 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+ .text._free_r  0x00000000      0x204 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+ .debug_frame   0x00000000       0x78 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+ .text.stdio_exit_handler
+                0x00000000       0x18 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+ .text.cleanup_stdio
+                0x00000000       0x40 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+ .text.__fp_lock
+                0x00000000       0x1c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+ .text.__fp_unlock
+                0x00000000       0x1c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+ .text.global_stdio_init.part.0
+                0x00000000       0xf0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+ .text.__sfp    0x00000000       0xc0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+ .text.__sinit  0x00000000       0x3c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+ .text.__sfp_lock_acquire
+                0x00000000        0xc c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+ .text.__sfp_lock_release
+                0x00000000        0xc c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+ .text.__fp_lock_all
+                0x00000000       0x24 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+ .text.__fp_unlock_all
+                0x00000000       0x24 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+ .data.__sglue  0x00000000        0xc c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+ .bss.__sf      0x00000000      0x138 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+ .bss.__stdio_exit_handler
+                0x00000000        0x4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+ .debug_frame   0x00000000      0x13c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fwalk.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fwalk.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fwalk.o)
+ .text._fwalk_sglue
+                0x00000000       0x48 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fwalk.o)
+ .debug_frame   0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fwalk.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fwalk.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+ .text.__sread  0x00000000       0x24 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+ .text.__seofread
+                0x00000000        0x4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+ .text.__swrite
+                0x00000000       0x40 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+ .text.__sseek  0x00000000       0x24 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+ .text.__sclose
+                0x00000000        0x8 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+ .debug_frame   0x00000000       0x8c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memset.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memset.o)
+ .text.memset   0x00000000       0xa4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memset.o)
+ .debug_frame   0x00000000       0x2c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memset.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memset.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-closer.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-closer.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-closer.o)
+ .text._close_r
+                0x00000000       0x24 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-closer.o)
+ .debug_frame   0x00000000       0x2c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-closer.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-closer.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-reent.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-reent.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0x5c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-reent.o)
+ .bss.errno     0x00000000        0x4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-reent.o)
+ .debug_frame   0x00000000       0x3c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-reent.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-reent.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lseekr.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lseekr.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lseekr.o)
+ .text._lseek_r
+                0x00000000       0x2c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lseekr.o)
+ .debug_frame   0x00000000       0x2c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lseekr.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lseekr.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-readr.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-readr.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-readr.o)
+ .text._read_r  0x00000000       0x2c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-readr.o)
+ .debug_frame   0x00000000       0x2c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-readr.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-readr.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-writer.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-writer.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-writer.o)
+ .text._write_r
+                0x00000000       0x2c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-writer.o)
+ .debug_frame   0x00000000       0x2c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-writer.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-writer.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
+ .text._fclose_r
+                0x00000000       0xc4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
+ .text.fclose   0x00000000       0x10 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
+ .debug_frame   0x00000000       0x3c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+ .text.__sflush_r
+                0x00000000      0x138 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+ .text._fflush_r
+                0x00000000       0x54 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+ .text.fflush   0x00000000       0x74 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+ .debug_frame   0x00000000       0x70 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o)
+ .debug_frame   0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_sin.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_sin.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_sin.o)
+ .debug_frame   0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_sin.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_sin.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_cos.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_cos.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_cos.o)
+ .debug_frame   0x00000000       0x20 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_cos.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_cos.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_sin.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_sin.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_sin.o)
+ .debug_frame   0x00000000       0x20 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_sin.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_sin.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+ .debug_frame   0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_fabs.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_fabs.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_fabs.o)
+ .debug_frame   0x00000000       0x20 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_fabs.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_fabs.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+ .debug_frame   0x00000000       0x5c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_scalbn.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_scalbn.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_scalbn.o)
+ .debug_frame   0x00000000       0x20 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_scalbn.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_scalbn.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_floor.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_floor.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_floor.o)
+ .debug_frame   0x00000000       0x20 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_floor.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_floor.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_truncdfsf2.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixsfdi.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixsfdi.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixsfdi.o)
+ .text          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldf3.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldf3.o)
+ .data          0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixunsdfsi.o)
+ .bss           0x00000000        0x0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixunsdfsi.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x20000000         0x00020000         xrw
+FLASH            0x08000000         0x00080000         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/obj/./main.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccK0psBq.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\cc6F1UOa.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\cc2NmgiU.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccoxaidD.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccw72S4p.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\cc6Fn8dc.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccIfS0OX.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccW616TM.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccgjz84B.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccwB86Cr.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccUBIzdg.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccSOpve4.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccs3ZRoS.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccIF3sRF.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\cc6RLAmx.debug.temp.o
+LOAD build/obj/config/board.o
+LOAD build/obj/drivers/UART/UART.o
+LOAD build/obj/drivers/clock_manager/clock_manager.o
+LOAD build/obj/drivers/gpio/gpio.o
+LOAD build/obj/drivers/i2c/i2c.o
+LOAD build/obj/lib/stubs/cpp_stubs.o
+LOAD build/obj/lib/stubs/new_delete.o
+LOAD build/obj/lib/typeConverter/typeConverter.o
+LOAD build/obj/lib/states/states.o
+LOAD build/obj/lib/lcd/hd44780.o
+LOAD build/obj/lib/PID/pid.o
+LOAD build/obj/drivers/startup/system_stm32g4xx.o
+LOAD build/obj/lib/stubs/c_stubs.o
+LOAD build/obj/lib/motor/motor.o
+LOAD build/obj/drivers/startup/startup_stm32g474retx.o
+LOAD c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a
+                0x20020000                _estack = (ORIGIN (RAM) + LENGTH (RAM))
+                0x00000200                _Min_Heap_Size = 0x200
+                0x00000400                _Min_Stack_Size = 0x400
+
+.isr_vector     0x08000000      0x1d8
+                0x08000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x1d8 build/obj/drivers/startup/startup_stm32g474retx.o
+                0x08000000                g_pfnVectors
+                0x080001d8                . = ALIGN (0x4)
+
+.text           0x080001d8     0x39dc
+                0x080001d8                . = ALIGN (0x4)
+ *(.text)
+ .text          0x080001d8      0x378 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+                0x080001d8                __aeabi_drsub
+                0x080001e0                __aeabi_dsub
+                0x080001e0                __subdf3
+                0x080001e4                __aeabi_dadd
+                0x080001e4                __adddf3
+                0x0800045c                __floatunsidf
+                0x0800045c                __aeabi_ui2d
+                0x0800047c                __floatsidf
+                0x0800047c                __aeabi_i2d
+                0x080004a0                __aeabi_f2d
+                0x080004a0                __extendsfdf2
+                0x080004e4                __floatundidf
+                0x080004e4                __aeabi_ul2d
+                0x080004f4                __floatdidf
+                0x080004f4                __aeabi_l2d
+ .text          0x08000550       0xa0 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_truncdfsf2.o)
+                0x08000550                __truncdfsf2
+                0x08000550                __aeabi_d2f
+ .text          0x080005f0      0x21c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
+                0x080005f0                __aeabi_frsub
+                0x080005f8                __subsf3
+                0x080005f8                __aeabi_fsub
+                0x080005fc                __aeabi_fadd
+                0x080005fc                __addsf3
+                0x0800075c                __aeabi_ui2f
+                0x0800075c                __floatunsisf
+                0x08000764                __aeabi_i2f
+                0x08000764                __floatsisf
+                0x08000780                __aeabi_ul2f
+                0x08000780                __floatundisf
+                0x08000790                __aeabi_l2f
+                0x08000790                __floatdisf
+ .text          0x0800080c      0x254 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldf3.o)
+                0x0800080c                __muldf3
+                0x0800080c                __aeabi_dmul
+ .text          0x08000a60       0x40 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixunsdfsi.o)
+                0x08000a60                __aeabi_d2uiz
+                0x08000a60                __fixunsdfsi
+ *(.text*)
+ .text.__NVIC_EnableIRQ.lto_priv.0
+                0x08000aa0       0x34 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZSt3cosf
+                0x08000ad4       0x1e C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZSt3sinf
+                0x08000af2       0x1e C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._Z4Initv
+                0x08000b10      0x324 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._Z6setPwmfff
+                0x08000e34       0x48 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._Z15setPhaseVoltagefff
+                0x08000e7c      0x140 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text.main     0x08000fbc      0x2bc C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                0x08000fbc                main
+ .text.TIM1_UP_TIM16_IRQHandler
+                0x08001278      0x2dc C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                0x08001278                TIM1_UP_TIM16_IRQHandler
+ .text._Z41__static_initialization_and_destruction_0ii.lto_priv.0
+                0x08001554       0x9c C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._GLOBAL__sub_I_sineLookUp
+                0x080015f0        0xe C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ *fill*         0x080015fe        0x2 
+ .text.UART5_IRQHandler
+                0x08001600       0x10 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                0x08001600                UART5_IRQHandler
+ .text._Z41__static_initialization_and_destruction_0ii.lto_priv.1
+                0x08001610      0x25c C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._GLOBAL__sub_I__ZN12ClockManager8hseClockE
+                0x0800186c        0xe C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ *fill*         0x0800187a        0x2 
+ .text.__NVIC_EnableIRQ.lto_priv.1
+                0x0800187c       0x34 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN6BufferILi256EEC2Ev
+                0x080018b0       0x18 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN6SerialC2EP13USART_TypeDefi
+                0x080018c8      0x198 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN6Serial8sendCharEc
+                0x08001a60       0x36 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN6Serial5printEPKc
+                0x08001a96       0x2e C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN6Serial5printEi
+                0x08001ac4       0x32 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN6Serial5printEdh
+                0x08001af6       0x4c C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ *fill*         0x08001b42        0x2 
+ .text._ZN6Serial7printlnEdh
+                0x08001b44       0x34 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN6Serial8readCharEv
+                0x08001b78       0x22 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ *fill*         0x08001b9a        0x2 
+ .text._ZN6Serial11readTillEOLEPc
+                0x08001b9c       0x98 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN6Serial9availableEv
+                0x08001c34       0x20 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN6Serial9interruptEv
+                0x08001c54       0x40 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN6Serial11bufferFlushEv
+                0x08001c94       0x18 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN6BufferILi256EE4readEPc
+                0x08001cac       0x66 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN6BufferILi256EE5emptyEv
+                0x08001d12       0x2a C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN6BufferILi256EE5writeEc
+                0x08001d3c       0x6c C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN6BufferILi256EE5flushEv
+                0x08001da8       0x16 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ *fill*         0x08001dbe        0x2 
+ .text.__NVIC_SetPriority
+                0x08001dc0       0x50 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text.SysTick_Config
+                0x08001e10       0x40 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text.SysTick_Handler
+                0x08001e50       0x1c C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                0x08001e50                SysTick_Handler
+ .text._ZN12ClockManager7hseInitEv
+                0x08001e6c       0x44 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN12ClockManager18internalFreqUpdateEm
+                0x08001eb0      0x120 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN12ClockManager9setSysClkE6clkSrc
+                0x08001fd0       0xa8 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN12ClockManager6pllCfgEiiiNS_6pllDivES0_
+                0x08002078      0x12c C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN12ClockManager9updatePllEv
+                0x080021a4      0x100 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN12ClockManager8initTickEv
+                0x080022a4       0x64 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN12ClockManager9enableClkERVmm
+                0x08002308       0x34 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN4GPIOC2EP12GPIO_TypeDefh8GPIOmode8GPIOtype9GPIOspeed8GPIOpullh
+                0x0800233c      0x240 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN4GPIO3setEv
+                0x0800257c       0x24 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN3I2CC2EP11I2C_TypeDef
+                0x080025a0       0xb8 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN13typeConverter11IntToStringEiPc
+                0x08002658       0xb4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN13typeConverter18fractionalToStringEfPch
+                0x0800270c      0x16c C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN13typeConverter12reverseArrayEPci
+                0x08002878       0x5e C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ *fill*         0x080028d6        0x2 
+ .text._ZN3PIDC2EPfS0_S0_fff14PIDPON_TypeDef13PIDCD_TypeDef
+                0x080028d8       0x84 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN3PID4InitEv
+                0x0800295c       0x5e C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN3PID7ComputeEv
+                0x080029ba      0x166 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN3PID7SetModeE15PIDMode_TypeDef
+                0x08002b20       0x44 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN3PID15SetOutputLimitsEff
+                0x08002b64       0xbe C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ *fill*         0x08002c22        0x2 
+ .text._ZN3PID10SetTuningsEfff14PIDPON_TypeDef
+                0x08002c24       0xf4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text._ZN3PID22SetControllerDirectionE13PIDCD_TypeDef
+                0x08002d18       0x5c C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text.SystemInit
+                0x08002d74       0x48 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                0x08002d74                SystemInit
+ .text._init    0x08002dbc        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                0x08002dbc                _init
+ .text._sub_I_65535_0.0
+                0x08002dc0        0xc C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .text.Reset_Handler
+                0x08002dcc       0x50 build/obj/drivers/startup/startup_stm32g474retx.o
+                0x08002dcc                Reset_Handler
+ .text.Default_Handler
+                0x08002e1c        0x2 build/obj/drivers/startup/startup_stm32g474retx.o
+                0x08002e1c                RTC_Alarm_IRQHandler
+                0x08002e1c                EXTI2_IRQHandler
+                0x08002e1c                TIM8_TRG_COM_IRQHandler
+                0x08002e1c                TIM8_CC_IRQHandler
+                0x08002e1c                HRTIM1_Master_IRQHandler
+                0x08002e1c                DebugMon_Handler
+                0x08002e1c                SPI4_IRQHandler
+                0x08002e1c                FDCAN3_IT0_IRQHandler
+                0x08002e1c                TIM1_CC_IRQHandler
+                0x08002e1c                HardFault_Handler
+                0x08002e1c                HRTIM1_FLT_IRQHandler
+                0x08002e1c                HRTIM1_TIMF_IRQHandler
+                0x08002e1c                USB_HP_IRQHandler
+                0x08002e1c                CORDIC_IRQHandler
+                0x08002e1c                HRTIM1_TIMD_IRQHandler
+                0x08002e1c                PendSV_Handler
+                0x08002e1c                DMA2_Channel8_IRQHandler
+                0x08002e1c                NMI_Handler
+                0x08002e1c                EXTI3_IRQHandler
+                0x08002e1c                I2C3_ER_IRQHandler
+                0x08002e1c                EXTI0_IRQHandler
+                0x08002e1c                I2C2_EV_IRQHandler
+                0x08002e1c                FPU_IRQHandler
+                0x08002e1c                FDCAN1_IT1_IRQHandler
+                0x08002e1c                UsageFault_Handler
+                0x08002e1c                ADC1_2_IRQHandler
+                0x08002e1c                HRTIM1_TIME_IRQHandler
+                0x08002e1c                SPI1_IRQHandler
+                0x08002e1c                TIM6_DAC_IRQHandler
+                0x08002e1c                HRTIM1_TIMC_IRQHandler
+                0x08002e1c                TIM8_UP_IRQHandler
+                0x08002e1c                DMA2_Channel2_IRQHandler
+                0x08002e1c                DMA1_Channel4_IRQHandler
+                0x08002e1c                TIM20_TRG_COM_IRQHandler
+                0x08002e1c                USART3_IRQHandler
+                0x08002e1c                DMA1_Channel7_IRQHandler
+                0x08002e1c                ADC3_IRQHandler
+                0x08002e1c                TIM4_IRQHandler
+                0x08002e1c                DMA2_Channel1_IRQHandler
+                0x08002e1c                QUADSPI_IRQHandler
+                0x08002e1c                I2C1_EV_IRQHandler
+                0x08002e1c                DMA1_Channel6_IRQHandler
+                0x08002e1c                UART4_IRQHandler
+                0x08002e1c                DMA2_Channel4_IRQHandler
+                0x08002e1c                TIM3_IRQHandler
+                0x08002e1c                RCC_IRQHandler
+                0x08002e1c                TIM20_UP_IRQHandler
+                0x08002e1c                DMA1_Channel1_IRQHandler
+                0x08002e1c                Default_Handler
+                0x08002e1c                DMA2_Channel7_IRQHandler
+                0x08002e1c                RTC_TAMP_LSECSS_IRQHandler
+                0x08002e1c                FMAC_IRQHandler
+                0x08002e1c                EXTI15_10_IRQHandler
+                0x08002e1c                DMA1_Channel8_IRQHandler
+                0x08002e1c                HRTIM1_TIMA_IRQHandler
+                0x08002e1c                TIM7_DAC_IRQHandler
+                0x08002e1c                FDCAN3_IT1_IRQHandler
+                0x08002e1c                TIM5_IRQHandler
+                0x08002e1c                UCPD1_IRQHandler
+                0x08002e1c                I2C3_EV_IRQHandler
+                0x08002e1c                EXTI9_5_IRQHandler
+                0x08002e1c                RTC_WKUP_IRQHandler
+                0x08002e1c                PVD_PVM_IRQHandler
+                0x08002e1c                SPI2_IRQHandler
+                0x08002e1c                MemManage_Handler
+                0x08002e1c                ADC5_IRQHandler
+                0x08002e1c                SVC_Handler
+                0x08002e1c                DMA2_Channel5_IRQHandler
+                0x08002e1c                CRS_IRQHandler
+                0x08002e1c                DMA1_Channel5_IRQHandler
+                0x08002e1c                USB_LP_IRQHandler
+                0x08002e1c                EXTI4_IRQHandler
+                0x08002e1c                RNG_IRQHandler
+                0x08002e1c                HRTIM1_TIMB_IRQHandler
+                0x08002e1c                TIM1_TRG_COM_TIM17_IRQHandler
+                0x08002e1c                FDCAN2_IT1_IRQHandler
+                0x08002e1c                DMA1_Channel3_IRQHandler
+                0x08002e1c                ADC4_IRQHandler
+                0x08002e1c                WWDG_IRQHandler
+                0x08002e1c                I2C4_EV_IRQHandler
+                0x08002e1c                FDCAN2_IT0_IRQHandler
+                0x08002e1c                LPUART1_IRQHandler
+                0x08002e1c                DMA2_Channel6_IRQHandler
+                0x08002e1c                FDCAN1_IT0_IRQHandler
+                0x08002e1c                TIM2_IRQHandler
+                0x08002e1c                COMP7_IRQHandler
+                0x08002e1c                COMP1_2_3_IRQHandler
+                0x08002e1c                EXTI1_IRQHandler
+                0x08002e1c                USART2_IRQHandler
+                0x08002e1c                COMP4_5_6_IRQHandler
+                0x08002e1c                TIM20_BRK_IRQHandler
+                0x08002e1c                I2C2_ER_IRQHandler
+                0x08002e1c                DMA1_Channel2_IRQHandler
+                0x08002e1c                TIM8_BRK_IRQHandler
+                0x08002e1c                FLASH_IRQHandler
+                0x08002e1c                TIM20_CC_IRQHandler
+                0x08002e1c                BusFault_Handler
+                0x08002e1c                USART1_IRQHandler
+                0x08002e1c                SPI3_IRQHandler
+                0x08002e1c                I2C1_ER_IRQHandler
+                0x08002e1c                FMC_IRQHandler
+                0x08002e1c                LPTIM1_IRQHandler
+                0x08002e1c                DMAMUX_OVR_IRQHandler
+                0x08002e1c                I2C4_ER_IRQHandler
+                0x08002e1c                USBWakeUp_IRQHandler
+                0x08002e1c                SAI1_IRQHandler
+                0x08002e1c                DMA2_Channel3_IRQHandler
+                0x08002e1c                TIM1_BRK_TIM15_IRQHandler
+ *fill*         0x08002e1e        0x2 
+ .text.__libc_init_array
+                0x08002e20       0x50 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
+                0x08002e20                __libc_init_array
+ .text.cosf     0x08002e70       0x70 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o)
+                0x08002e70                cosf
+ .text.sinf     0x08002ee0       0x74 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_sin.o)
+                0x08002ee0                sinf
+ .text.__kernel_cosf
+                0x08002f54      0x104 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_cos.o)
+                0x08002f54                __kernel_cosf
+ .text.__kernel_sinf
+                0x08003058       0x90 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_sin.o)
+                0x08003058                __kernel_sinf
+ .text.__ieee754_rem_pio2f
+                0x080030e8      0x260 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+                0x080030e8                __ieee754_rem_pio2f
+ .text.fabsf    0x08003348       0x10 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_fabs.o)
+                0x08003348                fabsf
+ .text.__kernel_rem_pio2f
+                0x08003358      0x67c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+                0x08003358                __kernel_rem_pio2f
+ .text.scalbnf  0x080039d4       0xe4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_scalbn.o)
+                0x080039d4                scalbnf
+ .text.floorf   0x08003ab8       0x94 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_floor.o)
+                0x08003ab8                floorf
+ .text.__fixsfdi
+                0x08003b4c       0x28 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixsfdi.o)
+                0x08003b4c                __fixsfdi
+                0x08003b4c                __aeabi_f2lz
+ .text.__fixunssfdi
+                0x08003b74       0x40 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o)
+                0x08003b74                __fixunssfdi
+                0x08003b74                __aeabi_f2ulz
+ *(.glue_7)
+ .glue_7        0x08003bb4        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x08003bb4        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x08003bb4                . = ALIGN (0x4)
+                0x08003bb4                _etext = .
+
+.vfp11_veneer   0x08003bb4        0x0
+ .vfp11_veneer  0x08003bb4        0x0 linker stubs
+
+.v4_bx          0x08003bb4        0x0
+ .v4_bx         0x08003bb4        0x0 linker stubs
+
+.iplt           0x08003bb4        0x0
+ .iplt          0x08003bb4        0x0 build/obj/drivers/startup/startup_stm32g474retx.o
+
+.rodata         0x08003bb4      0x404
+                0x08003bb4                . = ALIGN (0x4)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.main.str1.4
+                0x08003bb4       0x2c C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .rodata._ZN12ClockManager8hseClockE
+                0x08003be0        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .rodata._ZN6Serial7printlnEPKc.str1.4
+                0x08003be4        0x2 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ *fill*         0x08003be6        0x2 
+ .rodata.npio2_hw
+                0x08003be8       0x80 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+ .rodata.two_over_pi
+                0x08003c68      0x318 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+ .rodata.PIo2   0x08003f80       0x2c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+ .rodata.init_jk
+                0x08003fac        0xc c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+                0x08003fb8                . = ALIGN (0x4)
+
+.rel.dyn        0x08003fb8        0x0
+ .rel.iplt      0x08003fb8        0x0 build/obj/drivers/startup/startup_stm32g474retx.o
+
+.ARM.extab      0x08003fb8        0x0
+                0x08003fb8                . = ALIGN (0x4)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x08003fb8                . = ALIGN (0x4)
+
+.ARM            0x08003fb8        0x0
+                0x08003fb8                . = ALIGN (0x4)
+                0x08003fb8                __exidx_start = .
+ *(.ARM.exidx*)
+                0x08003fb8                __exidx_end = .
+                0x08003fb8                . = ALIGN (0x4)
+
+.preinit_array  0x08003fb8        0x0
+                0x08003fb8                . = ALIGN (0x4)
+                0x08003fb8                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x08003fb8                PROVIDE (__preinit_array_end = .)
+                0x08003fb8                . = ALIGN (0x4)
+
+.init_array     0x08003fb8        0x4
+                0x08003fb8                . = ALIGN (0x4)
+                0x08003fb8                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+ .init_array    0x08003fb8        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                0x08003fbc                PROVIDE (__init_array_end = .)
+                0x08003fbc                . = ALIGN (0x4)
+
+.fini_array     0x08003fbc        0x0
+                0x08003fbc                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+                [!provide]                PROVIDE (__fini_array_end = .)
+                0x08003fbc                . = ALIGN (0x4)
+                0x08003fbc                _sidata = LOADADDR (.data)
+
+.data           0x20000000       0x24 load address 0x08003fbc
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdata = .
+ *(.data)
+ *(.data*)
+ .data.normalizedCoeff
+                0x20000000        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .data.setiQ    0x20000004        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .data.setMotorSpeed
+                0x20000008        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .data.accell   0x2000000c        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .data.AHB2clockFreq
+                0x20000010        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .data._ZN12ClockManager9coreClockE
+                0x20000014        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .data._ZN12ClockManager8ahbClockE
+                0x20000018        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .data._ZN12ClockManager8apbClockE
+                0x2000001c        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .data._ZN12ClockManager10timerClockE
+                0x20000020        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                0x20000024                . = ALIGN (0x4)
+                0x20000024                _edata = .
+
+.igot.plt       0x20000024        0x0 load address 0x08003fe0
+ .igot.plt      0x20000024        0x0 build/obj/drivers/startup/startup_stm32g474retx.o
+                0x20000024                . = ALIGN (0x4)
+
+.bss            0x20000024      0x2bc load address 0x08003fe0
+                0x20000024                _sbss = .
+                0x20000024                __bss_start__ = _sbss
+ *(.bss)
+ *(.bss*)
+ .bss.UARTrxData
+                0x20000024       0x32 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ *fill*         0x20000056        0x2 
+ .bss.AdcDmaReadings
+                0x20000058        0x6 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ *fill*         0x2000005e        0x2 
+ .bss.motorProcessLastTime
+                0x20000060        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.iA        0x20000064        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.iB        0x20000068        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.iC        0x2000006c        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.iAlpha    0x20000070        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.iBeta     0x20000074        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.iD        0x20000078        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.iQ        0x2000007c        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.setiD     0x20000080        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.theta     0x20000084        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.velChange
+                0x20000088        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.SetOLangle
+                0x2000008c        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.setUq     0x20000090        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.setUd     0x20000094        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.Ualpha    0x20000098        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.Ubeta     0x2000009c        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.filterediQ
+                0x200000a0        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.filterediD
+                0x200000a4        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.motorState
+                0x200000a8        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.motorSpeed
+                0x200000ac        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.slopeInterval
+                0x200000b0        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.pidUq     0x200000b4       0x40 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.pidUd     0x200000f4       0x40 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss._ZZ4mainE14prevMotorState
+                0x20000134        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.uartTX    0x20000138        0x8 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.uartRX    0x20000140        0x8 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.i2cSCL    0x20000148        0x8 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.i2cSDA    0x20000150        0x8 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.PWMtim2ch1
+                0x20000158        0x8 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.PWMtim1ch1
+                0x20000160        0x8 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.PWMtim1ch1N
+                0x20000168        0x8 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.PWMtim1ch2
+                0x20000170        0x8 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.PWMtim1ch2N
+                0x20000178        0x8 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.PWMtim1ch3
+                0x20000180        0x8 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.PWMtim1ch3N
+                0x20000188        0x8 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.adc1Ch1   0x20000190        0x8 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.adc1Ch8   0x20000198        0x8 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.adc1Ch9   0x200001a0        0x8 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.adc2Ch12  0x200001a8        0x8 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.led       0x200001b0        0x8 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.uart      0x200001b8      0x110 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.i2c3      0x200002c8        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss.milis     0x200002cc        0x4 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .bss._ZN12ClockManager8pllClockE
+                0x200002d0       0x10 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ *(COMMON)
+                0x200002e0                . = ALIGN (0x4)
+                0x200002e0                _ebss = .
+                0x200002e0                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x200002e0      0x600 load address 0x08003fe0
+                0x200002e0                . = ALIGN (0x8)
+                0x200002e0                _sheap = .
+                [!provide]                PROVIDE (end = .)
+                [!provide]                PROVIDE (_end = .)
+                0x200004e0                . = (. + _Min_Heap_Size)
+ *fill*         0x200002e0      0x200 
+                0x200004e0                _eheap = .
+                0x200008e0                . = (. + _Min_Stack_Size)
+ *fill*         0x200004e0      0x400 
+                0x200008e0                . = ALIGN (0x8)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x32
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x32 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .ARM.attributes
+                0x00000032       0x21 build/obj/drivers/startup/startup_stm32g474retx.o
+ .ARM.attributes
+                0x00000053       0x22 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000075       0x22 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_truncdfsf2.o)
+ .ARM.attributes
+                0x00000097       0x22 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x000000b9       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixsfdi.o)
+ .ARM.attributes
+                0x000000ed       0x34 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o)
+ .ARM.attributes
+                0x00000121       0x22 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldf3.o)
+ .ARM.attributes
+                0x00000143       0x22 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixunsdfsi.o)
+OUTPUT(build/BINARY.elf elf32-littlearm)
+LOAD linker stubs
+LOAD c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a
+LOAD c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a
+LOAD c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a
+
+.debug_info     0x00000000    0x1d010
+ .debug_info    0x00000000     0x1698 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .debug_info    0x00001698     0x4a8e C:\Users\polit\AppData\Local\Temp\ccK0psBq.debug.temp.o
+                0x00001698                main.cpp.1e964db1
+ .debug_info    0x00006126     0x3435 C:\Users\polit\AppData\Local\Temp\cc6F1UOa.debug.temp.o
+                0x00006126                board.cpp.b5aa1329
+ .debug_info    0x0000955b     0x3424 C:\Users\polit\AppData\Local\Temp\cc2NmgiU.debug.temp.o
+                0x0000955b                UART.cpp.44baf404
+ .debug_info    0x0000c97f     0x3dd2 C:\Users\polit\AppData\Local\Temp\ccoxaidD.debug.temp.o
+                0x0000c97f                clock_manager.cpp.4e349a95
+ .debug_info    0x00010751      0x39b C:\Users\polit\AppData\Local\Temp\ccw72S4p.debug.temp.o
+                0x00010751                gpio.cpp.8fc11028
+ .debug_info    0x00010aec     0x2ae1 C:\Users\polit\AppData\Local\Temp\cc6Fn8dc.debug.temp.o
+                0x00010aec                i2c.cpp.4239241b
+ .debug_info    0x000135cd       0x89 C:\Users\polit\AppData\Local\Temp\ccIfS0OX.debug.temp.o
+                0x000135cd                cpp_stubs.cpp.d66d2479
+ .debug_info    0x00013656      0x882 C:\Users\polit\AppData\Local\Temp\ccW616TM.debug.temp.o
+                0x00013656                new_delete.cpp.6ee144f7
+ .debug_info    0x00013ed8     0x2a93 C:\Users\polit\AppData\Local\Temp\ccgjz84B.debug.temp.o
+                0x00013ed8                typeConverter.cpp.c673d0f3
+ .debug_info    0x0001696b     0x2a30 C:\Users\polit\AppData\Local\Temp\ccwB86Cr.debug.temp.o
+                0x0001696b                states.cpp.60f4e4c5
+ .debug_info    0x0001939b     0x2e10 C:\Users\polit\AppData\Local\Temp\ccUBIzdg.debug.temp.o
+                0x0001939b                hd44780.cpp.acc99620
+ .debug_info    0x0001c1ab      0x942 C:\Users\polit\AppData\Local\Temp\ccSOpve4.debug.temp.o
+                0x0001c1ab                pid.cpp.0d7f492a
+ .debug_info    0x0001caed      0x391 C:\Users\polit\AppData\Local\Temp\ccs3ZRoS.debug.temp.o
+                0x0001caed                system_stm32g4xx.c.9aed6776
+ .debug_info    0x0001ce7e       0x7a C:\Users\polit\AppData\Local\Temp\ccIF3sRF.debug.temp.o
+                0x0001ce7e                c_stubs.c.95ef288a
+ .debug_info    0x0001cef8      0x118 C:\Users\polit\AppData\Local\Temp\cc6RLAmx.debug.temp.o
+                0x0001cef8                motor.c.02e184aa
+
+.debug_abbrev   0x00000000     0x299e
+ .debug_abbrev  0x00000000       0x9b C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .debug_abbrev  0x0000009b      0x683 C:\Users\polit\AppData\Local\Temp\ccK0psBq.debug.temp.o
+ .debug_abbrev  0x0000071e      0x540 C:\Users\polit\AppData\Local\Temp\cc6F1UOa.debug.temp.o
+ .debug_abbrev  0x00000c5e      0x457 C:\Users\polit\AppData\Local\Temp\cc2NmgiU.debug.temp.o
+ .debug_abbrev  0x000010b5      0x51d C:\Users\polit\AppData\Local\Temp\ccoxaidD.debug.temp.o
+ .debug_abbrev  0x000015d2      0x1d0 C:\Users\polit\AppData\Local\Temp\ccw72S4p.debug.temp.o
+ .debug_abbrev  0x000017a2      0x2f2 C:\Users\polit\AppData\Local\Temp\cc6Fn8dc.debug.temp.o
+ .debug_abbrev  0x00001a94       0x8a C:\Users\polit\AppData\Local\Temp\ccIfS0OX.debug.temp.o
+ .debug_abbrev  0x00001b1e      0x279 C:\Users\polit\AppData\Local\Temp\ccW616TM.debug.temp.o
+ .debug_abbrev  0x00001d97      0x262 C:\Users\polit\AppData\Local\Temp\ccgjz84B.debug.temp.o
+ .debug_abbrev  0x00001ff9      0x2b2 C:\Users\polit\AppData\Local\Temp\ccwB86Cr.debug.temp.o
+ .debug_abbrev  0x000022ab      0x388 C:\Users\polit\AppData\Local\Temp\ccUBIzdg.debug.temp.o
+ .debug_abbrev  0x00002633      0x201 C:\Users\polit\AppData\Local\Temp\ccSOpve4.debug.temp.o
+ .debug_abbrev  0x00002834       0xaf C:\Users\polit\AppData\Local\Temp\ccs3ZRoS.debug.temp.o
+ .debug_abbrev  0x000028e3       0x5a C:\Users\polit\AppData\Local\Temp\ccIF3sRF.debug.temp.o
+ .debug_abbrev  0x0000293d       0x61 C:\Users\polit\AppData\Local\Temp\cc6RLAmx.debug.temp.o
+
+.debug_aranges  0x00000000      0x3e0
+ .debug_aranges
+                0x00000000      0x3e0 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+
+.debug_rnglists
+                0x00000000      0x301
+ .debug_rnglists
+                0x00000000      0x301 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+
+.debug_line     0x00000000     0x2821
+ .debug_line    0x00000000     0x2024 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .debug_line    0x00002024       0xe2 C:\Users\polit\AppData\Local\Temp\ccK0psBq.debug.temp.o
+ .debug_line    0x00002106       0xd3 C:\Users\polit\AppData\Local\Temp\cc6F1UOa.debug.temp.o
+ .debug_line    0x000021d9       0xc6 C:\Users\polit\AppData\Local\Temp\cc2NmgiU.debug.temp.o
+ .debug_line    0x0000229f       0xd4 C:\Users\polit\AppData\Local\Temp\ccoxaidD.debug.temp.o
+ .debug_line    0x00002373       0x51 C:\Users\polit\AppData\Local\Temp\ccw72S4p.debug.temp.o
+ .debug_line    0x000023c4       0xa6 C:\Users\polit\AppData\Local\Temp\cc6Fn8dc.debug.temp.o
+ .debug_line    0x0000246a       0x3a C:\Users\polit\AppData\Local\Temp\ccIfS0OX.debug.temp.o
+ .debug_line    0x000024a4       0x71 C:\Users\polit\AppData\Local\Temp\ccW616TM.debug.temp.o
+ .debug_line    0x00002515       0x9d C:\Users\polit\AppData\Local\Temp\ccgjz84B.debug.temp.o
+ .debug_line    0x000025b2       0xaf C:\Users\polit\AppData\Local\Temp\ccwB86Cr.debug.temp.o
+ .debug_line    0x00002661       0xb8 C:\Users\polit\AppData\Local\Temp\ccUBIzdg.debug.temp.o
+ .debug_line    0x00002719       0x48 C:\Users\polit\AppData\Local\Temp\ccSOpve4.debug.temp.o
+ .debug_line    0x00002761       0x4c C:\Users\polit\AppData\Local\Temp\ccs3ZRoS.debug.temp.o
+ .debug_line    0x000027ad       0x3a C:\Users\polit\AppData\Local\Temp\ccIF3sRF.debug.temp.o
+ .debug_line    0x000027e7       0x3a C:\Users\polit\AppData\Local\Temp\cc6RLAmx.debug.temp.o
+
+.debug_str      0x00000000     0x37bc
+ .debug_str     0x00000000      0x14e C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .debug_str     0x0000014e     0x24c3 C:\Users\polit\AppData\Local\Temp\ccK0psBq.debug.temp.o
+                               0x27fa (size before relaxing)
+ .debug_str     0x00002611      0x2e6 C:\Users\polit\AppData\Local\Temp\cc6F1UOa.debug.temp.o
+                               0x194a (size before relaxing)
+ .debug_str     0x000028f7      0x1ba C:\Users\polit\AppData\Local\Temp\cc2NmgiU.debug.temp.o
+                               0x1a9e (size before relaxing)
+ .debug_str     0x00002ab1      0x30e C:\Users\polit\AppData\Local\Temp\ccoxaidD.debug.temp.o
+                               0x20af (size before relaxing)
+ .debug_str     0x00002dbf       0x6b C:\Users\polit\AppData\Local\Temp\ccw72S4p.debug.temp.o
+                                0x41b (size before relaxing)
+ .debug_str     0x00002e2a       0x58 C:\Users\polit\AppData\Local\Temp\cc6Fn8dc.debug.temp.o
+                               0x105f (size before relaxing)
+ .debug_str     0x00002e82       0xc4 C:\Users\polit\AppData\Local\Temp\ccIfS0OX.debug.temp.o
+                                0x256 (size before relaxing)
+ .debug_str     0x00002f46      0x129 C:\Users\polit\AppData\Local\Temp\ccW616TM.debug.temp.o
+                                0x51d (size before relaxing)
+ .debug_str     0x0000306f       0x7a C:\Users\polit\AppData\Local\Temp\ccgjz84B.debug.temp.o
+                               0x10e3 (size before relaxing)
+ .debug_str     0x000030e9      0x161 C:\Users\polit\AppData\Local\Temp\ccwB86Cr.debug.temp.o
+                               0x111e (size before relaxing)
+ .debug_str     0x0000324a      0x20a C:\Users\polit\AppData\Local\Temp\ccUBIzdg.debug.temp.o
+                               0x128d (size before relaxing)
+ .debug_str     0x00003454       0xc1 C:\Users\polit\AppData\Local\Temp\ccSOpve4.debug.temp.o
+                                0x733 (size before relaxing)
+ .debug_str     0x00003515      0x1e5 C:\Users\polit\AppData\Local\Temp\ccs3ZRoS.debug.temp.o
+                                0x32f (size before relaxing)
+ .debug_str     0x000036fa       0x64 C:\Users\polit\AppData\Local\Temp\ccIF3sRF.debug.temp.o
+                                0x19f (size before relaxing)
+ .debug_str     0x0000375e       0x5e C:\Users\polit\AppData\Local\Temp\cc6RLAmx.debug.temp.o
+                                0x223 (size before relaxing)
+
+.comment        0x00000000       0x45
+ .comment       0x00000000       0x45 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                 0x46 (size before relaxing)
+
+.debug_frame    0x00000000      0xdec
+ .debug_frame   0x00000000      0xc28 C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+ .debug_frame   0x00000c28       0xac c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x00000cd4       0x24 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x00000cf8       0x4c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x00000d44       0x28 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixsfdi.o)
+ .debug_frame   0x00000d6c       0x2c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o)
+ .debug_frame   0x00000d98       0x30 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldf3.o)
+ .debug_frame   0x00000dc8       0x24 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixunsdfsi.o)
+
+.debug_line_str
+                0x00000000      0x636
+ .debug_line_str
+                0x00000000      0x374 C:\Users\polit\AppData\Local\Temp\ccK0psBq.debug.temp.o
+ .debug_line_str
+                0x00000374       0x23 C:\Users\polit\AppData\Local\Temp\cc6F1UOa.debug.temp.o
+                                0x36e (size before relaxing)
+ .debug_line_str
+                0x00000397       0x38 C:\Users\polit\AppData\Local\Temp\cc2NmgiU.debug.temp.o
+                                0x353 (size before relaxing)
+ .debug_line_str
+                0x000003cf       0x34 C:\Users\polit\AppData\Local\Temp\ccoxaidD.debug.temp.o
+                                0x392 (size before relaxing)
+ .debug_line_str
+                0x00000403       0x16 C:\Users\polit\AppData\Local\Temp\ccw72S4p.debug.temp.o
+                                 0xe7 (size before relaxing)
+ .debug_line_str
+                0x00000419       0x14 C:\Users\polit\AppData\Local\Temp\cc6Fn8dc.debug.temp.o
+                                0x2fe (size before relaxing)
+ .debug_line_str
+                0x0000042d       0x22 C:\Users\polit\AppData\Local\Temp\ccIfS0OX.debug.temp.o
+                                 0x6e (size before relaxing)
+ .debug_line_str
+                0x0000044f       0x1d C:\Users\polit\AppData\Local\Temp\ccW616TM.debug.temp.o
+                                0x247 (size before relaxing)
+ .debug_line_str
+                0x0000046c       0x24 C:\Users\polit\AppData\Local\Temp\ccgjz84B.debug.temp.o
+                                0x30d (size before relaxing)
+ .debug_line_str
+                0x00000490       0x2a C:\Users\polit\AppData\Local\Temp\ccwB86Cr.debug.temp.o
+                                0x30d (size before relaxing)
+ .debug_line_str
+                0x000004ba       0x26 C:\Users\polit\AppData\Local\Temp\ccUBIzdg.debug.temp.o
+                                0x323 (size before relaxing)
+ .debug_line_str
+                0x000004e0       0x10 C:\Users\polit\AppData\Local\Temp\ccSOpve4.debug.temp.o
+                                 0xbf (size before relaxing)
+ .debug_line_str
+                0x000004f0       0x33 C:\Users\polit\AppData\Local\Temp\ccs3ZRoS.debug.temp.o
+                                 0xf7 (size before relaxing)
+ .debug_line_str
+                0x00000523       0x14 C:\Users\polit\AppData\Local\Temp\ccIF3sRF.debug.temp.o
+                                 0x66 (size before relaxing)
+ .debug_line_str
+                0x00000537       0x24 C:\Users\polit\AppData\Local\Temp\cc6RLAmx.debug.temp.o
+                                 0x62 (size before relaxing)
+ .debug_line_str
+                0x0000055b       0xce c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+ .debug_line_str
+                0x00000629       0xce c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_truncdfsf2.o)
+ .debug_line_str
+                0x00000629        0xd c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
+                                 0xce (size before relaxing)
+ .debug_line_str
+                0x00000636       0xce c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldf3.o)
+ .debug_line_str
+                0x00000636       0xce c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixunsdfsi.o)
+
+Cross Reference Table
+
+Symbol                                            File
+ADC1_2_IRQHandler                                 build/obj/drivers/startup/startup_stm32g474retx.o
+ADC3_IRQHandler                                   build/obj/drivers/startup/startup_stm32g474retx.o
+ADC4_IRQHandler                                   build/obj/drivers/startup/startup_stm32g474retx.o
+ADC5_IRQHandler                                   build/obj/drivers/startup/startup_stm32g474retx.o
+ADCVin                                            build/obj/./main.o (symbol from plugin)
+AHB2clockFreq                                     build/obj/config/board.o (symbol from plugin)
+                                                  build/obj/drivers/UART/UART.o (symbol from plugin)
+AdcDmaReadings                                    build/obj/./main.o (symbol from plugin)
+Buffer<256>::Buffer()                             build/obj/drivers/UART/UART.o (symbol from plugin)
+Buffer<256>::Buffer()                             build/obj/drivers/UART/UART.o (symbol from plugin)
+Buffer<256>::empty()                              build/obj/drivers/UART/UART.o (symbol from plugin)
+Buffer<256>::flush()                              build/obj/drivers/UART/UART.o (symbol from plugin)
+Buffer<256>::read(char*)                          build/obj/drivers/UART/UART.o (symbol from plugin)
+Buffer<256>::write(char)                          build/obj/drivers/UART/UART.o (symbol from plugin)
+BusFault_Handler                                  build/obj/drivers/startup/startup_stm32g474retx.o
+COMP1_2_3_IRQHandler                              build/obj/drivers/startup/startup_stm32g474retx.o
+COMP4_5_6_IRQHandler                              build/obj/drivers/startup/startup_stm32g474retx.o
+COMP7_IRQHandler                                  build/obj/drivers/startup/startup_stm32g474retx.o
+CORDIC_IRQHandler                                 build/obj/drivers/startup/startup_stm32g474retx.o
+CRS_IRQHandler                                    build/obj/drivers/startup/startup_stm32g474retx.o
+ClockManager::ahbClock                            build/obj/drivers/clock_manager/clock_manager.o (symbol from plugin)
+ClockManager::apbClock                            build/obj/drivers/clock_manager/clock_manager.o (symbol from plugin)
+ClockManager::clockSummary()                      build/obj/drivers/clock_manager/clock_manager.o (symbol from plugin)
+ClockManager::coreClock                           build/obj/drivers/clock_manager/clock_manager.o (symbol from plugin)
+ClockManager::enableClk(unsigned long volatile&, unsigned long) build/obj/drivers/clock_manager/clock_manager.o (symbol from plugin)
+ClockManager::hseClock                            build/obj/config/board.o (symbol from plugin)
+                                                  build/obj/drivers/clock_manager/clock_manager.o (symbol from plugin)
+ClockManager::hseInit()                           build/obj/drivers/clock_manager/clock_manager.o (symbol from plugin)
+                                                  build/obj/./main.o (symbol from plugin)
+ClockManager::initTick()                          build/obj/drivers/clock_manager/clock_manager.o (symbol from plugin)
+                                                  build/obj/./main.o (symbol from plugin)
+ClockManager::internalFreqUpdate(unsigned long)   build/obj/drivers/clock_manager/clock_manager.o (symbol from plugin)
+ClockManager::micros()                            build/obj/drivers/clock_manager/clock_manager.o (symbol from plugin)
+ClockManager::pllCfg(int, int, int, ClockManager::pllDiv, ClockManager::pllDiv) build/obj/drivers/clock_manager/clock_manager.o (symbol from plugin)
+                                                  build/obj/./main.o (symbol from plugin)
+ClockManager::pllClock                            build/obj/drivers/clock_manager/clock_manager.o (symbol from plugin)
+ClockManager::setSysClk(clkSrc)                   build/obj/drivers/clock_manager/clock_manager.o (symbol from plugin)
+                                                  build/obj/./main.o (symbol from plugin)
+ClockManager::timerClock                          build/obj/drivers/clock_manager/clock_manager.o (symbol from plugin)
+ClockManager::updatePll()                         build/obj/drivers/clock_manager/clock_manager.o (symbol from plugin)
+DMA1_Channel1_IRQHandler                          build/obj/drivers/startup/startup_stm32g474retx.o
+DMA1_Channel2_IRQHandler                          build/obj/drivers/startup/startup_stm32g474retx.o
+DMA1_Channel3_IRQHandler                          build/obj/drivers/startup/startup_stm32g474retx.o
+DMA1_Channel4_IRQHandler                          build/obj/drivers/startup/startup_stm32g474retx.o
+DMA1_Channel5_IRQHandler                          build/obj/drivers/startup/startup_stm32g474retx.o
+DMA1_Channel6_IRQHandler                          build/obj/drivers/startup/startup_stm32g474retx.o
+DMA1_Channel7_IRQHandler                          build/obj/drivers/startup/startup_stm32g474retx.o
+DMA1_Channel8_IRQHandler                          build/obj/drivers/startup/startup_stm32g474retx.o
+DMA2_Channel1_IRQHandler                          build/obj/drivers/startup/startup_stm32g474retx.o
+DMA2_Channel2_IRQHandler                          build/obj/drivers/startup/startup_stm32g474retx.o
+DMA2_Channel3_IRQHandler                          build/obj/drivers/startup/startup_stm32g474retx.o
+DMA2_Channel4_IRQHandler                          build/obj/drivers/startup/startup_stm32g474retx.o
+DMA2_Channel5_IRQHandler                          build/obj/drivers/startup/startup_stm32g474retx.o
+DMA2_Channel6_IRQHandler                          build/obj/drivers/startup/startup_stm32g474retx.o
+DMA2_Channel7_IRQHandler                          build/obj/drivers/startup/startup_stm32g474retx.o
+DMA2_Channel8_IRQHandler                          build/obj/drivers/startup/startup_stm32g474retx.o
+DMAMUX_OVR_IRQHandler                             build/obj/drivers/startup/startup_stm32g474retx.o
+DebugMon_Handler                                  build/obj/drivers/startup/startup_stm32g474retx.o
+Default_Handler                                   build/obj/drivers/startup/startup_stm32g474retx.o
+EXTI0_IRQHandler                                  build/obj/drivers/startup/startup_stm32g474retx.o
+EXTI15_10_IRQHandler                              build/obj/drivers/startup/startup_stm32g474retx.o
+EXTI1_IRQHandler                                  build/obj/drivers/startup/startup_stm32g474retx.o
+EXTI2_IRQHandler                                  build/obj/drivers/startup/startup_stm32g474retx.o
+EXTI3_IRQHandler                                  build/obj/drivers/startup/startup_stm32g474retx.o
+EXTI4_IRQHandler                                  build/obj/drivers/startup/startup_stm32g474retx.o
+EXTI9_5_IRQHandler                                build/obj/drivers/startup/startup_stm32g474retx.o
+FDCAN1_IT0_IRQHandler                             build/obj/drivers/startup/startup_stm32g474retx.o
+FDCAN1_IT1_IRQHandler                             build/obj/drivers/startup/startup_stm32g474retx.o
+FDCAN2_IT0_IRQHandler                             build/obj/drivers/startup/startup_stm32g474retx.o
+FDCAN2_IT1_IRQHandler                             build/obj/drivers/startup/startup_stm32g474retx.o
+FDCAN3_IT0_IRQHandler                             build/obj/drivers/startup/startup_stm32g474retx.o
+FDCAN3_IT1_IRQHandler                             build/obj/drivers/startup/startup_stm32g474retx.o
+FLASH_IRQHandler                                  build/obj/drivers/startup/startup_stm32g474retx.o
+FMAC_IRQHandler                                   build/obj/drivers/startup/startup_stm32g474retx.o
+FMC_IRQHandler                                    build/obj/drivers/startup/startup_stm32g474retx.o
+FPU_IRQHandler                                    build/obj/drivers/startup/startup_stm32g474retx.o
+GPIO::GPIO(GPIO_TypeDef*, unsigned char, GPIOmode, GPIOtype, GPIOspeed, GPIOpull, unsigned char) build/obj/drivers/gpio/gpio.o (symbol from plugin)
+                                                  build/obj/config/board.o (symbol from plugin)
+GPIO::GPIO(GPIO_TypeDef*, unsigned char, GPIOmode, GPIOtype, GPIOspeed, GPIOpull, unsigned char) build/obj/drivers/gpio/gpio.o (symbol from plugin)
+GPIO::reset()                                     build/obj/drivers/gpio/gpio.o (symbol from plugin)
+GPIO::set()                                       build/obj/drivers/gpio/gpio.o (symbol from plugin)
+                                                  build/obj/./main.o (symbol from plugin)
+GPIO::setPinMode(GPIOmode)                        build/obj/drivers/gpio/gpio.o (symbol from plugin)
+GPIO::toggle()                                    build/obj/drivers/gpio/gpio.o (symbol from plugin)
+HD44780::HD44780(I2C*, unsigned char, unsigned char, unsigned char) build/obj/lib/lcd/hd44780.o (symbol from plugin)
+HD44780::HD44780(I2C*, unsigned char, unsigned char, unsigned char) build/obj/lib/lcd/hd44780.o (symbol from plugin)
+HD44780::Init()                                   build/obj/lib/lcd/hd44780.o (symbol from plugin)
+HD44780::backLight(bool)                          build/obj/lib/lcd/hd44780.o (symbol from plugin)
+HD44780::busy()                                   build/obj/lib/lcd/hd44780.o (symbol from plugin)
+HD44780::clear()                                  build/obj/lib/lcd/hd44780.o (symbol from plugin)
+HD44780::executeIfNotBusy(void (*)())             build/obj/lib/lcd/hd44780.o (symbol from plugin)
+HD44780::print(char const*)                       build/obj/lib/lcd/hd44780.o (symbol from plugin)
+HD44780::returnHome()                             build/obj/lib/lcd/hd44780.o (symbol from plugin)
+HD44780::sendByte(unsigned char, modes)           build/obj/lib/lcd/hd44780.o (symbol from plugin)
+HD44780::sendChar(char)                           build/obj/lib/lcd/hd44780.o (symbol from plugin)
+HD44780::sendHalfByte(unsigned char, modes)       build/obj/lib/lcd/hd44780.o (symbol from plugin)
+HD44780::setPosition(unsigned char, unsigned char) build/obj/lib/lcd/hd44780.o (symbol from plugin)
+HRTIM1_FLT_IRQHandler                             build/obj/drivers/startup/startup_stm32g474retx.o
+HRTIM1_Master_IRQHandler                          build/obj/drivers/startup/startup_stm32g474retx.o
+HRTIM1_TIMA_IRQHandler                            build/obj/drivers/startup/startup_stm32g474retx.o
+HRTIM1_TIMB_IRQHandler                            build/obj/drivers/startup/startup_stm32g474retx.o
+HRTIM1_TIMC_IRQHandler                            build/obj/drivers/startup/startup_stm32g474retx.o
+HRTIM1_TIMD_IRQHandler                            build/obj/drivers/startup/startup_stm32g474retx.o
+HRTIM1_TIME_IRQHandler                            build/obj/drivers/startup/startup_stm32g474retx.o
+HRTIM1_TIMF_IRQHandler                            build/obj/drivers/startup/startup_stm32g474retx.o
+HardFault_Handler                                 build/obj/drivers/startup/startup_stm32g474retx.o
+I2C1_ER_IRQHandler                                build/obj/drivers/startup/startup_stm32g474retx.o
+I2C1_EV_IRQHandler                                build/obj/drivers/startup/startup_stm32g474retx.o
+I2C2_ER_IRQHandler                                build/obj/drivers/startup/startup_stm32g474retx.o
+I2C2_EV_IRQHandler                                build/obj/drivers/startup/startup_stm32g474retx.o
+I2C3_ER_IRQHandler                                build/obj/drivers/startup/startup_stm32g474retx.o
+I2C3_EV_IRQHandler                                build/obj/drivers/startup/startup_stm32g474retx.o
+I2C4_ER_IRQHandler                                build/obj/drivers/startup/startup_stm32g474retx.o
+I2C4_EV_IRQHandler                                build/obj/drivers/startup/startup_stm32g474retx.o
+I2C::I2C(I2C_TypeDef*)                            build/obj/drivers/i2c/i2c.o (symbol from plugin)
+                                                  build/obj/config/board.o (symbol from plugin)
+I2C::I2C(I2C_TypeDef*)                            build/obj/drivers/i2c/i2c.o (symbol from plugin)
+I2C::recieveByte(unsigned char)                   build/obj/drivers/i2c/i2c.o (symbol from plugin)
+                                                  build/obj/lib/lcd/hd44780.o (symbol from plugin)
+I2C::sendByte(unsigned char*, unsigned char)      build/obj/drivers/i2c/i2c.o (symbol from plugin)
+                                                  build/obj/lib/lcd/hd44780.o (symbol from plugin)
+I2C::sendBytes(unsigned char*, unsigned char, unsigned char) build/obj/drivers/i2c/i2c.o (symbol from plugin)
+Init()                                            build/obj/./main.o (symbol from plugin)
+LCDstring                                         build/obj/./main.o (symbol from plugin)
+LPTIM1_IRQHandler                                 build/obj/drivers/startup/startup_stm32g474retx.o
+LPUART1_IRQHandler                                build/obj/drivers/startup/startup_stm32g474retx.o
+MemManage_Handler                                 build/obj/drivers/startup/startup_stm32g474retx.o
+NMI_Handler                                       build/obj/drivers/startup/startup_stm32g474retx.o
+PID::Compute()                                    build/obj/lib/PID/pid.o (symbol from plugin)
+                                                  build/obj/./main.o (symbol from plugin)
+PID::GetDirection()                               build/obj/lib/PID/pid.o (symbol from plugin)
+PID::GetKd()                                      build/obj/lib/PID/pid.o (symbol from plugin)
+PID::GetKi()                                      build/obj/lib/PID/pid.o (symbol from plugin)
+PID::GetKp()                                      build/obj/lib/PID/pid.o (symbol from plugin)
+PID::GetMode()                                    build/obj/lib/PID/pid.o (symbol from plugin)
+PID::Init()                                       build/obj/lib/PID/pid.o (symbol from plugin)
+                                                  build/obj/./main.o (symbol from plugin)
+PID::Init(float*, float*, float*, float, float, float, PIDCD_TypeDef) build/obj/lib/PID/pid.o (symbol from plugin)
+PID::Init(float*, float*, float*, float, float, float, PIDPON_TypeDef, PIDCD_TypeDef) build/obj/lib/PID/pid.o (symbol from plugin)
+PID::PID()                                        build/obj/lib/PID/pid.o (symbol from plugin)
+PID::PID()                                        build/obj/lib/PID/pid.o (symbol from plugin)
+PID::PID(float*, float*, float*, float, float, float, PIDCD_TypeDef) build/obj/lib/PID/pid.o (symbol from plugin)
+PID::PID(float*, float*, float*, float, float, float, PIDCD_TypeDef) build/obj/lib/PID/pid.o (symbol from plugin)
+PID::PID(float*, float*, float*, float, float, float, PIDPON_TypeDef, PIDCD_TypeDef) build/obj/lib/PID/pid.o (symbol from plugin)
+                                                  build/obj/./main.o (symbol from plugin)
+PID::PID(float*, float*, float*, float, float, float, PIDPON_TypeDef, PIDCD_TypeDef) build/obj/lib/PID/pid.o (symbol from plugin)
+PID::SetControllerDirection(PIDCD_TypeDef)        build/obj/lib/PID/pid.o (symbol from plugin)
+PID::SetMode(PIDMode_TypeDef)                     build/obj/lib/PID/pid.o (symbol from plugin)
+                                                  build/obj/./main.o (symbol from plugin)
+PID::SetOutputLimits(float, float)                build/obj/lib/PID/pid.o (symbol from plugin)
+                                                  build/obj/./main.o (symbol from plugin)
+PID::SetSampleTime(long)                          build/obj/lib/PID/pid.o (symbol from plugin)
+PID::SetTunings(float, float, float)              build/obj/lib/PID/pid.o (symbol from plugin)
+PID::SetTunings(float, float, float, PIDPON_TypeDef) build/obj/lib/PID/pid.o (symbol from plugin)
+PVD_PVM_IRQHandler                                build/obj/drivers/startup/startup_stm32g474retx.o
+PWMtim1ch1                                        build/obj/config/board.o (symbol from plugin)
+PWMtim1ch1N                                       build/obj/config/board.o (symbol from plugin)
+PWMtim1ch2                                        build/obj/config/board.o (symbol from plugin)
+PWMtim1ch2N                                       build/obj/config/board.o (symbol from plugin)
+PWMtim1ch3                                        build/obj/config/board.o (symbol from plugin)
+PWMtim1ch3N                                       build/obj/config/board.o (symbol from plugin)
+PWMtim2ch1                                        build/obj/config/board.o (symbol from plugin)
+PendSV_Handler                                    build/obj/drivers/startup/startup_stm32g474retx.o
+QUADSPI_IRQHandler                                build/obj/drivers/startup/startup_stm32g474retx.o
+RCC_IRQHandler                                    build/obj/drivers/startup/startup_stm32g474retx.o
+RNG_IRQHandler                                    build/obj/drivers/startup/startup_stm32g474retx.o
+RTC_Alarm_IRQHandler                              build/obj/drivers/startup/startup_stm32g474retx.o
+RTC_TAMP_LSECSS_IRQHandler                        build/obj/drivers/startup/startup_stm32g474retx.o
+RTC_WKUP_IRQHandler                               build/obj/drivers/startup/startup_stm32g474retx.o
+Reset_Handler                                     build/obj/drivers/startup/startup_stm32g474retx.o
+SAI1_IRQHandler                                   build/obj/drivers/startup/startup_stm32g474retx.o
+SPI1_IRQHandler                                   build/obj/drivers/startup/startup_stm32g474retx.o
+SPI2_IRQHandler                                   build/obj/drivers/startup/startup_stm32g474retx.o
+SPI3_IRQHandler                                   build/obj/drivers/startup/startup_stm32g474retx.o
+SPI4_IRQHandler                                   build/obj/drivers/startup/startup_stm32g474retx.o
+SVC_Handler                                       build/obj/drivers/startup/startup_stm32g474retx.o
+Serial::Serial(USART_TypeDef*, int)               build/obj/drivers/UART/UART.o (symbol from plugin)
+Serial::Serial(USART_TypeDef*, int)               build/obj/drivers/UART/UART.o (symbol from plugin)
+                                                  build/obj/config/board.o (symbol from plugin)
+Serial::available()                               build/obj/drivers/UART/UART.o (symbol from plugin)
+Serial::bufferFlush()                             build/obj/drivers/UART/UART.o (symbol from plugin)
+                                                  build/obj/./main.o (symbol from plugin)
+Serial::interrupt()                               build/obj/drivers/UART/UART.o (symbol from plugin)
+                                                  build/obj/config/board.o (symbol from plugin)
+Serial::print(char const*)                        build/obj/drivers/UART/UART.o (symbol from plugin)
+                                                  build/obj/drivers/clock_manager/clock_manager.o (symbol from plugin)
+                                                  build/obj/./main.o (symbol from plugin)
+Serial::print(double, unsigned char)              build/obj/drivers/UART/UART.o (symbol from plugin)
+                                                  build/obj/./main.o (symbol from plugin)
+Serial::print(int)                                build/obj/drivers/UART/UART.o (symbol from plugin)
+                                                  build/obj/./main.o (symbol from plugin)
+Serial::println(char const*)                      build/obj/drivers/UART/UART.o (symbol from plugin)
+Serial::println(double, unsigned char)            build/obj/drivers/UART/UART.o (symbol from plugin)
+                                                  build/obj/drivers/clock_manager/clock_manager.o (symbol from plugin)
+                                                  build/obj/./main.o (symbol from plugin)
+Serial::println(int)                              build/obj/drivers/UART/UART.o (symbol from plugin)
+Serial::readChar()                                build/obj/drivers/UART/UART.o (symbol from plugin)
+Serial::readTillEOL(char*)                        build/obj/drivers/UART/UART.o (symbol from plugin)
+                                                  build/obj/./main.o (symbol from plugin)
+Serial::sendChar(char)                            build/obj/drivers/UART/UART.o (symbol from plugin)
+SetOLangle                                        build/obj/./main.o (symbol from plugin)
+States::checkState()                              build/obj/lib/states/states.o (symbol from plugin)
+States::currentStateInt                           build/obj/lib/states/states.o (symbol from plugin)
+States::maxStateInt                               build/obj/lib/states/states.o (symbol from plugin)
+States::picker                                    build/obj/lib/states/states.o (symbol from plugin)
+States::setInitState(StateNames)                  build/obj/lib/states/states.o (symbol from plugin)
+States::setState(StateNames)                      build/obj/lib/states/states.o (symbol from plugin)
+States::updateState()                             build/obj/lib/states/states.o (symbol from plugin)
+SysTick_Handler                                   C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/drivers/startup/startup_stm32g474retx.o
+                                                  build/obj/drivers/clock_manager/clock_manager.o (symbol from plugin)
+SystemInit                                        C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/drivers/startup/system_stm32g4xx.o (symbol from plugin)
+                                                  build/obj/drivers/startup/startup_stm32g474retx.o
+TIM1_BRK_TIM15_IRQHandler                         build/obj/drivers/startup/startup_stm32g474retx.o
+TIM1_CC_IRQHandler                                build/obj/drivers/startup/startup_stm32g474retx.o
+TIM1_TRG_COM_TIM17_IRQHandler                     build/obj/drivers/startup/startup_stm32g474retx.o
+TIM1_UP_TIM16_IRQHandler                          C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/drivers/startup/startup_stm32g474retx.o
+                                                  build/obj/./main.o (symbol from plugin)
+TIM20_BRK_IRQHandler                              build/obj/drivers/startup/startup_stm32g474retx.o
+TIM20_CC_IRQHandler                               build/obj/drivers/startup/startup_stm32g474retx.o
+TIM20_TRG_COM_IRQHandler                          build/obj/drivers/startup/startup_stm32g474retx.o
+TIM20_UP_IRQHandler                               build/obj/drivers/startup/startup_stm32g474retx.o
+TIM2_IRQHandler                                   build/obj/drivers/startup/startup_stm32g474retx.o
+TIM3_IRQHandler                                   build/obj/drivers/startup/startup_stm32g474retx.o
+TIM4_IRQHandler                                   build/obj/drivers/startup/startup_stm32g474retx.o
+TIM5_IRQHandler                                   build/obj/drivers/startup/startup_stm32g474retx.o
+TIM6_DAC_IRQHandler                               build/obj/drivers/startup/startup_stm32g474retx.o
+TIM7_DAC_IRQHandler                               build/obj/drivers/startup/startup_stm32g474retx.o
+TIM8_BRK_IRQHandler                               build/obj/drivers/startup/startup_stm32g474retx.o
+TIM8_CC_IRQHandler                                build/obj/drivers/startup/startup_stm32g474retx.o
+TIM8_TRG_COM_IRQHandler                           build/obj/drivers/startup/startup_stm32g474retx.o
+TIM8_UP_IRQHandler                                build/obj/drivers/startup/startup_stm32g474retx.o
+UART.cpp.44baf404                                 C:\Users\polit\AppData\Local\Temp\cc2NmgiU.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+UART4_IRQHandler                                  build/obj/drivers/startup/startup_stm32g474retx.o
+UART5_IRQHandler                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/drivers/startup/startup_stm32g474retx.o
+                                                  build/obj/config/board.o (symbol from plugin)
+UARTprevTime                                      build/obj/./main.o (symbol from plugin)
+UARTrxData                                        build/obj/./main.o (symbol from plugin)
+UCPD1_IRQHandler                                  build/obj/drivers/startup/startup_stm32g474retx.o
+USART1_IRQHandler                                 build/obj/drivers/startup/startup_stm32g474retx.o
+USART2_IRQHandler                                 build/obj/drivers/startup/startup_stm32g474retx.o
+USART3_IRQHandler                                 build/obj/drivers/startup/startup_stm32g474retx.o
+USBWakeUp_IRQHandler                              build/obj/drivers/startup/startup_stm32g474retx.o
+USB_HP_IRQHandler                                 build/obj/drivers/startup/startup_stm32g474retx.o
+USB_LP_IRQHandler                                 build/obj/drivers/startup/startup_stm32g474retx.o
+Ualpha                                            build/obj/./main.o (symbol from plugin)
+Ubeta                                             build/obj/./main.o (symbol from plugin)
+UsageFault_Handler                                build/obj/drivers/startup/startup_stm32g474retx.o
+WWDG_IRQHandler                                   build/obj/drivers/startup/startup_stm32g474retx.o
+__adddf3                                          c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+__addsf3                                          c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
+__aeabi_d2f                                       c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_truncdfsf2.o)
+                                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+__aeabi_d2uiz                                     c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixunsdfsi.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o)
+__aeabi_dadd                                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+__aeabi_dmul                                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldf3.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o)
+__aeabi_drsub                                     c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+__aeabi_dsub                                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o)
+__aeabi_f2d                                       c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o)
+                                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+__aeabi_f2lz                                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixsfdi.o)
+                                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+__aeabi_f2ulz                                     c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixsfdi.o)
+__aeabi_fadd                                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
+__aeabi_frsub                                     c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
+__aeabi_fsub                                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
+__aeabi_i2d                                       c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+__aeabi_i2f                                       c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
+__aeabi_l2d                                       c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+__aeabi_l2f                                       c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
+                                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+__aeabi_ui2d                                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o)
+__aeabi_ui2f                                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
+__aeabi_ul2d                                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+__aeabi_ul2f                                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
+__cxa_pure_virtual                                build/obj/lib/stubs/cpp_stubs.o (symbol from plugin)
+__dso_handle                                      build/obj/lib/stubs/c_stubs.o (symbol from plugin)
+__errno                                           C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/lib/stubs/c_stubs.o (symbol from plugin)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sysconf.o)
+__extendsfdf2                                     c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+__fixsfdi                                         c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixsfdi.o)
+__fixunsdfsi                                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixunsdfsi.o)
+__fixunssfdi                                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o)
+__floatdidf                                       c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+__floatdisf                                       c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
+__floatsidf                                       c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+__floatsisf                                       c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
+__floatundidf                                     c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+__floatundisf                                     c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
+__floatunsidf                                     c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+__floatunsisf                                     c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
+__fp_lock_all                                     c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+__fp_unlock_all                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+__ieee754_rem_pio2f                               c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_sin.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o)
+__init_array_end                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
+__init_array_start                                c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
+__kernel_cosf                                     c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_cos.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_sin.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o)
+__kernel_rem_pio2f                                c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+__kernel_sinf                                     c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_sin.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_sin.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o)
+__libc_init_array                                 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
+                                                  build/obj/drivers/startup/startup_stm32g474retx.o
+__lock___arc4random_mutex                         c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+__lock___at_quick_exit_mutex                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+__lock___atexit_recursive_mutex                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+__lock___dd_hash_mutex                            c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+__lock___env_recursive_mutex                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+__lock___malloc_recursive_mutex                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
+__lock___sfp_recursive_mutex                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+__lock___tz_mutex                                 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+__malloc_av_                                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+__malloc_current_mallinfo                         c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+__malloc_lock                                     c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+__malloc_max_sbrked_mem                           c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+__malloc_max_total_mem                            c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+__malloc_sbrk_base                                c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+__malloc_top_pad                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+__malloc_trim_threshold                           c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+__malloc_unlock                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+__muldf3                                          c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldf3.o)
+__preinit_array_end                               c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
+__preinit_array_start                             c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
+__retarget_lock_acquire                           c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+__retarget_lock_acquire_recursive                 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
+__retarget_lock_close                             c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+__retarget_lock_close_recursive                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
+__retarget_lock_init                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+__retarget_lock_init_recursive                    c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+__retarget_lock_release                           c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+__retarget_lock_release_recursive                 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
+__retarget_lock_try_acquire                       c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+__retarget_lock_try_acquire_recursive             c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+__sclose                                          c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+__seofread                                        c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+__sf                                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-impure.o)
+__sflush_r                                        c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
+__sfp                                             c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+__sfp_lock_acquire                                c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
+__sfp_lock_release                                c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
+__sglue                                           c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+__sinit                                           c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
+__sread                                           c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+__sseek                                           c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+__stdio_exit_handler                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+__subdf3                                          c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+__subsf3                                          c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
+__swrite                                          c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+__truncdfsf2                                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_truncdfsf2.o)
+_close                                            C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/lib/stubs/c_stubs.o (symbol from plugin)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-closer.o)
+_close_r                                          c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-closer.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+_ebss                                             build/obj/drivers/startup/startup_stm32g474retx.o
+_edata                                            build/obj/drivers/startup/startup_stm32g474retx.o
+_eheap                                            C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/lib/stubs/new_delete.o (symbol from plugin)
+_estack                                           build/obj/drivers/startup/startup_stm32g474retx.o
+_exit                                             build/obj/lib/stubs/c_stubs.o (symbol from plugin)
+_fclose_r                                         c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+_fflush_r                                         c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+_fini                                             build/obj/lib/stubs/c_stubs.o (symbol from plugin)
+_free_r                                           c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-reent.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-malloc.o)
+_fwalk_sglue                                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fwalk.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+_getpid                                           build/obj/lib/stubs/c_stubs.o (symbol from plugin)
+_impure_data                                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-impure.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+_impure_ptr                                       c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-impure.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-reent.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-malloc.o)
+_init                                             C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/lib/stubs/c_stubs.o (symbol from plugin)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
+_kill                                             build/obj/lib/stubs/c_stubs.o (symbol from plugin)
+_lseek                                            C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/lib/stubs/c_stubs.o (symbol from plugin)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lseekr.o)
+_lseek_r                                          c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lseekr.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+_malloc_r                                         c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-malloc.o)
+_malloc_trim_r                                    c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+_read                                             C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/lib/stubs/c_stubs.o (symbol from plugin)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-readr.o)
+_read_r                                           c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-readr.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+_reclaim_reent                                    c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-reent.o)
+_sbrk                                             C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/lib/stubs/new_delete.o (symbol from plugin)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sbrkr.o)
+_sbrk_r                                           c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sbrkr.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+_sbss                                             build/obj/drivers/startup/startup_stm32g474retx.o
+_sdata                                            build/obj/drivers/startup/startup_stm32g474retx.o
+_sheap                                            C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/lib/stubs/new_delete.o (symbol from plugin)
+_sidata                                           build/obj/drivers/startup/startup_stm32g474retx.o
+_write                                            C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/lib/stubs/c_stubs.o (symbol from plugin)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-writer.o)
+_write_r                                          c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-writer.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+accell                                            build/obj/./main.o (symbol from plugin)
+acceltime                                         build/obj/./main.o (symbol from plugin)
+adc1Ch1                                           build/obj/config/board.o (symbol from plugin)
+adc1Ch8                                           build/obj/config/board.o (symbol from plugin)
+adc1Ch9                                           build/obj/config/board.o (symbol from plugin)
+adc2Ch12                                          build/obj/config/board.o (symbol from plugin)
+angle1                                            build/obj/lib/motor/motor.o (symbol from plugin)
+board.cpp.b5aa1329                                C:\Users\polit\AppData\Local\Temp\cc6F1UOa.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+c_stubs.c.95ef288a                                C:\Users\polit\AppData\Local\Temp\ccIF3sRF.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+checkFlag                                         build/obj/./main.o (symbol from plugin)
+clockFreq                                         build/obj/config/board.o (symbol from plugin)
+clock_manager.cpp.4e349a95                        C:\Users\polit\AppData\Local\Temp\ccoxaidD.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+cosf                                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o)
+                                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/./main.o (symbol from plugin)
+cpp_stubs.cpp.d66d2479                            C:\Users\polit\AppData\Local\Temp\ccIfS0OX.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+dataReadyToPrint                                  build/obj/./main.o (symbol from plugin)
+delay(unsigned long)                              build/obj/config/board.o (symbol from plugin)
+                                                  build/obj/lib/lcd/hd44780.o (symbol from plugin)
+errno                                             c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-reent.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-writer.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-readr.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lseekr.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-closer.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sbrkr.o)
+fabsf                                             c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_fabs.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+fclose                                            c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
+fflush                                            c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+filterediD                                        build/obj/./main.o (symbol from plugin)
+filterediD1                                       build/obj/lib/motor/motor.o (symbol from plugin)
+filterediQ                                        build/obj/./main.o (symbol from plugin)
+filterediQ1                                       build/obj/lib/motor/motor.o (symbol from plugin)
+floorf                                            c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_floor.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+free                                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-malloc.o)
+                                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/lib/stubs/new_delete.o (symbol from plugin)
+g_pfnVectors                                      build/obj/drivers/startup/startup_stm32g474retx.o
+generateSine(unsigned long*, unsigned long, unsigned long, unsigned long) build/obj/./main.o (symbol from plugin)
+get_heap_size()                                   build/obj/lib/stubs/new_delete.o (symbol from plugin)
+gpio.cpp.8fc11028                                 C:\Users\polit\AppData\Local\Temp\ccw72S4p.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+hd44780.cpp.acc99620                              C:\Users\polit\AppData\Local\Temp\ccUBIzdg.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+i2c.cpp.4239241b                                  C:\Users\polit\AppData\Local\Temp\cc6Fn8dc.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+i2c3                                              build/obj/config/board.o (symbol from plugin)
+i2cData                                           build/obj/./main.o (symbol from plugin)
+i2cSCL                                            build/obj/config/board.o (symbol from plugin)
+i2cSDA                                            build/obj/config/board.o (symbol from plugin)
+iA                                                build/obj/./main.o (symbol from plugin)
+iA1                                               build/obj/lib/motor/motor.o (symbol from plugin)
+iAlpha                                            build/obj/./main.o (symbol from plugin)
+iB                                                build/obj/./main.o (symbol from plugin)
+iB1                                               build/obj/lib/motor/motor.o (symbol from plugin)
+iBeta                                             build/obj/./main.o (symbol from plugin)
+iC                                                build/obj/./main.o (symbol from plugin)
+iC1                                               build/obj/lib/motor/motor.o (symbol from plugin)
+iD                                                build/obj/./main.o (symbol from plugin)
+iD1                                               build/obj/lib/motor/motor.o (symbol from plugin)
+iQ                                                build/obj/./main.o (symbol from plugin)
+iQ1                                               build/obj/lib/motor/motor.o (symbol from plugin)
+lastAngle                                         build/obj/./main.o (symbol from plugin)
+lastAngleOffsetChange                             build/obj/./main.o (symbol from plugin)
+lastPrintTime                                     build/obj/./main.o (symbol from plugin)
+lastTimeAngle                                     build/obj/./main.o (symbol from plugin)
+lastacceltime                                     build/obj/./main.o (symbol from plugin)
+led                                               build/obj/config/board.o (symbol from plugin)
+                                                  build/obj/./main.o (symbol from plugin)
+main                                              C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/./main.o (symbol from plugin)
+                                                  build/obj/drivers/startup/startup_stm32g474retx.o
+main.cpp.1e964db1                                 C:\Users\polit\AppData\Local\Temp\ccK0psBq.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+malloc                                            c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-malloc.o)
+                                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/lib/stubs/new_delete.o (symbol from plugin)
+map(float, float, float, float, float)            build/obj/config/board.o (symbol from plugin)
+memset                                            c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memset.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+milis                                             build/obj/drivers/clock_manager/clock_manager.o (symbol from plugin)
+                                                  build/obj/config/board.o (symbol from plugin)
+                                                  build/obj/./main.o (symbol from plugin)
+motor.c.02e184aa                                  C:\Users\polit\AppData\Local\Temp\cc6RLAmx.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+motorProcessLastTime                              build/obj/./main.o (symbol from plugin)
+motorSpeed                                        build/obj/./main.o (symbol from plugin)
+motorState                                        build/obj/./main.o (symbol from plugin)
+motor_t                                           build/obj/lib/motor/motor.o (symbol from plugin)
+new_delete.cpp.6ee144f7                           C:\Users\polit\AppData\Local\Temp\ccW616TM.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+normalizedCoeff                                   build/obj/./main.o (symbol from plugin)
+operator delete(void*)                            C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/lib/stubs/new_delete.o (symbol from plugin)
+operator delete(void*, std::nothrow_t)            build/obj/lib/stubs/new_delete.o (symbol from plugin)
+operator delete(void*, unsigned int)              C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/lib/stubs/new_delete.o (symbol from plugin)
+operator delete[](void*)                          C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/lib/stubs/new_delete.o (symbol from plugin)
+operator delete[](void*, std::nothrow_t)          build/obj/lib/stubs/new_delete.o (symbol from plugin)
+operator delete[](void*, unsigned int)            C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/lib/stubs/new_delete.o (symbol from plugin)
+operator new(unsigned int)                        C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/lib/stubs/new_delete.o (symbol from plugin)
+operator new(unsigned int, std::nothrow_t)        build/obj/lib/stubs/new_delete.o (symbol from plugin)
+operator new[](unsigned int)                      C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/lib/stubs/new_delete.o (symbol from plugin)
+operator new[](unsigned int, std::nothrow_t)      build/obj/lib/stubs/new_delete.o (symbol from plugin)
+pid.cpp.0d7f492a                                  C:\Users\polit\AppData\Local\Temp\ccSOpve4.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+pidOUT                                            build/obj/./main.o (symbol from plugin)
+pidUd                                             build/obj/./main.o (symbol from plugin)
+pidUq                                             build/obj/./main.o (symbol from plugin)
+prevTick                                          build/obj/./main.o (symbol from plugin)
+printProcessLastTime                              build/obj/./main.o (symbol from plugin)
+scalbnf                                           c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_scalbn.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+setMotorSpeed                                     build/obj/./main.o (symbol from plugin)
+setPhaseVoltage(float, float, float)              build/obj/./main.o (symbol from plugin)
+setPwm(float, float, float)                       build/obj/./main.o (symbol from plugin)
+setUd                                             build/obj/./main.o (symbol from plugin)
+setUq                                             build/obj/./main.o (symbol from plugin)
+setiD                                             build/obj/./main.o (symbol from plugin)
+setiD1                                            build/obj/lib/motor/motor.o (symbol from plugin)
+setiQ                                             build/obj/./main.o (symbol from plugin)
+setiQ1                                            build/obj/lib/motor/motor.o (symbol from plugin)
+sineFreq                                          build/obj/./main.o (symbol from plugin)
+sineLookUp                                        build/obj/./main.o (symbol from plugin)
+sineLookUp2                                       build/obj/./main.o (symbol from plugin)
+sineLookUp3                                       build/obj/./main.o (symbol from plugin)
+sinf                                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_sin.o)
+                                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+                                                  build/obj/./main.o (symbol from plugin)
+slopeInterval                                     build/obj/./main.o (symbol from plugin)
+states.cpp.60f4e4c5                               C:\Users\polit\AppData\Local\Temp\ccwB86Cr.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+std::__throw_bad_alloc()                          build/obj/lib/stubs/cpp_stubs.o (symbol from plugin)
+std::__throw_bad_function_call()                  build/obj/lib/stubs/cpp_stubs.o (symbol from plugin)
+std::__throw_length_error(char const*)            build/obj/lib/stubs/cpp_stubs.o (symbol from plugin)
+std::cos(float)                                   build/obj/./main.o (symbol from plugin)
+std::sin(float)                                   build/obj/./main.o (symbol from plugin)
+sysconf                                           c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sysconf.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+                                                  c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+system_stm32g4xx.c.9aed6776                       C:\Users\polit\AppData\Local\Temp\ccs3ZRoS.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+theta                                             build/obj/./main.o (symbol from plugin)
+ticks                                             build/obj/config/board.o (symbol from plugin)
+typeConverter.cpp.c673d0f3                        C:\Users\polit\AppData\Local\Temp\ccgjz84B.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\ccCCh1hq.ltrans0.ltrans.o
+typeConverter::IntToString(int, char*)            build/obj/lib/typeConverter/typeConverter.o (symbol from plugin)
+                                                  build/obj/drivers/UART/UART.o (symbol from plugin)
+typeConverter::fractionalToString(float, char*, unsigned char) build/obj/lib/typeConverter/typeConverter.o (symbol from plugin)
+                                                  build/obj/drivers/UART/UART.o (symbol from plugin)
+typeConverter::reverseArray(char*, int)           build/obj/lib/typeConverter/typeConverter.o (symbol from plugin)
+typeConverter::stringToFloat(char const*)         build/obj/lib/typeConverter/typeConverter.o (symbol from plugin)
+typeConverter::stringToInt(char const*)           build/obj/lib/typeConverter/typeConverter.o (symbol from plugin)
+uAlpha1                                           build/obj/lib/motor/motor.o (symbol from plugin)
+uBeta1                                            build/obj/lib/motor/motor.o (symbol from plugin)
+uD1                                               build/obj/lib/motor/motor.o (symbol from plugin)
+uQ1                                               build/obj/lib/motor/motor.o (symbol from plugin)
+uart                                              build/obj/config/board.o (symbol from plugin)
+                                                  build/obj/drivers/clock_manager/clock_manager.o (symbol from plugin)
+                                                  build/obj/drivers/UART/UART.o (symbol from plugin)
+                                                  build/obj/./main.o (symbol from plugin)
+uartRX                                            build/obj/config/board.o (symbol from plugin)
+uartTX                                            build/obj/config/board.o (symbol from plugin)
+velChange                                         build/obj/./main.o (symbol from plugin)
