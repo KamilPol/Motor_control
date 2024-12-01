@@ -28,7 +28,13 @@ GPIO adc1Ch9 (GPIOC, 3, GPIOmode::Analog);
 GPIO adc2Ch12 (GPIOB, 2, GPIOmode::Analog); //Vin
 
 
-GPIO led (GPIOC, 4, GPIOmode::Output, GPIOtype::PushPull, GPIOspeed::Low, GPIOpull::None, 0);
+GPIO led1 (GPIOC, 4, GPIOmode::Output, GPIOtype::PushPull, GPIOspeed::Low, GPIOpull::None, 0);
+GPIO led2 (GPIOB, 10, GPIOmode::Output, GPIOtype::PushPull, GPIOspeed::Low, GPIOpull::None, 0);
+GPIO led3 (GPIOB, 11, GPIOmode::Output, GPIOtype::PushPull, GPIOspeed::Low, GPIOpull::None, 0);
+GPIO led4 (GPIOC, 11, GPIOmode::Output, GPIOtype::PushPull, GPIOspeed::Low, GPIOpull::None, 0);
+GPIO led5 (GPIOB, 7, GPIOmode::Output, GPIOtype::PushPull, GPIOspeed::Low, GPIOpull::None, 0);
+
+
 Serial uart (UART5, 500000);
 I2C i2c3 (I2C3);
 

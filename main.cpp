@@ -9,6 +9,7 @@
 #include "hd44780.h"
 #include "pid.h"
 #include "clock_manager.h"
+#include "pwm.h"
 #define M_PI 3.14159265358979323846f
 #define M_2PI 6.28318530717958647692f
 #define M_SQRT3_2 0.86602540378f
@@ -45,7 +46,7 @@ uint32_t motorProcessLastTime=0;
 uint32_t printProcessLastTime=0;
 long UARTprevTime=0;
 volatile long prevTick = 0;
-volatile float normalizedCoeff=0.001f;
+volatile float normalizedCoeff=0.1f;
 
 volatile bool dataReadyToPrint = false;
 char LCDstring[20]="0";
@@ -79,15 +80,17 @@ volatile float pidOUT = 0;
 
 float filterediQ = 0;
 float filterediD = 0;
-
+volatile bool TIM2loopFlag = false;
 uint32_t motorState=0;
 volatile uint32_t motorSpeed=0;
-uint32_t setMotorSpeed=100;
-uint32_t accell = 100;
+uint32_t setMotorSpeed=1000;
+uint32_t accell = 1000;
 uint32_t slopeInterval = 1000/accell;
 
-PID pidUq (&filterediQ,  &setUq, &setiQ, 1, 2.5, 0.0001, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
-PID pidUd (&filterediD,  &setUd, &setiD, 1, 2.5, 0.0001, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
+pwm_t inverterPWM = {.tim = TIM1, .frequency = 40000};
+PID pidUq (&filterediQ,  &setUq, &setiQ, 0.005f, 0.05f, 0, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
+PID pidUd (&filterediD,  &setUd, &setiD, 0.005f, 0.05f, 0, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
+
 
  
 
@@ -104,41 +107,41 @@ void Init()
 
 	
 
-	// timer 2 - sine wave generation
-	//NVIC_EnableIRQ(TIM2_IRQn);
+	// Speed calculation time base timer
+	NVIC_EnableIRQ(TIM2_IRQn);
 	RCC->APB1ENR1 |= RCC_APB1ENR1_TIM2EN; 
 	//RCC->APB2ENR |= RCC_APB2ENR_TIM1EN; 
-	TIM2->PSC = 15; // 160000000/160 = 1000000 Hz
-	TIM2->ARR = 100; // 100/1000000 = 1kHz
+	TIM2->PSC = 15; // 160000000/16 = 10000000 Hz
+	TIM2->ARR = 4999; // 10000000/99999 = 100 Hz
 	TIM2->CCR1 = 10;
-	//TIM2 -> DIER |= TIM_DIER_CC1DE | TIM_DIER_UIE; // Update DMA request enable
+	TIM2 -> DIER |= TIM_DIER_UIE; // update interrupt enable
 	TIM2->CR1  |= TIM_CR1_ARPE;
 	TIM2->CR1  |= TIM_CR1_CEN;	
 	
 
 	// // Timer 1 - PWM generation
-	NVIC_EnableIRQ(TIM1_UP_TIM16_IRQn);
-	RCC->APB2ENR |= RCC_APB2ENR_TIM1EN;  
-	TIM1-> CCMR1 |= 0b110<< TIM_CCMR1_OC1M_Pos | TIM_CCMR1_OC1PE ; // PWM mode 1 channel 1
-	TIM1-> CCMR1 |= 0b110<< TIM_CCMR1_OC2M_Pos | TIM_CCMR1_OC2PE ; // PWM mode 1 channel 2
-	TIM1-> CCMR2 |= 0b110<< TIM_CCMR2_OC3M_Pos | TIM_CCMR2_OC3PE ; // PWM mode 1 channel 3
-	TIM1-> CCMR2 |= 0b0110<< TIM_CCMR2_OC4M_Pos;
-	TIM1-> CCER |= TIM_CCER_CC1E | TIM_CCER_CC1NE;
-	TIM1-> CCER |= TIM_CCER_CC2E | TIM_CCER_CC2NE;
-	TIM1-> CCER |= TIM_CCER_CC3E | TIM_CCER_CC3NE;
-	//TIM1->CR2 |= 0b010<<TIM_CR2_MMS_Pos;   // Set TRGO on Update Event
-	TIM1->PSC = 3;  // 160000000/4 = 40000000 Hz
-	TIM1->ARR = 40000000/PWM_FREQ; 
-	TIM1-> CCR1 = 0;
-	TIM1-> CCR2 = 0;
-	TIM1-> CCR3 = 0;
-	TIM1-> CCR4 = 500;
-	TIM1 -> DIER |=  TIM_DIER_UIE; // interrupt enable
-	TIM1->CR2 = 0b0111<<TIM_CR2_MMS_Pos;   // Set TRGO on Update Event
-	TIM1->CR1  |= TIM_CR1_ARPE | 0b01<<TIM_CR1_CMS_Pos;
-	TIM1->EGR |= TIM_EGR_UG;
-	TIM1->BDTR |= TIM_BDTR_MOE | 0b00100000<<TIM_BDTR_DTG_Pos;
-	TIM1->CR1  |= TIM_CR1_CEN;
+	// NVIC_EnableIRQ(TIM1_UP_TIM16_IRQn);
+	// RCC->APB2ENR |= RCC_APB2ENR_TIM1EN;  
+	// TIM1-> CCMR1 |= 0b110<< TIM_CCMR1_OC1M_Pos | TIM_CCMR1_OC1PE ; // PWM mode 1 channel 1
+	// TIM1-> CCMR1 |= 0b110<< TIM_CCMR1_OC2M_Pos | TIM_CCMR1_OC2PE ; // PWM mode 1 channel 2
+	// TIM1-> CCMR2 |= 0b110<< TIM_CCMR2_OC3M_Pos | TIM_CCMR2_OC3PE ; // PWM mode 1 channel 3
+	// TIM1-> CCMR2 |= 0b0110<< TIM_CCMR2_OC4M_Pos;
+	// TIM1-> CCER |= TIM_CCER_CC1E | TIM_CCER_CC1NE;
+	// TIM1-> CCER |= TIM_CCER_CC2E | TIM_CCER_CC2NE;
+	// TIM1-> CCER |= TIM_CCER_CC3E | TIM_CCER_CC3NE;
+	// //TIM1->CR2 |= 0b010<<TIM_CR2_MMS_Pos;   // Set TRGO on Update Event
+	// TIM1->PSC = 3;  // 160000000/4 = 40000000 Hz
+	// TIM1->ARR = 40000000/PWM_FREQ; 
+	// TIM1-> CCR1 = 0;
+	// TIM1-> CCR2 = 0;
+	// TIM1-> CCR3 = 0;
+	// TIM1-> CCR4 = 500;
+	// TIM1 -> DIER |=  TIM_DIER_UIE; // interrupt enable
+	// TIM1->CR2 = 0b0111<<TIM_CR2_MMS_Pos;   // Set TRGO on Update Event
+	// TIM1->CR1  |= TIM_CR1_ARPE | 0b01<<TIM_CR1_CMS_Pos;
+	// TIM1->EGR |= TIM_EGR_UG;
+	// TIM1->BDTR |= TIM_BDTR_MOE | 0b00100000<<TIM_BDTR_DTG_Pos;
+	// TIM1->CR1  |= TIM_CR1_CEN;
 	
 
   
@@ -165,6 +168,7 @@ void Init()
 	// DMA1_Channel4->CCR |= DMA_CCR_EN;
 
 	// ADC1 configuration
+	//NVIC_EnableIRQ(ADC1_2_IRQn);
 	RCC->AHB2ENR |= RCC_AHB2ENR_ADC12EN;	
 	ADC12_COMMON->CCR |= (0b11 << ADC_CCR_CKMODE_Pos | ADC_CCR_VREFEN);	// Set ADC clock to HCLK/2 and enable VREFINT
 	ADC1->CR |= ADC_CR_ADSTP;
@@ -174,12 +178,15 @@ void Init()
 	ADC1->CR |= ADC_CR_ADVREGEN;	
 	ADC1->CR |= ADC_CR_ADCAL;
 	while(ADC1->CR & ADC_CR_ADCAL);
+	
 	ADC1->SQR1 |= 0b10<<ADC_SQR1_L_Pos; // 3 ADC1 conversions
 	ADC1->SQR1 |= 1<<ADC_SQR1_SQ1_Pos | 8<<ADC_SQR1_SQ2_Pos | 9<<ADC_SQR1_SQ3_Pos; // First conversion - channel 14. Second conversion - channel 2.
+	//ADC1->IER |= ADC_IER_EOSIE;
 	ADC1->CR |= ADC_CR_ADEN;
 	while(!(ADC1->ISR & ADC_ISR_ADRDY));
 	ADC1->CR |= ADC_CR_ADSTART;
 
+	NVIC_EnableIRQ(DMA1_Channel5_IRQn);
 	DMAMUX1_Channel4->CCR = 5;
 	DMA1_Channel5-> CCR = 0b1<<DMA_CCR_MSIZE_Pos | 0b10<<DMA_CCR_PSIZE_Pos | DMA_CCR_MINC | DMA_CCR_CIRC | DMA_CCR_TCIE; // 16 bit memory size, 32 bit peripheral size, memory increment mode, circular mode, transfer complete interrupt enable
 	DMA1_Channel5->CPAR = (uint32_t) &(ADC1->DR);
@@ -215,12 +222,7 @@ void generateSine(uint32_t* _sineLookUp, uint32_t _phaseShift, uint32_t _amplitu
             _sineLookUp[i] = 180+(_amplitude*sin(i*inc+phaseShiftDeg))*0.5f;
       }
 }
-void setPwm(float Ua, float Ub, float Uc)
-{
-	TIM1->CCR1 = Ub;
-	TIM1->CCR2 = Ua;
-	TIM1->CCR3 = Uc;
-}
+float Uabc_pu[3];
 void setPhaseVoltage(float Uq, float Ud, float angle_el) 
 {  
     // Inverse park transform
@@ -228,38 +230,52 @@ void setPhaseVoltage(float Uq, float Ud, float angle_el)
 	Ubeta = sin(angle_el) * Ud + cos(angle_el) * Uq;    //  cos(angle) * Uq;
 
 	// Inverse Clarke transform
-	uint32_t Ua = Ualpha + 500;
-	uint32_t Ub = -0.5f * Ualpha  + M_SQRT3_2 * Ubeta + 500;
-	uint32_t Uc = -0.5f * Ualpha - M_SQRT3_2 * Ubeta + 500;
-	setPwm(Ua, Ub, Uc);
 	
+	Uabc_pu[0] = Ualpha;
+	Uabc_pu[1] = -0.5f * Ualpha  + M_SQRT3_2 * Ubeta;
+	Uabc_pu[2] = -0.5f * Ualpha - M_SQRT3_2 * Ubeta;
+
+	// for (int i = 0; i<3; i++)
+	// {
+	// 	Uabc_pu[i] *= 0.002f;
+	// }
+	pwm_set3Phase_pu(&inverterPWM, Uabc_pu);
+	
+	// uart.print("angle:");
+	// uart.print(angle_el);
+	// uart.print(",");
+	// uart.print("speed:");
+	// uart.print((int)motorSpeed);
+	// uart.print(",");
 	// uart.print("Ua:");
-	// uart.print((int)Ua);
+	// uart.print(Uabc_pu[0]);
 	// uart.print(",");
 	// uart.print("Ub:");
-	// uart.print((int)Ub);
+	// uart.print(Uabc_pu[1]);
 	// uart.print(",");
 	// uart.print("Uc:");
-	// uart.println((int)Uc);
+	// uart.println(Uabc_pu[2]);
 }
 
+	
 int main(void)
 {
 	// generateSine(sineLookUp, 0, 0, 360);
 	// generateSine(sineLookUp2, 120, 0, 360);
 	// generateSine(sineLookUp3, 240, 0, 360);
 	
+	pwm_init(&inverterPWM);
 	// int i, j=0;
 	static uint32_t prevMotorState=0;
 	float offsetAngle = 0;
 	//initSysTick();	
 	Init();  
 	pidUq.Init();
-	pidUq.SetOutputLimits(-490,490);
+	pidUq.SetOutputLimits(-1,1);
 	pidUq.SetMode(PIDMode_TypeDef::_PID_MODE_AUTOMATIC);
 
 	pidUd.Init();
-	pidUd.SetOutputLimits(-490,490);
+	pidUd.SetOutputLimits(-1,1);
 	pidUd.SetMode(PIDMode_TypeDef::_PID_MODE_AUTOMATIC);
 
 	//uart.print((int)ClockManager::coreClock);
@@ -267,7 +283,11 @@ int main(void)
 		
 	while (1)
 	{
-	
+		// float Uabc_pu1[3];
+		// Uabc_pu1[0] = -1.0f;
+		// Uabc_pu1[1] = 0.0f;
+		// Uabc_pu1[2] = 0.0f;
+		// pwm_set3Phase_pu(&inverterPWM, Uabc_pu1);
 		
 		if (uart.readTillEOL(UARTrxData)) 
 		{
@@ -294,12 +314,13 @@ int main(void)
 			}
 			else if (UARTrxData[0] == 'w')
 			{
-					setMotorSpeed -= 100;
+					setMotorSpeed -= 50;
 			}
 
 		}
 
-		if (milis-motorProcessLastTime>=slopeInterval)
+		//if (milis-motorProcessLastTime>=slopeInterval)
+		if (TIM2loopFlag)
 		{
 			if (!motorState)
 			{
@@ -332,13 +353,13 @@ int main(void)
 			
 				if (prevMotorState == 0)
 				{
-					setUq=35;
+					setUq=0;
 			// 		generateSine(sineLookUp, 0, 200, 360);  //200hz 42 amplitude 21sek bez rad, 300hz 50 amplitude 6,5sek bez rad
 			// 		generateSine(sineLookUp2, 120, 200, 360); // 200hz 42 amplitude 2min+++sek z rad, 300hz 50 amplitude 36 sek z rad
 			// 		generateSine(sineLookUp3, 240, 200, 360); 
 					// lastacceltime = milis;
 				}			
-				if ((motorSpeed <setMotorSpeed) && setUd > -480)
+				if ((motorSpeed <setMotorSpeed))
 				{				
 					motorSpeed++;			
 				}
@@ -358,8 +379,8 @@ int main(void)
 			{
 				//TIM2->ARR = 1;
 			}  
-			
-			motorProcessLastTime = milis;
+			TIM2loopFlag = false;
+			//motorProcessLastTime = milis;
 		}
 
 			
@@ -404,25 +425,43 @@ int main(void)
 			// uart.print("iD:");
 			// uart.print(iD);
 			// uart.print(",");
-			uart.print("FilterediQ:");
-			uart.print(filterediQ);
-			uart.print(",");			
-			uart.print("uD:");
-			uart.print(setUd);
-			uart.print(",");
-			uart.print("uQ:");
-			uart.print(setUq);
-			uart.print(",");
-			uart.print("speed:");
-			uart.print((int)motorSpeed);
+			// uart.print("FilterediQ:");
+			// uart.print(filterediQ);
+			// uart.print(",");			
+			// uart.print("adc:");
+			// uart.print(AdcDmaReadings[0]);
 			// uart.print(",");
-			// uart.print("iQ:");
-			// uart.print(iQ);
-			uart.print(",");
-			uart.print("filterediD:");
-			uart.println(filterediD);
-
-		
+			// // uart.print("uQ:");
+			// // uart.print(setUq);
+			// // uart.print(",");
+			// uart.print("speed:");
+			// uart.print((int)motorSpeed);
+			// // // // uart.print(",");
+			// // // // // uart.print("iQ:");
+			// // // // // uart.print(iQ);
+			// // uart.print(",");
+			// uart.print("filterediD:");
+			// uart.println(filterediD);
+			// float a = Uabc_pu[0];
+			// float b = Uabc_pu[1];
+			// float c = Uabc_pu[2];
+			// uart.print("Ua:");
+			// uart.print(a);
+			// uart.print(",");
+			// uart.print("Ub:");
+			// uart.print(b);
+			// uart.print(",");
+			// uart.print("Uc:");
+			// uart.println(c);
+	// uart.print("pwm->tim->CCR1:");
+	// uart.print((int)TIM1->CCR1);
+	// uart.print(",");
+	// uart.print("pwm->tim->CCR2:");
+	// uart.print((int)TIM1->CCR2);
+	// uart.print(",");
+	// uart.print("pwm->tim->CCR3:");
+	// uart.println((int)TIM1->CCR3);
+	// uart.print(",");
 		// if(milis-lastAngleOffsetChange>=100)
 		// 	{
 		// 	//	led.toggle();
@@ -432,12 +471,24 @@ int main(void)
 	
 		
 
-		// if(ClockManager::micros()-lastPrintTime>=10)
-		// {
-		// 	if (motorState)
-			
-		// 	 lastPrintTime = ClockManager::micros();		
-		// }
+		if(milis-lastPrintTime>=100)
+		{
+			if (motorState)
+			// uart.print("FilterediQ:");
+			// uart.print(filterediQ);
+			// uart.print(",");			
+			uart.print(",");
+			uart.print("speed:");
+			uart.print((int)motorSpeed);
+			uart.print(",");
+			uart.print("setIQ:");
+			uart.print(setiQ);
+			uart.print(",");
+			uart.print("filterediQ:");
+			uart.println(filterediQ);
+			led4.toggle();
+			lastPrintTime = milis;		
+		}
 		
 	}
 }
@@ -445,82 +496,82 @@ int main(void)
 
 extern "C"
 {
-	void TIM1_UP_TIM16_IRQHandler()
+	void DMA1_Channel5_IRQHandler() // New current readings ready
 	{
-		TIM1->SR &= ~TIM_SR_UIF;
-		
-			//iAlpha  = (0.66f)*(AdcDmaReadings[0]*0.0016541352f-3.3f) - (0.33f)*(AdcDmaReadings[1]*0.0016541352f-3.3f) + (0.33f)*(AdcDmaReadings[2]*0.0016541352f-3.3f);
-
-			//iBeta   = (1.1547005f)*(AdcDmaReadings[1]*0.0016541352f-3.3f) - (1.1547005f)*(AdcDmaReadings[2]*0.0016541352f-3.3f);
-		iA=AdcDmaReadings[0]*ADC_TO_PHASE_CURRENT-ADC_OFFSET;
-		iB=AdcDmaReadings[2]*ADC_TO_PHASE_CURRENT-ADC_OFFSET;
-		iC=AdcDmaReadings[1]*ADC_TO_PHASE_CURRENT-ADC_OFFSET;
-		iAlpha  = iA;
-		iBeta = (M_1_SQRT3*iAlpha) + (M_2_SQRT3 * iB);
-		theta = SetOLangle;
-		iD = iAlpha*cos(theta)+iBeta*sin(theta);
-		iQ = -iAlpha*sin(theta)+iBeta*cos(theta);
-		filterediQ = filterediQ + normalizedCoeff * (iQ - filterediQ);
-		filterediD = filterediD + normalizedCoeff * (iD - filterediD);
-		
-			velChange = (motorSpeed * 0.10472f) * PWM_PERIOD * POLE_PAIRS; 
-			if (SetOLangle < M_2PI * POLE_PAIRS) 
-			{
-				SetOLangle += velChange;
-			}
-			else
-			{
-				SetOLangle = 0;
-			}
-		if (motorState )
+		if (DMA1->ISR & DMA_ISR_TCIF5)
 		{
-		
-			pidUq.Compute();
-			pidUd.Compute();
-			if (UART5->ISR & USART_ISR_ORE)
+				DMA1->IFCR |= DMA_IFCR_CTCIF5;
+			
+			//TIM1->SR &= ~TIM_SR_UIF;
+			
+				//iAlpha  = (0.66f)*(AdcDmaReadings[0]*0.0016541352f-3.3f) - (0.33f)*(AdcDmaReadings[1]*0.0016541352f-3.3f) + (0.33f)*(AdcDmaReadings[2]*0.0016541352f-3.3f);
+
+				//iBeta   = (1.1547005f)*(AdcDmaReadings[1]*0.0016541352f-3.3f) - (1.1547005f)*(AdcDmaReadings[2]*0.0016541352f-3.3f);
+
+			iA=AdcDmaReadings[0]*ADC_TO_PHASE_CURRENT-ADC_OFFSET;
+			iB=AdcDmaReadings[2]*ADC_TO_PHASE_CURRENT-ADC_OFFSET;
+			iC=AdcDmaReadings[1]*ADC_TO_PHASE_CURRENT-ADC_OFFSET;
+
+			iAlpha = (float) (1.0/3.0) * ((float) (2.0f * iA) - (iB + iC));
+			iBeta = (float) (M_1_SQRT3) * (iB - iC);
+
+
+			// iAlpha  = iA;
+			// iBeta = (M_1_SQRT3*iAlpha) + (M_2_SQRT3 * iB);
+			theta = SetOLangle;
+			iD = iAlpha*cos(theta)+iBeta*sin(theta);
+			iQ = -iAlpha*sin(theta)+iBeta*cos(theta);
+			filterediQ = filterediQ + normalizedCoeff * (iQ - filterediQ);
+			filterediD = filterediD + normalizedCoeff * (iD - filterediD);
+
+
+			velChange = (motorSpeed * 0.10472f) * PWM_PERIOD * POLE_PAIRS; 
+				if (SetOLangle < M_2PI * POLE_PAIRS) 
+				{
+					SetOLangle += velChange;
+				}
+				else
+				{
+					SetOLangle = 0;
+				}
+			
+			
+				
+			if (motorState )
 			{
-				led.set();
-				UART5->ICR |= USART_ICR_ORECF;
-				uart.bufferFlush();
-			}
-			// if (iQ < setiQ +1 && iQ > setiQ -1)
-			// {
-			// 	;
-			// }
-			// else if (iQ < setiQ)
-			// {
-			// 	setUq += 0.01f;
-			// }
-			// else
-			// {
-			// 	setUq -= 0.01f;
-			// }
+				//setPhaseVoltage(0.04, 0.04, SetOLangle);
+				pidUq.Compute();
+				pidUd.Compute();
+				if (UART5->ISR & USART_ISR_ORE)
+				{
+					led5.set();
+					UART5->ICR |= USART_ICR_ORECF;
+					uart.bufferFlush();
+				}
+								
+			} setPhaseVoltage(setUq, setUd, SetOLangle);
 
-			// if (iD < setiD +1 && iD > setiD -1)
-			// {
-			// 	;
-			// }
-			// else if (iD < setiD)
-			// {
-			// 	setUd += 0.001f; 
-			// }
-			// else
-			// {
-			// 	setUd -= 0.001f;
-			// }
-			
-			
-		
+			led1.toggle();
+			//setPhaseVoltage(0.5, 0.5, SetOLangle);
 		}
-
-
-		setPhaseVoltage(setUq, setUd, SetOLangle);
 	}
-}
+	
+	void TIM2_IRQHandler()
+	{
+		if (TIM2->SR & TIM_SR_UIF)
+		{
+			TIM2->SR &= ~TIM_SR_UIF;
+			led3.toggle();
+			TIM2loopFlag = true;
+		}
+	}
+
+	
+
 // 	void TIM1_UP_TIM16_IRQHandler()
 // 	{
 // 		TIM1->SR &= ~TIM_SR_UIF;
-// 		led.toggle();
+// 		
 // 		//PWMtim1ch1.toggle();
 // 	}
 // 	void DMA1_Channel2_IRQHandler()
@@ -529,7 +580,7 @@ extern "C"
 // 		//led.toggle();
 // 	}
 
-// }
+}
 
 
 
