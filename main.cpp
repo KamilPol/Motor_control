@@ -66,7 +66,7 @@ float iAlpha = 0;
 float iBeta	= 0;
 float iD = 0;
 float iQ = 0;
-float setiQ = 20;
+float setiQ = 10;
 float setiD = 0;
 float theta = 0;
 float lastAngle=0;
@@ -277,8 +277,8 @@ void setPhaseVoltage(float Uq, float Ud, float angle_el)
 }
 
 motor_t motor = {0};
-PID pidUd (&motor.FilteredIdqA[0],  &motor.Udq_pu[0], &setiD, 0.1f, 0.15f, 0.0f, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
-PID pidUq (&motor.FilteredIdqA[1],  &motor.Udq_pu[1], &setiQ, 0.01f, 0.015f, 0.0f, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
+PID pidUd (&motor.FilteredIdqA[0],  &motor.Udq_pu[0], &setiD, 0.01f, 0.15f, 0.0f, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
+PID pidUq (&motor.FilteredIdqA[1],  &motor.Udq_pu[1], &setiQ, 0.001f, 0.015f, 0.0f, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
 int main(void)
 {
 	// generateSine(sineLookUp, 0, 0, 360);

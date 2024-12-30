@@ -1807,8 +1807,8 @@ GPIO::GPIO (GPIO_TypeDef* _GPIOx, uint8_t _pin, GPIOmode _mode, GPIOtype _type, 
 08001160 <main>:
 
 motor_t motor = {0};
-PID pidUd (&motor.FilteredIdqA[0],  &motor.Udq_pu[0], &setiD,  0.1f, 0.15f, 0.0f, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
-PID pidUq (&motor.FilteredIdqA[1],  &motor.Udq_pu[1], &setiQ, 0.01f, 0.015f, 0.0f, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
+PID pidUd (&motor.FilteredIdqA[0],  &motor.Udq_pu[0], &setiD, 0.01f, 0.15f, 0.0f, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
+PID pidUq (&motor.FilteredIdqA[1],  &motor.Udq_pu[1], &setiQ, 0.001f, 0.015f, 0.0f, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
 int main(void)
 {
  8001160:	e92d 4880 	stmdb	sp!, {r7, fp, lr}
@@ -3963,7 +3963,7 @@ void _init(void) {}
  80020e0:	48000c00 	.word	0x48000c00
  80020e4:	200000a8 	.word	0x200000a8
  80020e8:	3e19999a 	.word	0x3e19999a
- 80020ec:	3dcccccd 	.word	0x3dcccccd
+ 80020ec:	3c23d70a 	.word	0x3c23d70a
  80020f0:	200000a0 	.word	0x200000a0
  80020f4:	20000098 	.word	0x20000098
  80020f8:	20000090 	.word	0x20000090
@@ -3996,7 +3996,7 @@ void _init(void) {}
  8002164:	200002c0 	.word	0x200002c0
  8002168:	200000b0 	.word	0x200000b0
  800216c:	3c75c28f 	.word	0x3c75c28f
- 8002170:	3c23d70a 	.word	0x3c23d70a
+ 8002170:	3a83126f 	.word	0x3a83126f
  8002174:	20000014 	.word	0x20000014
  8002178:	20000300 	.word	0x20000300
  800217c:	48000400 	.word	0x48000400
