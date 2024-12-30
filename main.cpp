@@ -102,7 +102,7 @@ void Init()
 	ClockManager::hseInit();
 	ClockManager::pllCfg(1, 320000000, 2, ClockManager::pllDiv::div2, ClockManager::pllDiv::div2); //160 MHz clock
 	ClockManager::setSysClk(clkSrc::pll);
-	ClockManager::clockSummary();
+	//ClockManager::clockSummary();
 	ClockManager::initTick();
 	
 	//delay(500);
@@ -277,8 +277,8 @@ void setPhaseVoltage(float Uq, float Ud, float angle_el)
 }
 
 motor_t motor = {0};
-PID pidUd (&motor.FilteredIdqA[0],  &motor.Udq_pu[0], &setiD, 0.1f, 0.5f, 0, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
-PID pidUq (&motor.FilteredIdqA[1],  &motor.Udq_pu[1], &setiQ, 0.01f, 0.15f, 0, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
+PID pidUd (&motor.FilteredIdqA[0],  &motor.Udq_pu[0], &setiD, 0.1f, 0.15f, 0.0f, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
+PID pidUq (&motor.FilteredIdqA[1],  &motor.Udq_pu[1], &setiQ, 0.01f, 0.015f, 0.0f, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
 int main(void)
 {
 	// generateSine(sineLookUp, 0, 0, 360);
