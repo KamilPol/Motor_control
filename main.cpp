@@ -10,6 +10,12 @@
 #include "pid.h"
 #include "clock_manager.h"
 #include "pwm.h"
+#include "motor.h"
+
+extern "C"
+{
+#include "adc.h"
+}
 #define M_PI 3.14159265358979323846f
 #define M_2PI 6.28318530717958647692f
 #define M_SQRT3_2 0.86602540378f
@@ -21,12 +27,12 @@
 #define I2C2_SCL_PIN 9
 #define I2C2_SDA_PIN 8
 #define POLE_PAIRS 11.0f
-#define PWM_FREQ 40000.0f
+#define PWM_FREQ 40000UL
 #define PWM_PERIOD 1.0f/PWM_FREQ
 
 #define ADC_GAIN 0.000833190416f
 #define SHUNT_RESISTOR 0.001f
-#define INA_GAIN 20.0f
+#define INA_GAIN 50.0f
 #define VREF 1.65f
 #define ADC_TO_PHASE_CURRENT (ADC_GAIN/(INA_GAIN*SHUNT_RESISTOR))
 #define ADC_OFFSET (VREF/(INA_GAIN*SHUNT_RESISTOR))
@@ -35,18 +41,16 @@
 
 
 
-uint32_t sineLookUp [360]={0}; 
-uint32_t sineLookUp2 [360]={0};
-uint32_t sineLookUp3 [360]={0};
-
 char UARTrxData [50];
 uint16_t AdcDmaReadings[3];
+uint16_t Adc2DmaReadings[2];
+
 uint16_t ADCVin;
 uint32_t motorProcessLastTime=0;
 uint32_t printProcessLastTime=0;
 long UARTprevTime=0;
 volatile long prevTick = 0;
-volatile float normalizedCoeff=0.1f;
+volatile float normalizedCoeff=0.5f;
 
 volatile bool dataReadyToPrint = false;
 char LCDstring[20]="0";
@@ -62,7 +66,7 @@ float iAlpha = 0;
 float iBeta	= 0;
 float iD = 0;
 float iQ = 0;
-float setiQ = 30;
+float setiQ = 20;
 float setiD = 0;
 float theta = 0;
 float lastAngle=0;
@@ -83,13 +87,12 @@ float filterediD = 0;
 volatile bool TIM2loopFlag = false;
 uint32_t motorState=0;
 volatile uint32_t motorSpeed=0;
-uint32_t setMotorSpeed=1000;
+uint32_t setMotorSpeed=50;
 uint32_t accell = 1000;
 uint32_t slopeInterval = 1000/accell;
 
-pwm_t inverterPWM = {.tim = TIM1, .frequency = 40000};
-PID pidUq (&filterediQ,  &setUq, &setiQ, 0.005f, 0.05f, 0, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
-PID pidUd (&filterediD,  &setUd, &setiD, 0.005f, 0.05f, 0, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
+pwm_t inverterPWM = {.tim = TIM1, .frequency = PWM_FREQ};
+
 
 
  
@@ -99,7 +102,7 @@ void Init()
 	ClockManager::hseInit();
 	ClockManager::pllCfg(1, 320000000, 2, ClockManager::pllDiv::div2, ClockManager::pllDiv::div2); //160 MHz clock
 	ClockManager::setSysClk(clkSrc::pll);
-	//ClockManager::clockSummary();
+	ClockManager::clockSummary();
 	ClockManager::initTick();
 	
 	//delay(500);
@@ -112,7 +115,7 @@ void Init()
 	RCC->APB1ENR1 |= RCC_APB1ENR1_TIM2EN; 
 	//RCC->APB2ENR |= RCC_APB2ENR_TIM1EN; 
 	TIM2->PSC = 15; // 160000000/16 = 10000000 Hz
-	TIM2->ARR = 4999; // 10000000/99999 = 100 Hz
+	TIM2->ARR = 49999; // 10000000/4999 = 2000 Hz
 	TIM2->CCR1 = 10;
 	TIM2 -> DIER |= TIM_DIER_UIE; // update interrupt enable
 	TIM2->CR1  |= TIM_CR1_ARPE;
@@ -143,8 +146,15 @@ void Init()
 	// TIM1->BDTR |= TIM_BDTR_MOE | 0b00100000<<TIM_BDTR_DTG_Pos;
 	// TIM1->CR1  |= TIM_CR1_CEN;
 	
+	adcChannelNumbers_t adc1Channels[3] = {1, 8, 9};
+	adcChannel_t adc = {.adc = ADC1, .channelsCount = 3, .channels = adc1Channels, .triggerEdge = risingEdge, .externalTriggerEvent = 0b01001, .adcError = adcOk};
+	adc_init(&adc);
 
-  
+	adcChannelNumbers_t adc2Channels[2] = {14 ,12};
+	adcChannel_t adc2 = {.adc = ADC2, .channelsCount = 2, .channels = adc2Channels, .triggerEdge = risingEdge, .externalTriggerEvent = 0b01001, .adcError = adcOk};
+	adc_init(&adc2);
+
+
 	RCC->AHB1ENR |= RCC_AHB1ENR_DMA1EN | RCC_AHB1ENR_DMAMUX1EN;
 	// DMAMUX1_Channel1->CCR = 56; // dma request from TIM2
 	// DMA1_Channel2-> CCR = 0b10<<DMA_CCR_MSIZE_Pos | 0b10<<DMA_CCR_PSIZE_Pos | DMA_CCR_MINC | DMA_CCR_CIRC | DMA_CCR_DIR ; // 16 bit memory size, 32 bit peripheral size, memory increment mode, circular mode, transfer complete interrupt enable
@@ -169,26 +179,33 @@ void Init()
 
 	// ADC1 configuration
 	//NVIC_EnableIRQ(ADC1_2_IRQn);
-	RCC->AHB2ENR |= RCC_AHB2ENR_ADC12EN;	
-	ADC12_COMMON->CCR |= (0b11 << ADC_CCR_CKMODE_Pos | ADC_CCR_VREFEN);	// Set ADC clock to HCLK/2 and enable VREFINT
-	ADC1->CR |= ADC_CR_ADSTP;
-	while((ADC1->ISR & ADC_ISR_ADRDY));	
-	ADC1->CR =0;
-	ADC1->CFGR = ADC_CFGR_OVRMOD | 1<<ADC_CFGR_EXTEN_Pos | 0b01001<<ADC_CFGR_EXTSEL_Pos | ADC_CFGR_DMAEN | ADC_CFGR_DMACFG; // Set overrun mode, external trigger rising edge, TIM1_TRGO as trigger, DMA enable, DMA circular mode
-	ADC1->CR |= ADC_CR_ADVREGEN;	
-	ADC1->CR |= ADC_CR_ADCAL;
-	while(ADC1->CR & ADC_CR_ADCAL);
+	// RCC->AHB2ENR |= RCC_AHB2ENR_ADC12EN;	
+	// ADC12_COMMON->CCR |= (0b11 << ADC_CCR_CKMODE_Pos | ADC_CCR_VREFEN);	// Set ADC clock to HCLK/2 and enable VREFINT
+	// ADC1->CR |= ADC_CR_ADSTP;
+	// while((ADC1->ISR & ADC_ISR_ADRDY));	
+	// ADC1->CR =0;
+	// ADC1->CFGR = ADC_CFGR_OVRMOD | 1<<ADC_CFGR_EXTEN_Pos | 0b01001<<ADC_CFGR_EXTSEL_Pos | ADC_CFGR_DMAEN | ADC_CFGR_DMACFG; // Set overrun mode, external trigger rising edge, TIM1_TRGO as trigger, DMA enable, DMA circular mode
+	// ADC1->CR |= ADC_CR_ADVREGEN;	
+	// ADC1->CR |= ADC_CR_ADCAL;
+	// while(ADC1->CR & ADC_CR_ADCAL);
 	
-	ADC1->SQR1 |= 0b10<<ADC_SQR1_L_Pos; // 3 ADC1 conversions
-	ADC1->SQR1 |= 1<<ADC_SQR1_SQ1_Pos | 8<<ADC_SQR1_SQ2_Pos | 9<<ADC_SQR1_SQ3_Pos; // First conversion - channel 14. Second conversion - channel 2.
-	//ADC1->IER |= ADC_IER_EOSIE;
-	ADC1->CR |= ADC_CR_ADEN;
-	while(!(ADC1->ISR & ADC_ISR_ADRDY));
-	ADC1->CR |= ADC_CR_ADSTART;
+	// ADC1->SQR1 |= 0b10<<ADC_SQR1_L_Pos; // 3 ADC1 conversions
+	// ADC1->SQR1 |= 1<<ADC_SQR1_SQ1_Pos | 8<<ADC_SQR1_SQ2_Pos | 9<<ADC_SQR1_SQ3_Pos; // First conversion - channel 14. Second conversion - channel 2.
+	// //ADC1->IER |= ADC_IER_EOSIE;
+	// ADC1->CR |= ADC_CR_ADEN;
+	// while(!(ADC1->ISR & ADC_ISR_ADRDY));
+	// ADC1->CR |= ADC_CR_ADSTART;
+
+	DMAMUX1_Channel1->CCR = 36; // dma request from ADC2
+	DMA1_Channel2-> CCR = 0b01<<DMA_CCR_MSIZE_Pos | 0b10<<DMA_CCR_PSIZE_Pos | DMA_CCR_MINC | DMA_CCR_CIRC ; // 16 bit memory size, 32 bit peripheral size, memory increment mode, circular mode, transfer complete interrupt enable
+	DMA1_Channel2->CPAR = (uint32_t) &(ADC2->DR);
+	DMA1_Channel2->CMAR = (uint32_t) Adc2DmaReadings;
+	DMA1_Channel2->CNDTR = 2;
+	DMA1_Channel2->CCR |= DMA_CCR_EN;
 
 	NVIC_EnableIRQ(DMA1_Channel5_IRQn);
 	DMAMUX1_Channel4->CCR = 5;
-	DMA1_Channel5-> CCR = 0b1<<DMA_CCR_MSIZE_Pos | 0b10<<DMA_CCR_PSIZE_Pos | DMA_CCR_MINC | DMA_CCR_CIRC | DMA_CCR_TCIE; // 16 bit memory size, 32 bit peripheral size, memory increment mode, circular mode, transfer complete interrupt enable
+	DMA1_Channel5-> CCR = 0b01<<DMA_CCR_MSIZE_Pos | 0b10<<DMA_CCR_PSIZE_Pos | DMA_CCR_MINC | DMA_CCR_CIRC | DMA_CCR_TCIE; // 16 bit memory size, 32 bit peripheral size, memory increment mode, circular mode, transfer complete interrupt enable
 	DMA1_Channel5->CPAR = (uint32_t) &(ADC1->DR);
 	DMA1_Channel5->CMAR = (uint32_t) AdcDmaReadings;
 	DMA1_Channel5->CNDTR = 3;
@@ -198,18 +215,20 @@ void Init()
 	// DAC1->CR |= DAC_CR_EN1;
 	// DAC1->DHR12R1 = 2050;
 	
-	ADC2->CR |= ADC_CR_ADSTP;
-	while((ADC2->ISR & ADC_ISR_ADRDY));	
-	ADC2->CR =0;
-	ADC2->CFGR = ADC_CFGR_OVRMOD | ADC_CFGR_CONT; // Set overrun mode, external trigger rising edge, TIM1_TRGO as trigger, DMA enable, DMA circular mode
-	ADC2->CR |= ADC_CR_ADVREGEN;	
-	ADC2->CR |= ADC_CR_ADCAL;
-	while(ADC2->CR & ADC_CR_ADCAL);
-	ADC2->SQR1 |= 0b0<<ADC_SQR1_L_Pos; // 1 ADC2 conversions
-	ADC2->SQR1 |= 12<<ADC_SQR1_SQ1_Pos; // First conversion - ch12
-	ADC2->CR |= ADC_CR_ADEN;
-	while(!(ADC2->ISR & ADC_ISR_ADRDY));
-	ADC2->CR |= ADC_CR_ADSTART;
+	// ADC2->CR |= ADC_CR_ADSTP;
+	// while((ADC2->ISR & ADC_ISR_ADRDY));	
+	// ADC2->CR =0;
+	// ADC2->CFGR = ADC_CFGR_OVRMOD | ADC_CFGR_CONT; // Set overrun mode, external trigger rising edge, TIM1_TRGO as trigger, DMA enable, DMA circular mode
+	// ADC2->CR |= ADC_CR_ADVREGEN;	
+	// ADC2->CR |= ADC_CR_ADCAL;
+	// while(ADC2->CR & ADC_CR_ADCAL);
+	// ADC2->SQR1 |= 0b0<<ADC_SQR1_L_Pos; // 1 ADC2 conversions
+	// ADC2->SQR1 |= 12<<ADC_SQR1_SQ1_Pos; // First conversion - ch12
+	// ADC2->CR |= ADC_CR_ADEN;
+	// while(!(ADC2->ISR & ADC_ISR_ADRDY));
+	// ADC2->CR |= ADC_CR_ADSTART;
+
+	
 	
 }
 
@@ -257,7 +276,9 @@ void setPhaseVoltage(float Uq, float Ud, float angle_el)
 	// uart.println(Uabc_pu[2]);
 }
 
-	
+motor_t motor = {0};
+PID pidUd (&motor.FilteredIdqA[0],  &motor.Udq_pu[0], &setiD, 0.1f, 0.5f, 0, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
+PID pidUq (&motor.FilteredIdqA[1],  &motor.Udq_pu[1], &setiQ, 0.01f, 0.15f, 0, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
 int main(void)
 {
 	// generateSine(sineLookUp, 0, 0, 360);
@@ -279,10 +300,17 @@ int main(void)
 	pidUd.SetMode(PIDMode_TypeDef::_PID_MODE_AUTOMATIC);
 
 	//uart.print((int)ClockManager::coreClock);
-	
+	// uint8_t i2cData = 0x08;
+	// i2c3.sendByte(&i2cData, 0x36);
+	// uint8_t recieved = i2c3.recieveByte(0x36);
+	// recieved &= ~ (0b11<<4);
+	// i2c3.sendByte(&i2cData, recieved);
+
 		
 	while (1)
 	{
+		
+		//uart.println();
 		// float Uabc_pu1[3];
 		// Uabc_pu1[0] = -1.0f;
 		// Uabc_pu1[1] = 0.0f;
@@ -314,46 +342,44 @@ int main(void)
 			}
 			else if (UARTrxData[0] == 'w')
 			{
-					setMotorSpeed -= 50;
+					setMotorSpeed -= 5;
+			}
+			else if (UARTrxData[0] == 'v')
+			{
+					setMotorSpeed = typeConverter::stringToInt(UARTrxData+1);
 			}
 
 		}
 
-		//if (milis-motorProcessLastTime>=slopeInterval)
-		if (TIM2loopFlag)
+		if (milis-motorProcessLastTime>=slopeInterval)
+		//if (TIM2loopFlag)
 		{
 			if (!motorState)
 			{
 				if (prevMotorState)
 				{
-					
+					pwmOutOff(&inverterPWM);
+					motorSpeed = 0;
+					//setiQ = 0;
 				}
-
-			
-				
 				if (motorSpeed > 5)
 				{
-					motorSpeed-=5;
+					motorSpeed--;
 				}
 				else
 				{
-					
-				// 	generateSine(sineLookUp, 0, 0, 360);
-				// 	generateSine(sineLookUp2, 120, 0, 360);
-				// 	generateSine(sineLookUp3, 240, 0, 360);
-					setUq = 0;
-					setUd = 0;
+					motor.Udq_pu[1] = 0;
+					motor.Udq_pu[0] = 0;
 					motorSpeed = 0;
 				}	
-				prevMotorState = 0;
-											
+				prevMotorState = 0;											
 			}
 			if (motorState)
-			{			
-			
+			{					
 				if (prevMotorState == 0)
 				{
-					setUq=0;
+					//setiQ = 20;
+					pwmOutOn(&inverterPWM);
 			// 		generateSine(sineLookUp, 0, 200, 360);  //200hz 42 amplitude 21sek bez rad, 300hz 50 amplitude 6,5sek bez rad
 			// 		generateSine(sineLookUp2, 120, 200, 360); // 200hz 42 amplitude 2min+++sek z rad, 300hz 50 amplitude 36 sek z rad
 			// 		generateSine(sineLookUp3, 240, 200, 360); 
@@ -380,7 +406,7 @@ int main(void)
 				//TIM2->ARR = 1;
 			}  
 			TIM2loopFlag = false;
-			//motorProcessLastTime = milis;
+			motorProcessLastTime = milis;
 		}
 
 			
@@ -471,21 +497,52 @@ int main(void)
 	
 		
 
-		if(milis-lastPrintTime>=100)
+		if(milis-lastPrintTime>=1)
 		{
-			if (motorState)
+			uint8_t i2cData = 0x0E;
+			i2c3.sendByte(&i2cData, 0x36);
+			uint8_t recieved = i2c3.recieveByte(0x36);
+			uint8_t recieved1 = i2c3.recieveByte(0x36);
+			uint16_t angleEnc = (recieved << 8) | recieved1;
+			// motor_setThetaFB(&motor, angleEnc);
 			// uart.print("FilterediQ:");
-			// uart.print(filterediQ);
-			// uart.print(",");			
+			uart.print("setIq:");
+			uart.print(setiQ);			
 			uart.print(",");
 			uart.print("speed:");
 			uart.print((int)motorSpeed);
 			uart.print(",");
-			uart.print("setIQ:");
-			uart.print(setiQ);
-			uart.print(",");
+			// uart.print("Vin:");
+			// uart.print(ADC2->DR*VIN_ADC_GAIN);
+			// uart.print(",");
 			uart.print("filterediQ:");
-			uart.println(filterediQ);
+			uart.print(motor.FilteredIdqA[1]);
+			uart.print(",");
+			uart.print("filterediD:");
+			uart.print(motor.FilteredIdqA[0]);
+			uart.print(",");
+			// uart.print("Ia:");
+			// uart.print(AdcDmaReadings[0]);
+			// uart.print(",");
+			// uart.print("Ib:");
+			// uart.print(AdcDmaReadings[1]);
+			// uart.print(",");
+			// uart.print("Ic:");
+			// uart.print(AdcDmaReadings[2]);
+			// uart.print(",");
+			//uart.print("anglefiltered:");
+			//static uint16_t filteredAngle;
+			//filteredAngle += 0.8f * (Adc2DmaReadings[0] - filteredAngle);
+			//uart.print(filteredAngle);
+			//uart.print(",");
+			uart.print("angleADC:");
+			uart.print(Adc2DmaReadings[0]/11.21111111f);
+			uart.print(",");
+			uart.print("angleI2c:");
+			uart.print(angleEnc/11.375f);
+			uart.print(",");
+			uart.print("sumIabc:");
+			uart.println(motor.Iabc_A[0]+motor.Iabc_A[1]+motor.Iabc_A[2]);
 			led4.toggle();
 			lastPrintTime = milis;		
 		}
@@ -500,29 +557,50 @@ extern "C"
 	{
 		if (DMA1->ISR & DMA_ISR_TCIF5)
 		{
-				DMA1->IFCR |= DMA_IFCR_CTCIF5;
+			DMA1->IFCR |= DMA_IFCR_CTCIF5;
 			
 			//TIM1->SR &= ~TIM_SR_UIF;
 			
 				//iAlpha  = (0.66f)*(AdcDmaReadings[0]*0.0016541352f-3.3f) - (0.33f)*(AdcDmaReadings[1]*0.0016541352f-3.3f) + (0.33f)*(AdcDmaReadings[2]*0.0016541352f-3.3f);
 
 				//iBeta   = (1.1547005f)*(AdcDmaReadings[1]*0.0016541352f-3.3f) - (1.1547005f)*(AdcDmaReadings[2]*0.0016541352f-3.3f);
+			
 
-			iA=AdcDmaReadings[0]*ADC_TO_PHASE_CURRENT-ADC_OFFSET;
-			iB=AdcDmaReadings[2]*ADC_TO_PHASE_CURRENT-ADC_OFFSET;
-			iC=AdcDmaReadings[1]*ADC_TO_PHASE_CURRENT-ADC_OFFSET;
+			//1. write measured currents to mortor struct
+			motor_setABCcurrentsFB (&motor, AdcDmaReadings[0]*ADC_TO_PHASE_CURRENT-ADC_OFFSET, \
+			AdcDmaReadings[2]*ADC_TO_PHASE_CURRENT-ADC_OFFSET,\
+			AdcDmaReadings[1]*ADC_TO_PHASE_CURRENT-ADC_OFFSET);
 
-			iAlpha = (float) (1.0/3.0) * ((float) (2.0f * iA) - (iB + iC));
-			iBeta = (float) (M_1_SQRT3) * (iB - iC);
+			motor_setThetaFB(&motor, Adc2DmaReadings[0]/11.21111111f);
+			// iA=AdcDmaReadings[0]*ADC_TO_PHASE_CURRENT-ADC_OFFSET;
+			// iB=AdcDmaReadings[2]*ADC_TO_PHASE_CURRENT-ADC_OFFSET;
+			// iC=AdcDmaReadings[1]*ADC_TO_PHASE_CURRENT-ADC_OFFSET;
 
+			//2. Clarke transform 
+			motor_clark (&motor);
 
-			// iAlpha  = iA;
-			// iBeta = (M_1_SQRT3*iAlpha) + (M_2_SQRT3 * iB);
-			theta = SetOLangle;
-			iD = iAlpha*cos(theta)+iBeta*sin(theta);
-			iQ = -iAlpha*sin(theta)+iBeta*cos(theta);
-			filterediQ = filterediQ + normalizedCoeff * (iQ - filterediQ);
-			filterediD = filterediD + normalizedCoeff * (iD - filterediD);
+			// iAlpha = (float) (1.0/3.0) * ((float) (2.0f * iA) - (iB + iC));
+			// iBeta = (float) (M_1_SQRT3) * (iB - iC);
+
+			// 3.Set theta to motor struct
+
+			motor_setThetaRef (&motor, SetOLangle);
+			//theta = SetOLangle;
+
+			//4. Park transform
+			motor_parkTransform (&motor);
+
+			// iD = iAlpha*cos(theta)+iBeta*sin(theta);
+			// iQ = -iAlpha*sin(theta)+iBeta*cos(theta);
+
+			//5. Filter currents
+
+			motor.FilteredIdqA[0] += normalizedCoeff * (motor.Idq_A[0] - motor.FilteredIdqA[0]);
+			motor.FilteredIdqA[1] += normalizedCoeff * (motor.Idq_A[1] - motor.FilteredIdqA[1]);
+
+			// filterediQ = filterediQ + normalizedCoeff * (iQ - filterediQ);
+			// filterediD = filterediD + normalizedCoeff * (iD - filterediD);
+
 
 
 			velChange = (motorSpeed * 0.10472f) * PWM_PERIOD * POLE_PAIRS; 
@@ -534,23 +612,31 @@ extern "C"
 				{
 					SetOLangle = 0;
 				}
-			
-			
-				
+							
 			if (motorState )
 			{
 				//setPhaseVoltage(0.04, 0.04, SetOLangle);
-				pidUq.Compute();
-				pidUd.Compute();
+				
+				
 				if (UART5->ISR & USART_ISR_ORE)
 				{
 					led5.set();
 					UART5->ICR |= USART_ICR_ORECF;
 					uart.bufferFlush();
+					
 				}
-								
-			} setPhaseVoltage(setUq, setUd, SetOLangle);
+			pidUq.Compute();
+			pidUd.Compute();				
+			} 
+		
+			// 6. Inverse park and clark transforms and set pwm duty cycles
+			// motor.Udq_pu[0] = 0.0f;
+			// motor.Udq_pu[1] = 0.03f;
+			motor_invParkTransform (&motor);
+			motor_invClarkTransform (&motor);
 
+			pwm_set3Phase_pu(&inverterPWM, motor.Uabc_pu);
+			// setPhaseVoltage(setUq, setUd, SetOLangle);	
 			led1.toggle();
 			//setPhaseVoltage(0.5, 0.5, SetOLangle);
 		}
@@ -561,7 +647,7 @@ extern "C"
 		if (TIM2->SR & TIM_SR_UIF)
 		{
 			TIM2->SR &= ~TIM_SR_UIF;
-			led3.toggle();
+			//led3.toggle();
 			TIM2loopFlag = true;
 		}
 	}

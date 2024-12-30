@@ -26,7 +26,7 @@ extern GPIO uartRX;
 extern GPIO Led4PD_1;
 extern GPIO led1 ;
 extern GPIO led2 ;
-extern GPIO led3 ;
+//extern GPIO led3 ;
 extern GPIO led4 ;
 extern GPIO led5 ;
 extern GPIO PWMtim1ch1;

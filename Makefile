@@ -12,7 +12,7 @@ OBJDMP 	= $(ARCH)-objdump
 GDB 	= $(ARCH)-gdb
 SZ 		= $(ARCH)-size
 
-OPTFLAG = -O0 -flto -ffat-lto-objects ### optimalization changed to lvl 0 (from 2)
+OPTFLAG = -O2 -flto -ffat-lto-objects ### optimalization changed to lvl 0 (from 2)
 
 #=============================================================================#
 # project configuration
@@ -22,7 +22,7 @@ DRIVER_DIR = drivers
 MODULE_DIR = modules
 LIB_DIR = lib
 #LIBS = buffer logger format shell text_tools parser math_algo analog_scaler hash rand_tools stubs can_processor mosfet_io
-LIBS = stubs buffer typeConverter states lcd PID motor
+LIBS = stubs buffer typeConverter states lcd PID motor motor_process motor_math
 
 LD_SCRIPT := $(DRIVER_DIR)/linker_scripts/STM32G474RETX_FLASH.ld
 

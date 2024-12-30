@@ -45,7 +45,9 @@
         "milis.h": "c",
         "system_error": "cpp",
         "buffer": "cpp",
-        "numbers": "cpp"
+        "numbers": "cpp",
+        "motor.h": "c",
+        "motor_math.h": "c"
     },
     "cortex-debug.variableUseNaturalFormat": true
 }
