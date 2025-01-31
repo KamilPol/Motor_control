@@ -42,10 +42,9 @@ extern "C"
 
 
 char UARTrxData [50];
-uint16_t AdcDmaReadings[3];
-uint16_t Adc2DmaReadings[2];
+volatile uint16_t AdcDmaReadings[3];
+volatile uint16_t Adc2DmaReadings[2];
 
-uint16_t ADCVin;
 uint32_t motorProcessLastTime=0;
 uint32_t printProcessLastTime=0;
 long UARTprevTime=0;
@@ -62,10 +61,10 @@ volatile uint32_t lastacceltime=0;
 volatile float iA = 0;
 volatile float iB = 0;
 volatile float iC = 0;
-float iAlpha = 0;
-float iBeta	= 0;
-float iD = 0;
-float iQ = 0;
+volatile float iAlpha = 0;
+volatile float iBeta	= 0;
+volatile float iD = 0;
+volatile float iQ = 0;
 float setiQ = 10;
 float setiD = 0;
 float theta = 0;
@@ -75,24 +74,23 @@ uint32_t lastPrintTime=0;
 uint32_t lastAngleOffsetChange = 0;
 volatile float velChange = 0;	
 volatile float SetOLangle =0;
-static volatile float speedMul=0;
-float setUq=0;
-float setUd=0;
-float Ualpha = 0;
-float Ubeta	= 0;
+volatile float setUq=0;
+volatile float setUd=0;
+volatile float Ualpha = 0;
+volatile float Ubeta	= 0;
 volatile float pidOUT = 0;
 
-float filterediQ = 0;
-float filterediD = 0;
+volatile float filterediQ = 0;
+volatile float filterediD = 0;
 volatile bool TIM2loopFlag = false;
 uint32_t motorState=0;
 volatile uint32_t motorSpeed=0;
-uint32_t setMotorSpeed=50;
+volatile uint32_t setMotorSpeed=50;
 uint32_t accell = 1000;
 uint32_t slopeInterval = 1000/accell;
 
 pwm_t inverterPWM = {.tim = TIM1, .frequency = PWM_FREQ};
-
+uint32_t serialPrintInterval = 5;
 
 
  
@@ -277,8 +275,8 @@ void setPhaseVoltage(float Uq, float Ud, float angle_el)
 }
 
 motor_t motor = {0};
-PID pidUd (&motor.FilteredIdqA[0],  &motor.Udq_pu[0], &setiD, 0.01f, 0.15f, 0.0f, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
-PID pidUq (&motor.FilteredIdqA[1],  &motor.Udq_pu[1], &setiQ, 0.001f, 0.015f, 0.0f, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
+PID pidUd (&motor.FilteredIdqA[0],  &motor.Udq_pu[0], &setiD, 0.0005f, 0.5f, 0.0f, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
+PID pidUq (&motor.FilteredIdqA[1],  &motor.Udq_pu[1], &setiQ, 0.001f, 1.0f, 0.0f, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
 int main(void)
 {
 	// generateSine(sineLookUp, 0, 0, 360);
@@ -322,7 +320,7 @@ int main(void)
 			
 			if (UARTrxData[0] == '0')
 			{
-				motorState = 0;
+					motorState = 0;
 			}
 			else if (UARTrxData[0] == '1')
 			{
@@ -347,6 +345,18 @@ int main(void)
 			else if (UARTrxData[0] == 'v')
 			{
 					setMotorSpeed = typeConverter::stringToInt(UARTrxData+1);
+			}
+			else if (UARTrxData[0] == 'q')
+			{
+					setiQ = typeConverter::stringToInt(UARTrxData+1);
+			}
+			else if (UARTrxData[0] == 'd')
+			{
+					setiD = typeConverter::stringToInt(UARTrxData+1);
+			}
+			else if (UARTrxData[0] == 't')
+			{
+					serialPrintInterval = typeConverter::stringToInt(UARTrxData+1);
 			}
 
 		}
@@ -389,12 +399,12 @@ int main(void)
 				{				
 					motorSpeed++;			
 				}
-				else
+				else if (motorSpeed > setMotorSpeed)
 				{
-					motorSpeed =setMotorSpeed;
+					motorSpeed --;
 					//motorState = 0;
 					// acceltime = milis - lastacceltime;				
-				}
+				} else {}
 				prevMotorState = 1;
 			}
 			// sineFreq = motorSpeed * 0.1166666f; /// 7 pole pairs * 60 * speed = freq
@@ -497,53 +507,57 @@ int main(void)
 	
 		
 
-		if(milis-lastPrintTime>=1)
+		if(milis-lastPrintTime>=serialPrintInterval)
 		{
 			uint8_t i2cData = 0x0E;
 			i2c3.sendByte(&i2cData, 0x36);
 			uint8_t recieved = i2c3.recieveByte(0x36);
 			uint8_t recieved1 = i2c3.recieveByte(0x36);
 			uint16_t angleEnc = (recieved << 8) | recieved1;
-			// motor_setThetaFB(&motor, angleEnc);
-			// uart.print("FilterediQ:");
-			uart.print("setIq:");
-			uart.print(setiQ);			
+			// // motor_setThetaFB(&motor, angleEnc);
+			// // uart.print("FilterediQ:");
+			// uart.print("setIq:");
+			// uart.print(setiQ);			
+			// uart.print(",");
+			uart.print("time[ms]:");
+			uart.print((int)milis);
 			uart.print(",");
 			uart.print("speed:");
 			uart.print((int)motorSpeed);
 			uart.print(",");
-			// uart.print("Vin:");
-			// uart.print(ADC2->DR*VIN_ADC_GAIN);
-			// uart.print(",");
+			// // // uart.print("Vin:");
+			// // // uart.print(ADC2->DR*VIN_ADC_GAIN);
+			// // // uart.print(",");
 			uart.print("filterediQ:");
 			uart.print(motor.FilteredIdqA[1]);
 			uart.print(",");
 			uart.print("filterediD:");
 			uart.print(motor.FilteredIdqA[0]);
 			uart.print(",");
-			// uart.print("Ia:");
-			// uart.print(AdcDmaReadings[0]);
+			uart.print("Ia:");
+			uart.print(AdcDmaReadings[0]);
+			uart.print(",");
+			uart.print("Ib:");
+			uart.print(AdcDmaReadings[1]); 
+			uart.print(",");
+			uart.print("Ic:");
+			uart.print(AdcDmaReadings[2]);
+			uart.print(",");
+			
+			// // //uart.print("anglefiltered:");
+			// // //static uint16_t filteredAngle;
+			// // //filteredAngle += 0.8f * (Adc2DmaReadings[0] - filteredAngle);
+			// // //uart.print(filteredAngle);
 			// uart.print(",");
-			// uart.print("Ib:");
-			// uart.print(AdcDmaReadings[1]);
-			// uart.print(",");
-			// uart.print("Ic:");
-			// uart.print(AdcDmaReadings[2]);
-			// uart.print(",");
-			//uart.print("anglefiltered:");
-			//static uint16_t filteredAngle;
-			//filteredAngle += 0.8f * (Adc2DmaReadings[0] - filteredAngle);
-			//uart.print(filteredAngle);
-			//uart.print(",");
 			uart.print("angleADC:");
-			uart.print(Adc2DmaReadings[0]/11.21111111f);
-			uart.print(",");
-			uart.print("angleI2c:");
-			uart.print(angleEnc/11.375f);
-			uart.print(",");
-			uart.print("sumIabc:");
-			uart.println(motor.Iabc_A[0]+motor.Iabc_A[1]+motor.Iabc_A[2]);
-			led4.toggle();
+			uart.println(Adc2DmaReadings[0]/11.21111111f);
+			// uart.print(",");
+			// uart.print("angleI2c:");
+			// uart.print(angleEnc/11.375f);
+			// uart.print(",");
+			// uart.print("sumIabc:");
+			// uart.println(motor.Iabc_A[0]+motor.Iabc_A[1]+motor.Iabc_A[2]);
+			// led4.toggle();
 			lastPrintTime = milis;		
 		}
 		
@@ -557,6 +571,7 @@ extern "C"
 	{
 		if (DMA1->ISR & DMA_ISR_TCIF5)
 		{
+			led1.set();
 			DMA1->IFCR |= DMA_IFCR_CTCIF5;
 			
 			//TIM1->SR &= ~TIM_SR_UIF;
@@ -637,7 +652,7 @@ extern "C"
 
 			pwm_set3Phase_pu(&inverterPWM, motor.Uabc_pu);
 			// setPhaseVoltage(setUq, setUd, SetOLangle);	
-			led1.toggle();
+			led1.reset();
 			//setPhaseVoltage(0.5, 0.5, SetOLangle);
 		}
 	}
