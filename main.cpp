@@ -85,7 +85,7 @@ volatile float filterediD = 0;
 volatile bool TIM2loopFlag = false;
 uint32_t motorState=0;
 volatile uint32_t motorSpeed=0;
-volatile uint32_t setMotorSpeed=50;
+volatile uint32_t setMotorSpeed=500;
 uint32_t accell = 1000;
 uint32_t slopeInterval = 1000/accell;
 
@@ -209,9 +209,10 @@ void Init()
 	DMA1_Channel5->CNDTR = 3;
 	DMA1_Channel5->CCR |= DMA_CCR_EN;
 	// // DAC1 configuration
-	// RCC->AHB2ENR |=RCC_AHB2ENR_DAC1EN;
-	// DAC1->CR |= DAC_CR_EN1;
-	// DAC1->DHR12R1 = 2050;
+	RCC->AHB2ENR |=RCC_AHB2ENR_DAC1EN;
+	DAC1->CR |= DAC_CR_EN1;
+	while (!(DAC1->CR & DAC_CR_EN1));
+	DAC1->DHR12R1 = 4095;
 	
 	// ADC2->CR |= ADC_CR_ADSTP;
 	// while((ADC2->ISR & ADC_ISR_ADRDY));	
@@ -585,6 +586,8 @@ extern "C"
 			motor_setABCcurrentsFB (&motor, AdcDmaReadings[0]*ADC_TO_PHASE_CURRENT-ADC_OFFSET, \
 			AdcDmaReadings[2]*ADC_TO_PHASE_CURRENT-ADC_OFFSET,\
 			AdcDmaReadings[1]*ADC_TO_PHASE_CURRENT-ADC_OFFSET);
+			DAC1->DHR12R1 = AdcDmaReadings[0];
+			
 
 			motor_setThetaFB(&motor, Adc2DmaReadings[0]/11.21111111f);
 			// iA=AdcDmaReadings[0]*ADC_TO_PHASE_CURRENT-ADC_OFFSET;

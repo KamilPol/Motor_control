@@ -28,7 +28,8 @@ GPIO adc1Ch9 (GPIOC, 3, GPIOmode::Analog);
 GPIO adc2Ch12 (GPIOB, 2, GPIOmode::Analog); //Vin
 GPIO adc2Ch17 (GPIOB, 11, GPIOmode::Analog); //Encoder
 
-
+//GPIO adc (GPIOA, 4, GPIOmode::Analog); //dac
+//GPIO dac (GPIOA, 4, GPIOmode::Output, GPIOtype::PushPull, GPIOspeed::Low, GPIOpull::None, 0);
 
 GPIO led1 (GPIOC, 4, GPIOmode::Output, GPIOtype::PushPull, GPIOspeed::Low, GPIOpull::None, 0);
 GPIO led2 (GPIOB, 10, GPIOmode::Output, GPIOtype::PushPull, GPIOspeed::Low, GPIOpull::None, 0);

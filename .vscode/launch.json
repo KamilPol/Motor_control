@@ -32,9 +32,9 @@
         "request": "launch",
         "type": "cortex-debug",
         "servertype": "stlink",
-        "stm32cubeprogrammer": "C:/ST/STM32CubeIDE_1.13.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_2.1.0.202305091550/tools/bin",
+        "stm32cubeprogrammer": "C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_2.2.0.202409170845/tools/bin",
         "device": "STM32G474",
-        "stlinkPath": "C:/ST/STM32CubeIDE_1.13.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.stlink-gdb-server.win32_2.1.0.202305091550/tools/bin/ST-LINK_gdbserver.exe",
+        "stlinkPath": "C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.stlink-gdb-server.win32_2.2.0.202409170845/tools/bin/ST-LINK_gdbserver.exe",
         "runToEntryPoint": "main",
         "svdFile": "${workspaceRoot}/drivers/core/STM32G474xx.svd",
         "liveWatch": { "enabled": true, "samplesPerSecond": 5 },
@@ -48,9 +48,9 @@
         "request": "attach",
         "type": "cortex-debug",
         "servertype": "stlink",
-        "stm32cubeprogrammer": "C:/ST/STM32CubeIDE_1.13.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_2.1.0.202305091550/tools/bin",
+        "stm32cubeprogrammer": "C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_2.2.0.202409170845/tools/bin",
         "device": "STM32G474",
-        "stlinkPath": "C:/ST/STM32CubeIDE_1.13.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.stlink-gdb-server.win32_2.1.0.202305091550/tools/bin/ST-LINK_gdbserver.exe",
+        "stlinkPath": "C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.stlink-gdb-server.win32_2.2.0.202409170845/tools/bin/ST-LINK_gdbserver.exe",
         "svdFile": "${workspaceRoot}/drivers/core/STM32G474xx.svd",
         "liveWatch": { "enabled": true, "samplesPerSecond": 5 }
         
