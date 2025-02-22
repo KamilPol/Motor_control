@@ -89,6 +89,7 @@ volatile uint32_t setMotorSpeed=500;
 uint32_t accell = 1000;
 uint32_t slopeInterval = 1000/accell;
 
+
 pwm_t inverterPWM = {.tim = TIM1, .frequency = PWM_FREQ};
 uint32_t serialPrintInterval = 5;
 
@@ -144,70 +145,52 @@ void Init()
 	// TIM1->BDTR |= TIM_BDTR_MOE | 0b00100000<<TIM_BDTR_DTG_Pos;
 	// TIM1->CR1  |= TIM_CR1_CEN;
 	
-	adcChannelNumbers_t adc1Channels[3] = {1, 8, 9};
-	adcChannel_t adc = {.adc = ADC1, .channelsCount = 3, .channels = adc1Channels, .triggerEdge = risingEdge, .externalTriggerEvent = 0b01001, .adcError = adcOk};
+	adcChannelNumbers_t adc1Channels[] = {1};
+	adcChannel_t adc = {.adc = ADC1, .channelsCount = 1, .channels = adc1Channels, .triggerEdge = risingEdge, .externalTriggerEvent = 0b01001, .adcError = adcOk};
 	adc_init(&adc);
 
-	adcChannelNumbers_t adc2Channels[2] = {14 ,12};
-	adcChannel_t adc2 = {.adc = ADC2, .channelsCount = 2, .channels = adc2Channels, .triggerEdge = risingEdge, .externalTriggerEvent = 0b01001, .adcError = adcOk};
+	adcChannelNumbers_t adc2Channels[] = {5};
+	adcChannel_t adc2 = {.adc = ADC2, .channelsCount = 1, .channels = adc2Channels, .triggerEdge = risingEdge, .externalTriggerEvent = 0b01001, .adcError = adcOk};
 	adc_init(&adc2);
+
+	adcChannelNumbers_t adc3Channels[] = {5};
+	adcChannel_t adc3 = {.adc = ADC3, .channelsCount = 1, .channels = adc3Channels, .triggerEdge = risingEdge, .externalTriggerEvent = 0b01001, .adcError = adcOk};
+	adc_init(&adc3);
+
 
 
 	RCC->AHB1ENR |= RCC_AHB1ENR_DMA1EN | RCC_AHB1ENR_DMAMUX1EN;
-	// DMAMUX1_Channel1->CCR = 56; // dma request from TIM2
-	// DMA1_Channel2-> CCR = 0b10<<DMA_CCR_MSIZE_Pos | 0b10<<DMA_CCR_PSIZE_Pos | DMA_CCR_MINC | DMA_CCR_CIRC | DMA_CCR_DIR ; // 16 bit memory size, 32 bit peripheral size, memory increment mode, circular mode, transfer complete interrupt enable
-	// DMA1_Channel2->CMAR = (uint32_t) sineLookUp;
-	// DMA1_Channel2->CPAR = (uint32_t) &(TIM1-> CCR1);
-	// DMA1_Channel2->CNDTR = (sizeof(sineLookUp)/sizeof(sineLookUp [0]));
-	// DMA1_Channel2->CCR |= DMA_CCR_EN;
+	DMAMUX1_Channel2->CCR = 38; // dma request from ADC4
+	DMA1_Channel3-> CCR = 0b01<<DMA_CCR_MSIZE_Pos | 0b10<<DMA_CCR_PSIZE_Pos | DMA_CCR_MINC | DMA_CCR_CIRC; // 16 bit memory size, 32 bit peripheral size, memory increment mode, circular mode, transfer complete interrupt enable
+	DMA1_Channel3->CMAR = (uint32_t) Adc2DmaReadings;
+	DMA1_Channel3->CPAR = (uint32_t) &(ADC4->DR);
+	DMA1_Channel3->CNDTR = 2;
+	DMA1_Channel3->CCR |= DMA_CCR_EN;
 
-	// DMAMUX1_Channel2->CCR = 56; // dma request from TIM2
-	// DMA1_Channel3-> CCR = 0b10<<DMA_CCR_MSIZE_Pos | 0b10<<DMA_CCR_PSIZE_Pos | DMA_CCR_MINC | DMA_CCR_CIRC | DMA_CCR_DIR ; // 16 bit memory size, 32 bit peripheral size, memory increment mode, circular mode, transfer complete interrupt enable
-	// DMA1_Channel3->CMAR = (uint32_t) sineLookUp2;
-	// DMA1_Channel3->CPAR = (uint32_t) &(TIM1-> CCR2);
-	// DMA1_Channel3->CNDTR = (sizeof(sineLookUp2)/sizeof(sineLookUp2 [0]));
-	// DMA1_Channel3->CCR |= DMA_CCR_EN;
-
-	// DMAMUX1_Channel3->CCR = 56; // dma request from TIM2
-	// DMA1_Channel4-> CCR = 0b10<<DMA_CCR_MSIZE_Pos | 0b10<<DMA_CCR_PSIZE_Pos | DMA_CCR_MINC | DMA_CCR_CIRC | DMA_CCR_DIR ; // 16 bit memory size, 32 bit peripheral size, memory increment mode, circular mode, transfer complete interrupt enable
-	// DMA1_Channel4->CMAR = (uint32_t) sineLookUp3;
-	// DMA1_Channel4->CPAR = (uint32_t) &(TIM1-> CCR3);
-	// DMA1_Channel4->CNDTR = (sizeof(sineLookUp3)/sizeof(sineLookUp3 [0]));
-	// DMA1_Channel4->CCR |= DMA_CCR_EN;
-
-	// ADC1 configuration
-	//NVIC_EnableIRQ(ADC1_2_IRQn);
-	// RCC->AHB2ENR |= RCC_AHB2ENR_ADC12EN;	
-	// ADC12_COMMON->CCR |= (0b11 << ADC_CCR_CKMODE_Pos | ADC_CCR_VREFEN);	// Set ADC clock to HCLK/2 and enable VREFINT
-	// ADC1->CR |= ADC_CR_ADSTP;
-	// while((ADC1->ISR & ADC_ISR_ADRDY));	
-	// ADC1->CR =0;
-	// ADC1->CFGR = ADC_CFGR_OVRMOD | 1<<ADC_CFGR_EXTEN_Pos | 0b01001<<ADC_CFGR_EXTSEL_Pos | ADC_CFGR_DMAEN | ADC_CFGR_DMACFG; // Set overrun mode, external trigger rising edge, TIM1_TRGO as trigger, DMA enable, DMA circular mode
-	// ADC1->CR |= ADC_CR_ADVREGEN;	
-	// ADC1->CR |= ADC_CR_ADCAL;
-	// while(ADC1->CR & ADC_CR_ADCAL);
-	
-	// ADC1->SQR1 |= 0b10<<ADC_SQR1_L_Pos; // 3 ADC1 conversions
-	// ADC1->SQR1 |= 1<<ADC_SQR1_SQ1_Pos | 8<<ADC_SQR1_SQ2_Pos | 9<<ADC_SQR1_SQ3_Pos; // First conversion - channel 14. Second conversion - channel 2.
-	// //ADC1->IER |= ADC_IER_EOSIE;
-	// ADC1->CR |= ADC_CR_ADEN;
-	// while(!(ADC1->ISR & ADC_ISR_ADRDY));
-	// ADC1->CR |= ADC_CR_ADSTART;
+	DMAMUX1_Channel0->CCR = 37; // dma request from ADC3
+	DMA1_Channel1-> CCR = 0b01<<DMA_CCR_MSIZE_Pos | 0b10<<DMA_CCR_PSIZE_Pos | DMA_CCR_MINC | DMA_CCR_CIRC; // 16 bit memory size, 32 bit peripheral size, memory increment mode, circular mode, transfer complete interrupt enable
+	DMA1_Channel1->CPAR = (uint32_t) &(ADC3->DR);
+	DMA1_Channel1->CMAR = (uint32_t) (AdcDmaReadings + 2);
+	DMA1_Channel1->CNDTR = 1;
+	DMA1_Channel1->CCR |= DMA_CCR_EN;
 
 	DMAMUX1_Channel1->CCR = 36; // dma request from ADC2
 	DMA1_Channel2-> CCR = 0b01<<DMA_CCR_MSIZE_Pos | 0b10<<DMA_CCR_PSIZE_Pos | DMA_CCR_MINC | DMA_CCR_CIRC ; // 16 bit memory size, 32 bit peripheral size, memory increment mode, circular mode, transfer complete interrupt enable
 	DMA1_Channel2->CPAR = (uint32_t) &(ADC2->DR);
-	DMA1_Channel2->CMAR = (uint32_t) Adc2DmaReadings;
-	DMA1_Channel2->CNDTR = 2;
+	DMA1_Channel2->CMAR = (uint32_t) (AdcDmaReadings + 1);
+	DMA1_Channel2->CNDTR = 1;
 	DMA1_Channel2->CCR |= DMA_CCR_EN;
 
 	NVIC_EnableIRQ(DMA1_Channel5_IRQn);
-	DMAMUX1_Channel4->CCR = 5;
+	DMAMUX1_Channel4->CCR = 5; // dma request from ADC1
 	DMA1_Channel5-> CCR = 0b01<<DMA_CCR_MSIZE_Pos | 0b10<<DMA_CCR_PSIZE_Pos | DMA_CCR_MINC | DMA_CCR_CIRC | DMA_CCR_TCIE; // 16 bit memory size, 32 bit peripheral size, memory increment mode, circular mode, transfer complete interrupt enable
 	DMA1_Channel5->CPAR = (uint32_t) &(ADC1->DR);
 	DMA1_Channel5->CMAR = (uint32_t) AdcDmaReadings;
-	DMA1_Channel5->CNDTR = 3;
+	DMA1_Channel5->CNDTR = 1;
 	DMA1_Channel5->CCR |= DMA_CCR_EN;
+
+
+
 	// // DAC1 configuration
 	RCC->AHB2ENR |=RCC_AHB2ENR_DAC1EN;
 	DAC1->CR |= DAC_CR_EN1;
@@ -276,7 +259,7 @@ void setPhaseVoltage(float Uq, float Ud, float angle_el)
 }
 
 motor_t motor = {0};
-PID pidUd (&motor.FilteredIdqA[0],  &motor.Udq_pu[0], &setiD, 0.01f, 0.5f, 0.0f, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
+PID pidUd (&motor.FilteredIdqA[0],  &motor.Udq_pu[0], &setiD, 0.01f, 0.5f, 0.00f, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
 PID pidUq (&motor.FilteredIdqA[1],  &motor.Udq_pu[1], &setiQ, 0.01f, 0.5f, 0.0f, PIDPON_TypeDef::_PID_P_ON_E, PIDCD_TypeDef::_PID_CD_DIRECT);
 int main(void)
 {
@@ -416,7 +399,7 @@ int main(void)
 			{
 				//TIM2->ARR = 1;
 			}  
-			TIM2loopFlag = false;
+			//TIM2loopFlag = false;
 			motorProcessLastTime = milis;
 		}
 
@@ -527,7 +510,7 @@ int main(void)
 			uart.print((int)motorSpeed);
 			uart.print(",");
 			// // // uart.print("Vin:");
-			// // // uart.print(ADC2->DR*VIN_ADC_GAIN);
+			// // // uart.print(ADC4->DR*VIN_ADC_GAIN);
 			// // // uart.print(",");
 			uart.print("filterediQ:");
 			uart.print(motor.FilteredIdqA[1]);
@@ -542,7 +525,7 @@ int main(void)
 			uart.print(AdcDmaReadings[1]); 
 			uart.print(",");
 			uart.print("Ic:");
-			uart.print(AdcDmaReadings[2]);
+			uart.print((int)ADC3->DR);
 			uart.print(",");
 			
 			// // //uart.print("anglefiltered:");
@@ -572,7 +555,7 @@ extern "C"
 	{
 		if (DMA1->ISR & DMA_ISR_TCIF5)
 		{
-			led1.set();
+			led2.toggle();
 			DMA1->IFCR |= DMA_IFCR_CTCIF5;
 			
 			//TIM1->SR &= ~TIM_SR_UIF;
@@ -584,8 +567,8 @@ extern "C"
 
 			//1. write measured currents to mortor struct
 			motor_setABCcurrentsFB (&motor, AdcDmaReadings[0]*ADC_TO_PHASE_CURRENT-ADC_OFFSET, \
-			AdcDmaReadings[2]*ADC_TO_PHASE_CURRENT-ADC_OFFSET,\
-			AdcDmaReadings[1]*ADC_TO_PHASE_CURRENT-ADC_OFFSET);
+			AdcDmaReadings[1]*ADC_TO_PHASE_CURRENT-ADC_OFFSET,\
+			AdcDmaReadings[2]*ADC_TO_PHASE_CURRENT-ADC_OFFSET);
 			DAC1->DHR12R1 = AdcDmaReadings[0];
 			
 
@@ -601,6 +584,16 @@ extern "C"
 			// iBeta = (float) (M_1_SQRT3) * (iB - iC);
 
 			// 3.Set theta to motor struct
+
+			velChange = (motorSpeed * 0.10472f) * PWM_PERIOD * POLE_PAIRS; 
+				if (SetOLangle < M_2PI * POLE_PAIRS) 
+				{
+					SetOLangle += velChange;
+				}
+				else
+				{
+					SetOLangle = 0;
+				}
 
 			motor_setThetaRef (&motor, SetOLangle);
 			//theta = SetOLangle;
@@ -621,16 +614,7 @@ extern "C"
 
 
 
-			velChange = (motorSpeed * 0.10472f) * PWM_PERIOD * POLE_PAIRS; 
-				if (SetOLangle < M_2PI * POLE_PAIRS) 
-				{
-					SetOLangle += velChange;
-				}
-				else
-				{
-					SetOLangle = 0;
-				}
-							
+					
 			if (motorState )
 			{
 				//setPhaseVoltage(0.04, 0.04, SetOLangle);
@@ -652,11 +636,11 @@ extern "C"
 			// motor.Udq_pu[1] = 0.03f;
 			motor_invParkTransform (&motor);
 			motor_invClarkTransform (&motor);
-
+			//float manualSetPhasesVoltage[3] = {0.001f, 0.0f, 0.0f};
 			pwm_set3Phase_pu(&inverterPWM, motor.Uabc_pu);
 			// setPhaseVoltage(setUq, setUd, SetOLangle);	
-			led1.reset();
-			//setPhaseVoltage(0.5, 0.5, SetOLangle);
+			//led2.reset();
+			// setPhaseVoltage(0, 0.03, SetOLangle);
 		}
 	}
 	

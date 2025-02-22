@@ -59,9 +59,9 @@ c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thu
 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_floor.o)
                               c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o) (floorf)
 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
-                              C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o (__aeabi_l2f)
+                              C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o (__aeabi_l2f)
 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixsfdi.o)
-                              C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o (__aeabi_f2lz)
+                              C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o (__aeabi_f2lz)
 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o)
                               c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixsfdi.o) (__aeabi_f2ulz)
 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldf3.o)
@@ -73,101 +73,101 @@ c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thu
 
 Discarded input sections
 
- .text          0x00000000        0x0 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .data          0x00000000        0x0 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss           0x00000000        0x0 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .text._Znwj    0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .text._ZdlPv   0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .text._Znaj    0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .text._ZdaPv   0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .text._ZdlPvj  0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .text._ZdaPvj  0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .text._sbrk    0x00000000       0x28 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .text._close   0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .text._lseek   0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .text._read    0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .text._write   0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.prevTick  0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+ .text          0x00000000        0x0 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .data          0x00000000        0x0 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .text._Znwj    0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .text._ZdlPv   0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .text._Znaj    0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .text._ZdaPv   0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .text._ZdlPvj  0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .text._ZdaPvj  0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .text._sbrk    0x00000000       0x28 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .text._close   0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .text._lseek   0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .text._read    0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .text._write   0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.prevTick  0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .bss.dataReadyToPrint
-                0x00000000        0x1 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x00000000        0x1 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .bss.acceltime
-                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .bss.lastacceltime
-                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.iA        0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.iB        0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.iC        0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.iAlpha    0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.iBeta     0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.iD        0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.iQ        0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.setUq     0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.setUd     0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.Ualpha    0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.Ubeta     0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.pidOUT    0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.iA        0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.iB        0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.iC        0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.iAlpha    0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.iBeta     0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.iD        0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.iQ        0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.setUq     0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.setUd     0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.Ualpha    0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.Ubeta     0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.pidOUT    0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .bss.filterediQ
-                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .bss.filterediD
-                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.ticks     0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.ticks     0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .bss._ZN6States6pickerE
-                0x00000000        0x1 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x00000000        0x1 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .bss._ZN6States15currentStateIntE
-                0x00000000        0x1 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x00000000        0x1 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .bss._ZN6States11maxStateIntE
-                0x00000000        0x1 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.__errno   0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x00000000        0x1 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.__errno   0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .bss._ZL8heap_end
-                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\cc901LRz.debug.temp.o
- .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccekZqNM.debug.temp.o
- .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccLHTYUZ.debug.temp.o
- .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccAoBZ9c.debug.temp.o
- .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\cctvB1vq.debug.temp.o
- .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\cc4YZt5C.debug.temp.o
- .debug_info    0x00000000     0x2881 C:\Users\polit\AppData\Local\Temp\ccHpGeTO.debug.temp.o
- .debug_abbrev  0x00000000      0x1b7 C:\Users\polit\AppData\Local\Temp\ccHpGeTO.debug.temp.o
- .debug_line    0x00000000       0x86 C:\Users\polit\AppData\Local\Temp\ccHpGeTO.debug.temp.o
- .debug_str     0x00000000      0xf2b C:\Users\polit\AppData\Local\Temp\ccHpGeTO.debug.temp.o
+                0x00000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccc6l9QY.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccQ1QSNl.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccw0mmGI.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\cc4EmvK5.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccaLtt2s.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccSEmafQ.debug.temp.o
+ .debug_info    0x00000000     0x2881 C:\Users\polit\AppData\Local\Temp\ccWneUCd.debug.temp.o
+ .debug_abbrev  0x00000000      0x1b7 C:\Users\polit\AppData\Local\Temp\ccWneUCd.debug.temp.o
+ .debug_line    0x00000000       0x86 C:\Users\polit\AppData\Local\Temp\ccWneUCd.debug.temp.o
+ .debug_str     0x00000000      0xf2b C:\Users\polit\AppData\Local\Temp\ccWneUCd.debug.temp.o
  .debug_line_str
-                0x00000000      0x25e C:\Users\polit\AppData\Local\Temp\ccHpGeTO.debug.temp.o
- .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccHpGeTO.debug.temp.o
- .debug_info    0x00000000       0x89 C:\Users\polit\AppData\Local\Temp\cc8HZnZ0.debug.temp.o
- .debug_abbrev  0x00000000       0x8a C:\Users\polit\AppData\Local\Temp\cc8HZnZ0.debug.temp.o
- .debug_line    0x00000000       0x3a C:\Users\polit\AppData\Local\Temp\cc8HZnZ0.debug.temp.o
- .debug_str     0x00000000      0x246 C:\Users\polit\AppData\Local\Temp\cc8HZnZ0.debug.temp.o
+                0x00000000      0x25e C:\Users\polit\AppData\Local\Temp\ccWneUCd.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccWneUCd.debug.temp.o
+ .debug_info    0x00000000       0x89 C:\Users\polit\AppData\Local\Temp\ccColeVA.debug.temp.o
+ .debug_abbrev  0x00000000       0x8a C:\Users\polit\AppData\Local\Temp\ccColeVA.debug.temp.o
+ .debug_line    0x00000000       0x3a C:\Users\polit\AppData\Local\Temp\ccColeVA.debug.temp.o
+ .debug_str     0x00000000      0x246 C:\Users\polit\AppData\Local\Temp\ccColeVA.debug.temp.o
  .debug_line_str
-                0x00000000       0x5e C:\Users\polit\AppData\Local\Temp\cc8HZnZ0.debug.temp.o
- .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\cc8HZnZ0.debug.temp.o
- .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccZVPAgd.debug.temp.o
- .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccKU7A6s.debug.temp.o
- .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccp8YItJ.debug.temp.o
- .debug_info    0x00000000     0x2e10 C:\Users\polit\AppData\Local\Temp\ccMwaQPY.debug.temp.o
- .debug_abbrev  0x00000000      0x388 C:\Users\polit\AppData\Local\Temp\ccMwaQPY.debug.temp.o
- .debug_line    0x00000000       0xb8 C:\Users\polit\AppData\Local\Temp\ccMwaQPY.debug.temp.o
- .debug_str     0x00000000     0x127d C:\Users\polit\AppData\Local\Temp\ccMwaQPY.debug.temp.o
+                0x00000000       0x5e C:\Users\polit\AppData\Local\Temp\ccColeVA.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccColeVA.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccCvgTgX.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\cc0q5MIj.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccAKtkoG.debug.temp.o
+ .debug_info    0x00000000     0x2e10 C:\Users\polit\AppData\Local\Temp\ccgZ5GX2.debug.temp.o
+ .debug_abbrev  0x00000000      0x388 C:\Users\polit\AppData\Local\Temp\ccgZ5GX2.debug.temp.o
+ .debug_line    0x00000000       0xb8 C:\Users\polit\AppData\Local\Temp\ccgZ5GX2.debug.temp.o
+ .debug_str     0x00000000     0x127d C:\Users\polit\AppData\Local\Temp\ccgZ5GX2.debug.temp.o
  .debug_line_str
-                0x00000000      0x313 C:\Users\polit\AppData\Local\Temp\ccMwaQPY.debug.temp.o
- .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccMwaQPY.debug.temp.o
- .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccBBIxke.debug.temp.o
- .debug_info    0x00000000       0x1e C:\Users\polit\AppData\Local\Temp\ccQHGRWt.debug.temp.o
- .debug_abbrev  0x00000000       0x10 C:\Users\polit\AppData\Local\Temp\ccQHGRWt.debug.temp.o
- .debug_line    0x00000000       0x31 C:\Users\polit\AppData\Local\Temp\ccQHGRWt.debug.temp.o
- .debug_str     0x00000000      0x13c C:\Users\polit\AppData\Local\Temp\ccQHGRWt.debug.temp.o
+                0x00000000      0x313 C:\Users\polit\AppData\Local\Temp\ccgZ5GX2.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccgZ5GX2.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\cc81oKFp.debug.temp.o
+ .debug_info    0x00000000       0x1e C:\Users\polit\AppData\Local\Temp\ccQf6ppL.debug.temp.o
+ .debug_abbrev  0x00000000       0x10 C:\Users\polit\AppData\Local\Temp\ccQf6ppL.debug.temp.o
+ .debug_line    0x00000000       0x31 C:\Users\polit\AppData\Local\Temp\ccQf6ppL.debug.temp.o
+ .debug_str     0x00000000      0x13c C:\Users\polit\AppData\Local\Temp\ccQf6ppL.debug.temp.o
  .debug_line_str
-                0x00000000       0x3f C:\Users\polit\AppData\Local\Temp\ccQHGRWt.debug.temp.o
- .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccQHGRWt.debug.temp.o
- .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\cc7mIADJ.debug.temp.o
- .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccuhQdjY.debug.temp.o
- .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccXcnyad.debug.temp.o
- .debug_info    0x00000000       0x81 C:\Users\polit\AppData\Local\Temp\cciUwnes.debug.temp.o
- .debug_abbrev  0x00000000       0x26 C:\Users\polit\AppData\Local\Temp\cciUwnes.debug.temp.o
- .debug_line    0x00000000       0x31 C:\Users\polit\AppData\Local\Temp\cciUwnes.debug.temp.o
- .debug_str     0x00000000      0x1df C:\Users\polit\AppData\Local\Temp\cciUwnes.debug.temp.o
+                0x00000000       0x3f C:\Users\polit\AppData\Local\Temp\ccQf6ppL.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccQf6ppL.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\cckwYSk7.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccyCvLqt.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccEgiaqP.debug.temp.o
+ .debug_info    0x00000000       0x81 C:\Users\polit\AppData\Local\Temp\ccyoRoAb.debug.temp.o
+ .debug_abbrev  0x00000000       0x26 C:\Users\polit\AppData\Local\Temp\ccyoRoAb.debug.temp.o
+ .debug_line    0x00000000       0x31 C:\Users\polit\AppData\Local\Temp\ccyoRoAb.debug.temp.o
+ .debug_str     0x00000000      0x1df C:\Users\polit\AppData\Local\Temp\ccyoRoAb.debug.temp.o
  .debug_line_str
-                0x00000000       0x40 C:\Users\polit\AppData\Local\Temp\cciUwnes.debug.temp.o
- .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\cciUwnes.debug.temp.o
+                0x00000000       0x40 C:\Users\polit\AppData\Local\Temp\ccyoRoAb.debug.temp.o
+ .comment       0x00000000       0x46 C:\Users\polit\AppData\Local\Temp\ccyoRoAb.debug.temp.o
  .text          0x00000000       0x14 build/obj/drivers/startup/startup_stm32g474retx.o
  .data          0x00000000        0x0 build/obj/drivers/startup/startup_stm32g474retx.o
  .bss           0x00000000        0x0 build/obj/drivers/startup/startup_stm32g474retx.o
@@ -489,25 +489,25 @@ FLASH            0x08000000         0x00080000         xr
 Linker script and memory map
 
 LOAD build/obj/./main.o
-LOAD C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
-LOAD C:\Users\polit\AppData\Local\Temp\cc901LRz.debug.temp.o
-LOAD C:\Users\polit\AppData\Local\Temp\ccekZqNM.debug.temp.o
-LOAD C:\Users\polit\AppData\Local\Temp\ccLHTYUZ.debug.temp.o
-LOAD C:\Users\polit\AppData\Local\Temp\ccAoBZ9c.debug.temp.o
-LOAD C:\Users\polit\AppData\Local\Temp\cctvB1vq.debug.temp.o
-LOAD C:\Users\polit\AppData\Local\Temp\cc4YZt5C.debug.temp.o
-LOAD C:\Users\polit\AppData\Local\Temp\ccHpGeTO.debug.temp.o
-LOAD C:\Users\polit\AppData\Local\Temp\cc8HZnZ0.debug.temp.o
-LOAD C:\Users\polit\AppData\Local\Temp\ccZVPAgd.debug.temp.o
-LOAD C:\Users\polit\AppData\Local\Temp\ccKU7A6s.debug.temp.o
-LOAD C:\Users\polit\AppData\Local\Temp\ccp8YItJ.debug.temp.o
-LOAD C:\Users\polit\AppData\Local\Temp\ccMwaQPY.debug.temp.o
-LOAD C:\Users\polit\AppData\Local\Temp\ccBBIxke.debug.temp.o
-LOAD C:\Users\polit\AppData\Local\Temp\ccQHGRWt.debug.temp.o
-LOAD C:\Users\polit\AppData\Local\Temp\cc7mIADJ.debug.temp.o
-LOAD C:\Users\polit\AppData\Local\Temp\ccuhQdjY.debug.temp.o
-LOAD C:\Users\polit\AppData\Local\Temp\ccXcnyad.debug.temp.o
-LOAD C:\Users\polit\AppData\Local\Temp\cciUwnes.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccc6l9QY.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccQ1QSNl.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccw0mmGI.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\cc4EmvK5.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccaLtt2s.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccSEmafQ.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccWneUCd.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccColeVA.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccCvgTgX.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\cc0q5MIj.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccAKtkoG.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccgZ5GX2.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\cc81oKFp.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccQf6ppL.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\cckwYSk7.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccyCvLqt.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccEgiaqP.debug.temp.o
+LOAD C:\Users\polit\AppData\Local\Temp\ccyoRoAb.debug.temp.o
 LOAD build/obj/config/board.o
 LOAD build/obj/drivers/UART/UART.o
 LOAD build/obj/drivers/clock_manager/clock_manager.o
@@ -538,7 +538,7 @@ LOAD c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.
                 0x08000000                g_pfnVectors
                 0x080001d8                . = ALIGN (0x4)
 
-.text           0x080001d8     0x2eb8
+.text           0x080001d8     0x2f34
                 0x080001d8                . = ALIGN (0x4)
  *(.text)
  .text          0x080001d8      0x21c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
@@ -579,380 +579,381 @@ LOAD c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.
                 0x080009c0                __fixunsdfsi
  *(.text*)
  .text._ZN12ClockManager18internalFreqUpdateEm
-                0x08000a00       0x98 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x08000a00       0x98 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .text._ZN3PID4InitEv
-                0x08000a98       0x34 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x08000a98       0x34 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .text._ZN3PID15SetOutputLimitsEff
-                0x08000acc       0x60 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x08000acc       0x60 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .text._ZN6Serial5printEi.constprop.0
-                0x08000b2c       0xd4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x08000b2c       0xd4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .text._ZN13typeConverter18fractionalToStringEfPch.constprop.0
-                0x08000c00      0x120 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x08000c00      0x120 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .text.startup._ZN3PIDC2EPfS0_S0_fff14PIDPON_TypeDef13PIDCD_TypeDef.constprop.0.isra.0
-                0x08000d20       0x58 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x08000d20       0x54 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .text.adc_init.constprop.0.isra.0
-                0x08000d78      0x17c C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x08000d74      0x1ac C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .text.startup._ZN4GPIOC2EP12GPIO_TypeDefh8GPIOmode8GPIOtype9GPIOspeed8GPIOpullh.constprop.0.isra.0
-                0x08000ef4      0x118 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x08000f20      0x118 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .text._ZN3PID7ComputeEv.isra.0
-                0x0800100c       0xf8 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x08001038       0xf8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .text.startup.main
-                0x08001104      0xb7c C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
-                0x08001104                main
+                0x08001130      0xbb8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+                0x08001130                main
  .text.DMA1_Channel5_IRQHandler
-                0x08001c80      0x2c0 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
-                0x08001c80                DMA1_Channel5_IRQHandler
+                0x08001ce8      0x2c0 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+                0x08001ce8                DMA1_Channel5_IRQHandler
  .text.TIM2_IRQHandler
-                0x08001f40       0x20 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
-                0x08001f40                TIM2_IRQHandler
+                0x08001fa8       0x20 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+                0x08001fa8                TIM2_IRQHandler
  .text.UART5_IRQHandler
-                0x08001f60       0x3c C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
-                0x08001f60                UART5_IRQHandler
+                0x08001fc8       0x3c C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+                0x08001fc8                UART5_IRQHandler
  .text.SysTick_Handler
-                0x08001f9c       0x18 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
-                0x08001f9c                SysTick_Handler
+                0x08002004       0x18 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+                0x08002004                SysTick_Handler
  .text.SystemInit
-                0x08001fb4       0x38 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
-                0x08001fb4                SystemInit
- .text._init    0x08001fec        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
-                0x08001fec                _init
+                0x0800201c       0x38 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+                0x0800201c                SystemInit
+ .text._init    0x08002054        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+                0x08002054                _init
  .text.startup._sub_I_65535_0.0
-                0x08001ff0      0x2b8 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x08002058      0x2cc C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .text.Reset_Handler
-                0x080022a8       0x50 build/obj/drivers/startup/startup_stm32g474retx.o
-                0x080022a8                Reset_Handler
+                0x08002324       0x50 build/obj/drivers/startup/startup_stm32g474retx.o
+                0x08002324                Reset_Handler
  .text.Default_Handler
-                0x080022f8        0x2 build/obj/drivers/startup/startup_stm32g474retx.o
-                0x080022f8                RTC_Alarm_IRQHandler
-                0x080022f8                EXTI2_IRQHandler
-                0x080022f8                TIM8_TRG_COM_IRQHandler
-                0x080022f8                TIM8_CC_IRQHandler
-                0x080022f8                HRTIM1_Master_IRQHandler
-                0x080022f8                DebugMon_Handler
-                0x080022f8                SPI4_IRQHandler
-                0x080022f8                FDCAN3_IT0_IRQHandler
-                0x080022f8                TIM1_CC_IRQHandler
-                0x080022f8                HardFault_Handler
-                0x080022f8                HRTIM1_FLT_IRQHandler
-                0x080022f8                HRTIM1_TIMF_IRQHandler
-                0x080022f8                USB_HP_IRQHandler
-                0x080022f8                CORDIC_IRQHandler
-                0x080022f8                HRTIM1_TIMD_IRQHandler
-                0x080022f8                PendSV_Handler
-                0x080022f8                DMA2_Channel8_IRQHandler
-                0x080022f8                NMI_Handler
-                0x080022f8                EXTI3_IRQHandler
-                0x080022f8                I2C3_ER_IRQHandler
-                0x080022f8                EXTI0_IRQHandler
-                0x080022f8                I2C2_EV_IRQHandler
-                0x080022f8                FPU_IRQHandler
-                0x080022f8                FDCAN1_IT1_IRQHandler
-                0x080022f8                TIM1_UP_TIM16_IRQHandler
-                0x080022f8                UsageFault_Handler
-                0x080022f8                ADC1_2_IRQHandler
-                0x080022f8                HRTIM1_TIME_IRQHandler
-                0x080022f8                SPI1_IRQHandler
-                0x080022f8                TIM6_DAC_IRQHandler
-                0x080022f8                HRTIM1_TIMC_IRQHandler
-                0x080022f8                TIM8_UP_IRQHandler
-                0x080022f8                DMA2_Channel2_IRQHandler
-                0x080022f8                DMA1_Channel4_IRQHandler
-                0x080022f8                TIM20_TRG_COM_IRQHandler
-                0x080022f8                USART3_IRQHandler
-                0x080022f8                DMA1_Channel7_IRQHandler
-                0x080022f8                ADC3_IRQHandler
-                0x080022f8                TIM4_IRQHandler
-                0x080022f8                DMA2_Channel1_IRQHandler
-                0x080022f8                QUADSPI_IRQHandler
-                0x080022f8                I2C1_EV_IRQHandler
-                0x080022f8                DMA1_Channel6_IRQHandler
-                0x080022f8                UART4_IRQHandler
-                0x080022f8                DMA2_Channel4_IRQHandler
-                0x080022f8                TIM3_IRQHandler
-                0x080022f8                RCC_IRQHandler
-                0x080022f8                TIM20_UP_IRQHandler
-                0x080022f8                DMA1_Channel1_IRQHandler
-                0x080022f8                Default_Handler
-                0x080022f8                DMA2_Channel7_IRQHandler
-                0x080022f8                RTC_TAMP_LSECSS_IRQHandler
-                0x080022f8                FMAC_IRQHandler
-                0x080022f8                EXTI15_10_IRQHandler
-                0x080022f8                DMA1_Channel8_IRQHandler
-                0x080022f8                HRTIM1_TIMA_IRQHandler
-                0x080022f8                TIM7_DAC_IRQHandler
-                0x080022f8                FDCAN3_IT1_IRQHandler
-                0x080022f8                TIM5_IRQHandler
-                0x080022f8                UCPD1_IRQHandler
-                0x080022f8                I2C3_EV_IRQHandler
-                0x080022f8                EXTI9_5_IRQHandler
-                0x080022f8                RTC_WKUP_IRQHandler
-                0x080022f8                PVD_PVM_IRQHandler
-                0x080022f8                SPI2_IRQHandler
-                0x080022f8                MemManage_Handler
-                0x080022f8                ADC5_IRQHandler
-                0x080022f8                SVC_Handler
-                0x080022f8                DMA2_Channel5_IRQHandler
-                0x080022f8                CRS_IRQHandler
-                0x080022f8                USB_LP_IRQHandler
-                0x080022f8                EXTI4_IRQHandler
-                0x080022f8                RNG_IRQHandler
-                0x080022f8                HRTIM1_TIMB_IRQHandler
-                0x080022f8                TIM1_TRG_COM_TIM17_IRQHandler
-                0x080022f8                FDCAN2_IT1_IRQHandler
-                0x080022f8                DMA1_Channel3_IRQHandler
-                0x080022f8                ADC4_IRQHandler
-                0x080022f8                WWDG_IRQHandler
-                0x080022f8                I2C4_EV_IRQHandler
-                0x080022f8                FDCAN2_IT0_IRQHandler
-                0x080022f8                LPUART1_IRQHandler
-                0x080022f8                DMA2_Channel6_IRQHandler
-                0x080022f8                FDCAN1_IT0_IRQHandler
-                0x080022f8                COMP7_IRQHandler
-                0x080022f8                COMP1_2_3_IRQHandler
-                0x080022f8                EXTI1_IRQHandler
-                0x080022f8                USART2_IRQHandler
-                0x080022f8                COMP4_5_6_IRQHandler
-                0x080022f8                TIM20_BRK_IRQHandler
-                0x080022f8                I2C2_ER_IRQHandler
-                0x080022f8                DMA1_Channel2_IRQHandler
-                0x080022f8                TIM8_BRK_IRQHandler
-                0x080022f8                FLASH_IRQHandler
-                0x080022f8                TIM20_CC_IRQHandler
-                0x080022f8                BusFault_Handler
-                0x080022f8                USART1_IRQHandler
-                0x080022f8                SPI3_IRQHandler
-                0x080022f8                I2C1_ER_IRQHandler
-                0x080022f8                FMC_IRQHandler
-                0x080022f8                LPTIM1_IRQHandler
-                0x080022f8                DMAMUX_OVR_IRQHandler
-                0x080022f8                I2C4_ER_IRQHandler
-                0x080022f8                USBWakeUp_IRQHandler
-                0x080022f8                SAI1_IRQHandler
-                0x080022f8                DMA2_Channel3_IRQHandler
-                0x080022f8                TIM1_BRK_TIM15_IRQHandler
- *fill*         0x080022fa        0x2 
+                0x08002374        0x2 build/obj/drivers/startup/startup_stm32g474retx.o
+                0x08002374                RTC_Alarm_IRQHandler
+                0x08002374                EXTI2_IRQHandler
+                0x08002374                TIM8_TRG_COM_IRQHandler
+                0x08002374                TIM8_CC_IRQHandler
+                0x08002374                HRTIM1_Master_IRQHandler
+                0x08002374                DebugMon_Handler
+                0x08002374                SPI4_IRQHandler
+                0x08002374                FDCAN3_IT0_IRQHandler
+                0x08002374                TIM1_CC_IRQHandler
+                0x08002374                HardFault_Handler
+                0x08002374                HRTIM1_FLT_IRQHandler
+                0x08002374                HRTIM1_TIMF_IRQHandler
+                0x08002374                USB_HP_IRQHandler
+                0x08002374                CORDIC_IRQHandler
+                0x08002374                HRTIM1_TIMD_IRQHandler
+                0x08002374                PendSV_Handler
+                0x08002374                DMA2_Channel8_IRQHandler
+                0x08002374                NMI_Handler
+                0x08002374                EXTI3_IRQHandler
+                0x08002374                I2C3_ER_IRQHandler
+                0x08002374                EXTI0_IRQHandler
+                0x08002374                I2C2_EV_IRQHandler
+                0x08002374                FPU_IRQHandler
+                0x08002374                FDCAN1_IT1_IRQHandler
+                0x08002374                TIM1_UP_TIM16_IRQHandler
+                0x08002374                UsageFault_Handler
+                0x08002374                ADC1_2_IRQHandler
+                0x08002374                HRTIM1_TIME_IRQHandler
+                0x08002374                SPI1_IRQHandler
+                0x08002374                TIM6_DAC_IRQHandler
+                0x08002374                HRTIM1_TIMC_IRQHandler
+                0x08002374                TIM8_UP_IRQHandler
+                0x08002374                DMA2_Channel2_IRQHandler
+                0x08002374                DMA1_Channel4_IRQHandler
+                0x08002374                TIM20_TRG_COM_IRQHandler
+                0x08002374                USART3_IRQHandler
+                0x08002374                DMA1_Channel7_IRQHandler
+                0x08002374                ADC3_IRQHandler
+                0x08002374                TIM4_IRQHandler
+                0x08002374                DMA2_Channel1_IRQHandler
+                0x08002374                QUADSPI_IRQHandler
+                0x08002374                I2C1_EV_IRQHandler
+                0x08002374                DMA1_Channel6_IRQHandler
+                0x08002374                UART4_IRQHandler
+                0x08002374                DMA2_Channel4_IRQHandler
+                0x08002374                TIM3_IRQHandler
+                0x08002374                RCC_IRQHandler
+                0x08002374                TIM20_UP_IRQHandler
+                0x08002374                DMA1_Channel1_IRQHandler
+                0x08002374                Default_Handler
+                0x08002374                DMA2_Channel7_IRQHandler
+                0x08002374                RTC_TAMP_LSECSS_IRQHandler
+                0x08002374                FMAC_IRQHandler
+                0x08002374                EXTI15_10_IRQHandler
+                0x08002374                DMA1_Channel8_IRQHandler
+                0x08002374                HRTIM1_TIMA_IRQHandler
+                0x08002374                TIM7_DAC_IRQHandler
+                0x08002374                FDCAN3_IT1_IRQHandler
+                0x08002374                TIM5_IRQHandler
+                0x08002374                UCPD1_IRQHandler
+                0x08002374                I2C3_EV_IRQHandler
+                0x08002374                EXTI9_5_IRQHandler
+                0x08002374                RTC_WKUP_IRQHandler
+                0x08002374                PVD_PVM_IRQHandler
+                0x08002374                SPI2_IRQHandler
+                0x08002374                MemManage_Handler
+                0x08002374                ADC5_IRQHandler
+                0x08002374                SVC_Handler
+                0x08002374                DMA2_Channel5_IRQHandler
+                0x08002374                CRS_IRQHandler
+                0x08002374                USB_LP_IRQHandler
+                0x08002374                EXTI4_IRQHandler
+                0x08002374                RNG_IRQHandler
+                0x08002374                HRTIM1_TIMB_IRQHandler
+                0x08002374                TIM1_TRG_COM_TIM17_IRQHandler
+                0x08002374                FDCAN2_IT1_IRQHandler
+                0x08002374                DMA1_Channel3_IRQHandler
+                0x08002374                ADC4_IRQHandler
+                0x08002374                WWDG_IRQHandler
+                0x08002374                I2C4_EV_IRQHandler
+                0x08002374                FDCAN2_IT0_IRQHandler
+                0x08002374                LPUART1_IRQHandler
+                0x08002374                DMA2_Channel6_IRQHandler
+                0x08002374                FDCAN1_IT0_IRQHandler
+                0x08002374                COMP7_IRQHandler
+                0x08002374                COMP1_2_3_IRQHandler
+                0x08002374                EXTI1_IRQHandler
+                0x08002374                USART2_IRQHandler
+                0x08002374                COMP4_5_6_IRQHandler
+                0x08002374                TIM20_BRK_IRQHandler
+                0x08002374                I2C2_ER_IRQHandler
+                0x08002374                DMA1_Channel2_IRQHandler
+                0x08002374                TIM8_BRK_IRQHandler
+                0x08002374                FLASH_IRQHandler
+                0x08002374                TIM20_CC_IRQHandler
+                0x08002374                BusFault_Handler
+                0x08002374                USART1_IRQHandler
+                0x08002374                SPI3_IRQHandler
+                0x08002374                I2C1_ER_IRQHandler
+                0x08002374                FMC_IRQHandler
+                0x08002374                LPTIM1_IRQHandler
+                0x08002374                DMAMUX_OVR_IRQHandler
+                0x08002374                I2C4_ER_IRQHandler
+                0x08002374                USBWakeUp_IRQHandler
+                0x08002374                SAI1_IRQHandler
+                0x08002374                DMA2_Channel3_IRQHandler
+                0x08002374                TIM1_BRK_TIM15_IRQHandler
+ *fill*         0x08002376        0x2 
  .text.__libc_init_array
-                0x080022fc       0x50 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
-                0x080022fc                __libc_init_array
- .text.cosf     0x0800234c       0x70 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o)
-                0x0800234c                cosf
- .text.sinf     0x080023bc       0x74 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_sin.o)
-                0x080023bc                sinf
+                0x08002378       0x50 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
+                0x08002378                __libc_init_array
+ .text.cosf     0x080023c8       0x70 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o)
+                0x080023c8                cosf
+ .text.sinf     0x08002438       0x74 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_sin.o)
+                0x08002438                sinf
  .text.__kernel_cosf
-                0x08002430      0x104 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_cos.o)
-                0x08002430                __kernel_cosf
+                0x080024ac      0x104 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_cos.o)
+                0x080024ac                __kernel_cosf
  .text.__kernel_sinf
-                0x08002534       0x90 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_sin.o)
-                0x08002534                __kernel_sinf
+                0x080025b0       0x90 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_sin.o)
+                0x080025b0                __kernel_sinf
  .text.__ieee754_rem_pio2f
-                0x080025c4      0x260 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
-                0x080025c4                __ieee754_rem_pio2f
- .text.fabsf    0x08002824       0x10 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_fabs.o)
-                0x08002824                fabsf
+                0x08002640      0x260 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+                0x08002640                __ieee754_rem_pio2f
+ .text.fabsf    0x080028a0       0x10 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_fabs.o)
+                0x080028a0                fabsf
  .text.__kernel_rem_pio2f
-                0x08002834      0x67c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
-                0x08002834                __kernel_rem_pio2f
- .text.scalbnf  0x08002eb0       0xe4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_scalbn.o)
-                0x08002eb0                scalbnf
- .text.floorf   0x08002f94       0x94 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_floor.o)
-                0x08002f94                floorf
+                0x080028b0      0x67c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+                0x080028b0                __kernel_rem_pio2f
+ .text.scalbnf  0x08002f2c       0xe4 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_scalbn.o)
+                0x08002f2c                scalbnf
+ .text.floorf   0x08003010       0x94 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_floor.o)
+                0x08003010                floorf
  .text.__fixsfdi
-                0x08003028       0x28 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixsfdi.o)
-                0x08003028                __fixsfdi
-                0x08003028                __aeabi_f2lz
+                0x080030a4       0x28 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixsfdi.o)
+                0x080030a4                __fixsfdi
+                0x080030a4                __aeabi_f2lz
  .text.__fixunssfdi
-                0x08003050       0x40 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o)
-                0x08003050                __fixunssfdi
-                0x08003050                __aeabi_f2ulz
+                0x080030cc       0x40 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o)
+                0x080030cc                __fixunssfdi
+                0x080030cc                __aeabi_f2ulz
  *(.glue_7)
- .glue_7        0x08003090        0x0 linker stubs
+ .glue_7        0x0800310c        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08003090        0x0 linker stubs
+ .glue_7t       0x0800310c        0x0 linker stubs
  *(.eh_frame)
  *(.init)
  *(.fini)
-                0x08003090                . = ALIGN (0x4)
-                0x08003090                _etext = .
+                0x0800310c                . = ALIGN (0x4)
+                0x0800310c                _etext = .
 
-.vfp11_veneer   0x08003090        0x0
- .vfp11_veneer  0x08003090        0x0 linker stubs
+.vfp11_veneer   0x0800310c        0x0
+ .vfp11_veneer  0x0800310c        0x0 linker stubs
 
-.v4_bx          0x08003090        0x0
- .v4_bx         0x08003090        0x0 linker stubs
+.v4_bx          0x0800310c        0x0
+ .v4_bx         0x0800310c        0x0 linker stubs
 
-.iplt           0x08003090        0x0
- .iplt          0x08003090        0x0 build/obj/drivers/startup/startup_stm32g474retx.o
+.iplt           0x0800310c        0x0
+ .iplt          0x0800310c        0x0 build/obj/drivers/startup/startup_stm32g474retx.o
 
-.rodata         0x08003090      0x420
-                0x08003090                . = ALIGN (0x4)
+.rodata         0x0800310c      0x414
+                0x0800310c                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x08003090        0xc C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
  *(.rodata*)
  .rodata.main.str1.4
-                0x0800309c       0x42 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- *fill*         0x080030de        0x2 
+                0x0800310c       0x42 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ *fill*         0x0800314e        0x2 
  .rodata.npio2_hw
-                0x080030e0       0x80 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+                0x08003150       0x80 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
  .rodata.two_over_pi
-                0x08003160      0x318 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
- .rodata.PIo2   0x08003478       0x2c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+                0x080031d0      0x318 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+ .rodata.PIo2   0x080034e8       0x2c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
  .rodata.init_jk
-                0x080034a4        0xc c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
-                0x080034b0                . = ALIGN (0x4)
+                0x08003514        0xc c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+                0x08003520                . = ALIGN (0x4)
 
-.rel.dyn        0x080034b0        0x0
- .rel.iplt      0x080034b0        0x0 build/obj/drivers/startup/startup_stm32g474retx.o
+.rel.dyn        0x08003520        0x0
+ .rel.iplt      0x08003520        0x0 build/obj/drivers/startup/startup_stm32g474retx.o
 
-.ARM.extab      0x080034b0        0x0
-                0x080034b0                . = ALIGN (0x4)
+.ARM.extab      0x08003520        0x0
+                0x08003520                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x080034b0                . = ALIGN (0x4)
+                0x08003520                . = ALIGN (0x4)
 
-.ARM            0x080034b0        0x0
-                0x080034b0                . = ALIGN (0x4)
-                0x080034b0                __exidx_start = .
+.ARM            0x08003520        0x0
+                0x08003520                . = ALIGN (0x4)
+                0x08003520                __exidx_start = .
  *(.ARM.exidx*)
-                0x080034b0                __exidx_end = .
-                0x080034b0                . = ALIGN (0x4)
+                0x08003520                __exidx_end = .
+                0x08003520                . = ALIGN (0x4)
 
-.preinit_array  0x080034b0        0x0
-                0x080034b0                . = ALIGN (0x4)
-                0x080034b0                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08003520        0x0
+                0x08003520                . = ALIGN (0x4)
+                0x08003520                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x080034b0                PROVIDE (__preinit_array_end = .)
-                0x080034b0                . = ALIGN (0x4)
+                0x08003520                PROVIDE (__preinit_array_end = .)
+                0x08003520                . = ALIGN (0x4)
 
-.init_array     0x080034b0        0x4
-                0x080034b0                . = ALIGN (0x4)
-                0x080034b0                PROVIDE (__init_array_start = .)
+.init_array     0x08003520        0x4
+                0x08003520                . = ALIGN (0x4)
+                0x08003520                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x080034b0        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
-                0x080034b4                PROVIDE (__init_array_end = .)
-                0x080034b4                . = ALIGN (0x4)
+ .init_array    0x08003520        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+                0x08003524                PROVIDE (__init_array_end = .)
+                0x08003524                . = ALIGN (0x4)
 
-.fini_array     0x080034b4        0x0
-                0x080034b4                . = ALIGN (0x4)
+.fini_array     0x08003524        0x0
+                0x08003524                . = ALIGN (0x4)
                 [!provide]                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
                 [!provide]                PROVIDE (__fini_array_end = .)
-                0x080034b4                . = ALIGN (0x4)
-                0x080034b4                _sidata = LOADADDR (.data)
+                0x08003524                . = ALIGN (0x4)
+                0x08003524                _sidata = LOADADDR (.data)
 
-.data           0x20000000       0x2c load address 0x080034b4
+.data           0x20000000       0x2c load address 0x08003524
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
  *(.data*)
  .data._ZN12ClockManager8ahbClockE
-                0x20000000        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x20000000        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .data.normalizedCoeff
-                0x20000004        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x20000004        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .data._ZN12ClockManager9coreClockE
-                0x20000008        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x20000008        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .data._ZN12ClockManager10timerClockE
-                0x2000000c        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x2000000c        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .data.serialPrintInterval
-                0x20000010        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x20000010        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .data.setMotorSpeed
-                0x20000014        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .data.setiQ    0x20000018        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x20000014        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .data.setiQ    0x20000018        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .data.inverterPWM
-                0x2000001c       0x10 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x2000001c       0x10 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                 0x2000002c                . = ALIGN (0x4)
                 0x2000002c                _edata = .
 
-.igot.plt       0x2000002c        0x0 load address 0x080034e0
+.igot.plt       0x2000002c        0x0 load address 0x08003550
  .igot.plt      0x2000002c        0x0 build/obj/drivers/startup/startup_stm32g474retx.o
                 0x2000002c                . = ALIGN (0x4)
 
-.bss            0x2000002c      0x318 load address 0x080034e0
-                0x2000002c                _sbss = .
-                0x2000002c                __bss_start__ = _sbss
+.bss            0x20000030      0x324 load address 0x08003550
+                0x20000030                _sbss = .
+                0x20000030                __bss_start__ = _sbss
  *(.bss)
  *(.bss*)
- .bss.led4      0x2000002c        0x8 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.led2      0x20000034        0x8 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.adc2Ch17  0x2000003c        0x8 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.adc2Ch12  0x20000044        0x8 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.adc1Ch9   0x2000004c        0x8 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.adc1Ch8   0x20000054        0x8 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.adc1Ch1   0x2000005c        0x8 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+ .bss.led4      0x20000030        0x8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.adc2Ch5   0x20000038        0x8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.adc3Ch5   0x20000040        0x8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.adc2Ch17  0x20000048        0x8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.adc2Ch12  0x20000050        0x8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.adc1Ch9   0x20000058        0x8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.adc1Ch8   0x20000060        0x8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.adc1Ch1   0x20000068        0x8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .bss.PWMtim1ch3N
-                0x20000064        0x8 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x20000070        0x8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .bss.PWMtim1ch3
-                0x2000006c        0x8 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x20000078        0x8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .bss.PWMtim1ch2N
-                0x20000074        0x8 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x20000080        0x8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .bss.PWMtim1ch2
-                0x2000007c        0x8 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x20000088        0x8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .bss.PWMtim1ch1N
-                0x20000084        0x8 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x20000090        0x8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .bss.PWMtim1ch1
-                0x2000008c        0x8 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x20000098        0x8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .bss.PWMtim2ch1
-                0x20000094        0x8 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.i2cSDA    0x2000009c        0x8 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.i2cSCL    0x200000a4        0x8 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.uartRX    0x200000ac        0x8 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.uartTX    0x200000b4        0x8 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.led5      0x200000bc        0x8 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.velChange
-                0x200000c4        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.SetOLangle
-                0x200000c8        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.led1      0x200000cc        0x8 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss._ZN12ClockManager8pllClockE
-                0x200000d4       0x10 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.i2c3      0x200000e4        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.Adc2DmaReadings
-                0x200000e8        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.AdcDmaReadings
-                0x200000ec        0x6 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- *fill*         0x200000f2        0x2 
- .bss.lastPrintTime
-                0x200000f4        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x200000a0        0x8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.i2cSDA    0x200000a8        0x8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.i2cSCL    0x200000b0        0x8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.uartRX    0x200000b8        0x8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.uartTX    0x200000c0        0x8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .bss.TIM2loopFlag
-                0x200000f8        0x1 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- *fill*         0x200000f9        0x3 
- .bss.motor     0x200000fc       0x68 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x200000c8        0x1 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ *fill*         0x200000c9        0x3 
+ .bss.led5      0x200000cc        0x8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.led2      0x200000d4        0x8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.SetOLangle
+                0x200000dc        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.velChange
+                0x200000e0        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ *fill*         0x200000e4        0x4 
+ .bss._ZN12ClockManager8pllClockE
+                0x200000e8       0x10 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.i2c3      0x200000f8        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.Adc2DmaReadings
+                0x200000fc        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.AdcDmaReadings
+                0x20000100        0x6 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ *fill*         0x20000106        0x2 
+ .bss.lastPrintTime
+                0x20000108        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .bss.motorSpeed
-                0x20000164        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x2000010c        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.motor     0x20000110       0x68 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .bss._ZZ4mainE14prevMotorState
-                0x20000168        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x20000178        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .bss.slopeInterval
-                0x2000016c        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x2000017c        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .bss.motorProcessLastTime
-                0x20000170        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.milis     0x20000174        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.setiD     0x20000178        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x20000180        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.milis     0x20000184        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.setiD     0x20000188        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .bss.motorState
-                0x2000017c        0x4 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x2000018c        0x4 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .bss.UARTrxData
-                0x20000180       0x32 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- *fill*         0x200001b2        0x2 
- .bss.uart      0x200001b4      0x110 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.pidUd     0x200002c4       0x40 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .bss.pidUq     0x20000304       0x40 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x20000190       0x32 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ *fill*         0x200001c2        0x2 
+ .bss.uart      0x200001c4      0x110 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.pidUd     0x200002d4       0x40 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .bss.pidUq     0x20000314       0x40 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  *(COMMON)
-                0x20000344                . = ALIGN (0x4)
-                0x20000344                _ebss = .
-                0x20000344                __bss_end__ = _ebss
+                0x20000354                . = ALIGN (0x4)
+                0x20000354                _ebss = .
+                0x20000354                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20000344      0x604 load address 0x080034e0
-                0x20000348                . = ALIGN (0x8)
- *fill*         0x20000344        0x4 
-                0x20000348                _sheap = .
+                0x20000354      0x604 load address 0x08003550
+                0x20000358                . = ALIGN (0x8)
+ *fill*         0x20000354        0x4 
+                0x20000358                _sheap = .
                 [!provide]                PROVIDE (end = .)
                 [!provide]                PROVIDE (_end = .)
-                0x20000548                . = (. + _Min_Heap_Size)
- *fill*         0x20000348      0x200 
-                0x20000548                _eheap = .
-                0x20000948                . = (. + _Min_Stack_Size)
- *fill*         0x20000548      0x400 
-                0x20000948                . = ALIGN (0x8)
+                0x20000558                . = (. + _Min_Heap_Size)
+ *fill*         0x20000358      0x200 
+                0x20000558                _eheap = .
+                0x20000958                . = (. + _Min_Stack_Size)
+ *fill*         0x20000558      0x400 
+                0x20000958                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -963,7 +964,7 @@ LOAD c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.
                 0x00000000       0x32
  *(.ARM.attributes)
  .ARM.attributes
-                0x00000000       0x32 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x00000000       0x32 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
  .ARM.attributes
                 0x00000032       0x21 build/obj/drivers/startup/startup_stm32g474retx.o
  .ARM.attributes
@@ -984,163 +985,163 @@ LOAD c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.
 LOAD c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a
 LOAD c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a
 
-.debug_info     0x00000000    0x1b588
- .debug_info    0x00000000     0x1e1e C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .debug_info    0x00001e1e     0x51f9 C:\Users\polit\AppData\Local\Temp\cc901LRz.debug.temp.o
-                0x00001e1e                main.cpp.ae106a92
- .debug_info    0x00007017     0x3478 C:\Users\polit\AppData\Local\Temp\ccekZqNM.debug.temp.o
-                0x00007017                board.cpp.d168e321
- .debug_info    0x0000a48f     0x3424 C:\Users\polit\AppData\Local\Temp\ccLHTYUZ.debug.temp.o
-                0x0000a48f                UART.cpp.e6a4d66a
- .debug_info    0x0000d8b3     0x3dd2 C:\Users\polit\AppData\Local\Temp\ccAoBZ9c.debug.temp.o
-                0x0000d8b3                clock_manager.cpp.f7602457
- .debug_info    0x00011685      0x39b C:\Users\polit\AppData\Local\Temp\cctvB1vq.debug.temp.o
-                0x00011685                gpio.cpp.95cbe42e
- .debug_info    0x00011a20     0x2ae1 C:\Users\polit\AppData\Local\Temp\cc4YZt5C.debug.temp.o
-                0x00011a20                i2c.cpp.ebfe27b6
- .debug_info    0x00014501      0x882 C:\Users\polit\AppData\Local\Temp\ccZVPAgd.debug.temp.o
-                0x00014501                new_delete.cpp.62cfa163
- .debug_info    0x00014d83     0x2a93 C:\Users\polit\AppData\Local\Temp\ccKU7A6s.debug.temp.o
-                0x00014d83                typeConverter.cpp.dd50d242
- .debug_info    0x00017816     0x2a30 C:\Users\polit\AppData\Local\Temp\ccp8YItJ.debug.temp.o
-                0x00017816                states.cpp.1114ac00
- .debug_info    0x0001a246      0x942 C:\Users\polit\AppData\Local\Temp\ccBBIxke.debug.temp.o
-                0x0001a246                pid.cpp.c944f1da
- .debug_info    0x0001ab88      0x5f5 C:\Users\polit\AppData\Local\Temp\cc7mIADJ.debug.temp.o
-                0x0001ab88                adc.c.fab37161
- .debug_info    0x0001b17d      0x391 C:\Users\polit\AppData\Local\Temp\ccuhQdjY.debug.temp.o
-                0x0001b17d                system_stm32g4xx.c.3da40204
- .debug_info    0x0001b50e       0x7a C:\Users\polit\AppData\Local\Temp\ccXcnyad.debug.temp.o
-                0x0001b50e                c_stubs.c.0e2ae3c6
+.debug_info     0x00000000    0x1b595
+ .debug_info    0x00000000     0x1e24 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .debug_info    0x00001e24     0x51ff C:\Users\polit\AppData\Local\Temp\ccc6l9QY.debug.temp.o
+                0x00001e24                main.cpp.244dd4d1
+ .debug_info    0x00007023     0x3479 C:\Users\polit\AppData\Local\Temp\ccQ1QSNl.debug.temp.o
+                0x00007023                board.cpp.4c1100be
+ .debug_info    0x0000a49c     0x3424 C:\Users\polit\AppData\Local\Temp\ccw0mmGI.debug.temp.o
+                0x0000a49c                UART.cpp.e6a4d66a
+ .debug_info    0x0000d8c0     0x3dd2 C:\Users\polit\AppData\Local\Temp\cc4EmvK5.debug.temp.o
+                0x0000d8c0                clock_manager.cpp.f7602457
+ .debug_info    0x00011692      0x39b C:\Users\polit\AppData\Local\Temp\ccaLtt2s.debug.temp.o
+                0x00011692                gpio.cpp.95cbe42e
+ .debug_info    0x00011a2d     0x2ae1 C:\Users\polit\AppData\Local\Temp\ccSEmafQ.debug.temp.o
+                0x00011a2d                i2c.cpp.ebfe27b6
+ .debug_info    0x0001450e      0x882 C:\Users\polit\AppData\Local\Temp\ccCvgTgX.debug.temp.o
+                0x0001450e                new_delete.cpp.62cfa163
+ .debug_info    0x00014d90     0x2a93 C:\Users\polit\AppData\Local\Temp\cc0q5MIj.debug.temp.o
+                0x00014d90                typeConverter.cpp.dd50d242
+ .debug_info    0x00017823     0x2a30 C:\Users\polit\AppData\Local\Temp\ccAKtkoG.debug.temp.o
+                0x00017823                states.cpp.1114ac00
+ .debug_info    0x0001a253      0x942 C:\Users\polit\AppData\Local\Temp\cc81oKFp.debug.temp.o
+                0x0001a253                pid.cpp.c944f1da
+ .debug_info    0x0001ab95      0x5f5 C:\Users\polit\AppData\Local\Temp\cckwYSk7.debug.temp.o
+                0x0001ab95                adc.c.e416742b
+ .debug_info    0x0001b18a      0x391 C:\Users\polit\AppData\Local\Temp\ccyCvLqt.debug.temp.o
+                0x0001b18a                system_stm32g4xx.c.3da40204
+ .debug_info    0x0001b51b       0x7a C:\Users\polit\AppData\Local\Temp\ccEgiaqP.debug.temp.o
+                0x0001b51b                c_stubs.c.0e2ae3c6
 
 .debug_abbrev   0x00000000     0x2868
- .debug_abbrev  0x00000000      0x26e C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .debug_abbrev  0x0000026e      0x6da C:\Users\polit\AppData\Local\Temp\cc901LRz.debug.temp.o
- .debug_abbrev  0x00000948      0x52d C:\Users\polit\AppData\Local\Temp\ccekZqNM.debug.temp.o
- .debug_abbrev  0x00000e75      0x457 C:\Users\polit\AppData\Local\Temp\ccLHTYUZ.debug.temp.o
- .debug_abbrev  0x000012cc      0x51d C:\Users\polit\AppData\Local\Temp\ccAoBZ9c.debug.temp.o
- .debug_abbrev  0x000017e9      0x1d0 C:\Users\polit\AppData\Local\Temp\cctvB1vq.debug.temp.o
- .debug_abbrev  0x000019b9      0x2f2 C:\Users\polit\AppData\Local\Temp\cc4YZt5C.debug.temp.o
- .debug_abbrev  0x00001cab      0x279 C:\Users\polit\AppData\Local\Temp\ccZVPAgd.debug.temp.o
- .debug_abbrev  0x00001f24      0x262 C:\Users\polit\AppData\Local\Temp\ccKU7A6s.debug.temp.o
- .debug_abbrev  0x00002186      0x2b2 C:\Users\polit\AppData\Local\Temp\ccp8YItJ.debug.temp.o
- .debug_abbrev  0x00002438      0x201 C:\Users\polit\AppData\Local\Temp\ccBBIxke.debug.temp.o
- .debug_abbrev  0x00002639      0x126 C:\Users\polit\AppData\Local\Temp\cc7mIADJ.debug.temp.o
- .debug_abbrev  0x0000275f       0xaf C:\Users\polit\AppData\Local\Temp\ccuhQdjY.debug.temp.o
- .debug_abbrev  0x0000280e       0x5a C:\Users\polit\AppData\Local\Temp\ccXcnyad.debug.temp.o
+ .debug_abbrev  0x00000000      0x26e C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .debug_abbrev  0x0000026e      0x6da C:\Users\polit\AppData\Local\Temp\ccc6l9QY.debug.temp.o
+ .debug_abbrev  0x00000948      0x52d C:\Users\polit\AppData\Local\Temp\ccQ1QSNl.debug.temp.o
+ .debug_abbrev  0x00000e75      0x457 C:\Users\polit\AppData\Local\Temp\ccw0mmGI.debug.temp.o
+ .debug_abbrev  0x000012cc      0x51d C:\Users\polit\AppData\Local\Temp\cc4EmvK5.debug.temp.o
+ .debug_abbrev  0x000017e9      0x1d0 C:\Users\polit\AppData\Local\Temp\ccaLtt2s.debug.temp.o
+ .debug_abbrev  0x000019b9      0x2f2 C:\Users\polit\AppData\Local\Temp\ccSEmafQ.debug.temp.o
+ .debug_abbrev  0x00001cab      0x279 C:\Users\polit\AppData\Local\Temp\ccCvgTgX.debug.temp.o
+ .debug_abbrev  0x00001f24      0x262 C:\Users\polit\AppData\Local\Temp\cc0q5MIj.debug.temp.o
+ .debug_abbrev  0x00002186      0x2b2 C:\Users\polit\AppData\Local\Temp\ccAKtkoG.debug.temp.o
+ .debug_abbrev  0x00002438      0x201 C:\Users\polit\AppData\Local\Temp\cc81oKFp.debug.temp.o
+ .debug_abbrev  0x00002639      0x126 C:\Users\polit\AppData\Local\Temp\cckwYSk7.debug.temp.o
+ .debug_abbrev  0x0000275f       0xaf C:\Users\polit\AppData\Local\Temp\ccyCvLqt.debug.temp.o
+ .debug_abbrev  0x0000280e       0x5a C:\Users\polit\AppData\Local\Temp\ccEgiaqP.debug.temp.o
 
 .debug_loclists
-                0x00000000     0x1617
+                0x00000000     0x15c8
  .debug_loclists
-                0x00000000     0x1617 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x00000000     0x15c8 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
 
 .debug_aranges  0x00000000       0xf0
  .debug_aranges
-                0x00000000       0xf0 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x00000000       0xf0 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
 
 .debug_rnglists
-                0x00000000      0x4db
+                0x00000000      0x4cc
  .debug_rnglists
-                0x00000000      0x4db C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                0x00000000      0x4cc C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
 
-.debug_line     0x00000000     0x2324
- .debug_line    0x00000000     0x1bd5 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .debug_line    0x00001bd5      0x10f C:\Users\polit\AppData\Local\Temp\cc901LRz.debug.temp.o
- .debug_line    0x00001ce4       0xd3 C:\Users\polit\AppData\Local\Temp\ccekZqNM.debug.temp.o
- .debug_line    0x00001db7       0xc6 C:\Users\polit\AppData\Local\Temp\ccLHTYUZ.debug.temp.o
- .debug_line    0x00001e7d       0xd4 C:\Users\polit\AppData\Local\Temp\ccAoBZ9c.debug.temp.o
- .debug_line    0x00001f51       0x51 C:\Users\polit\AppData\Local\Temp\cctvB1vq.debug.temp.o
- .debug_line    0x00001fa2       0xa6 C:\Users\polit\AppData\Local\Temp\cc4YZt5C.debug.temp.o
- .debug_line    0x00002048       0x71 C:\Users\polit\AppData\Local\Temp\ccZVPAgd.debug.temp.o
- .debug_line    0x000020b9       0x9d C:\Users\polit\AppData\Local\Temp\ccKU7A6s.debug.temp.o
- .debug_line    0x00002156       0xaf C:\Users\polit\AppData\Local\Temp\ccp8YItJ.debug.temp.o
- .debug_line    0x00002205       0x48 C:\Users\polit\AppData\Local\Temp\ccBBIxke.debug.temp.o
- .debug_line    0x0000224d       0x51 C:\Users\polit\AppData\Local\Temp\cc7mIADJ.debug.temp.o
- .debug_line    0x0000229e       0x4c C:\Users\polit\AppData\Local\Temp\ccuhQdjY.debug.temp.o
- .debug_line    0x000022ea       0x3a C:\Users\polit\AppData\Local\Temp\ccXcnyad.debug.temp.o
+.debug_line     0x00000000     0x23ed
+ .debug_line    0x00000000     0x1c9e C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .debug_line    0x00001c9e      0x10f C:\Users\polit\AppData\Local\Temp\ccc6l9QY.debug.temp.o
+ .debug_line    0x00001dad       0xd3 C:\Users\polit\AppData\Local\Temp\ccQ1QSNl.debug.temp.o
+ .debug_line    0x00001e80       0xc6 C:\Users\polit\AppData\Local\Temp\ccw0mmGI.debug.temp.o
+ .debug_line    0x00001f46       0xd4 C:\Users\polit\AppData\Local\Temp\cc4EmvK5.debug.temp.o
+ .debug_line    0x0000201a       0x51 C:\Users\polit\AppData\Local\Temp\ccaLtt2s.debug.temp.o
+ .debug_line    0x0000206b       0xa6 C:\Users\polit\AppData\Local\Temp\ccSEmafQ.debug.temp.o
+ .debug_line    0x00002111       0x71 C:\Users\polit\AppData\Local\Temp\ccCvgTgX.debug.temp.o
+ .debug_line    0x00002182       0x9d C:\Users\polit\AppData\Local\Temp\cc0q5MIj.debug.temp.o
+ .debug_line    0x0000221f       0xaf C:\Users\polit\AppData\Local\Temp\ccAKtkoG.debug.temp.o
+ .debug_line    0x000022ce       0x48 C:\Users\polit\AppData\Local\Temp\cc81oKFp.debug.temp.o
+ .debug_line    0x00002316       0x51 C:\Users\polit\AppData\Local\Temp\cckwYSk7.debug.temp.o
+ .debug_line    0x00002367       0x4c C:\Users\polit\AppData\Local\Temp\ccyCvLqt.debug.temp.o
+ .debug_line    0x000023b3       0x3a C:\Users\polit\AppData\Local\Temp\ccEgiaqP.debug.temp.o
 
-.debug_str      0x00000000     0x3868
- .debug_str     0x00000000      0x17f C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
-                                0x198 (size before relaxing)
- .debug_str     0x0000017f     0x29f3 C:\Users\polit\AppData\Local\Temp\cc901LRz.debug.temp.o
-                               0x2d8f (size before relaxing)
- .debug_str     0x00002b72      0x24f C:\Users\polit\AppData\Local\Temp\ccekZqNM.debug.temp.o
-                               0x1957 (size before relaxing)
- .debug_str     0x00002dc1       0xa7 C:\Users\polit\AppData\Local\Temp\ccLHTYUZ.debug.temp.o
+.debug_str      0x00000000     0x3885
+ .debug_str     0x00000000      0x16c C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+                                0x185 (size before relaxing)
+ .debug_str     0x0000016c     0x2a18 C:\Users\polit\AppData\Local\Temp\ccc6l9QY.debug.temp.o
+                               0x2da1 (size before relaxing)
+ .debug_str     0x00002b84      0x25a C:\Users\polit\AppData\Local\Temp\ccQ1QSNl.debug.temp.o
+                               0x1962 (size before relaxing)
+ .debug_str     0x00002dde       0xa7 C:\Users\polit\AppData\Local\Temp\ccw0mmGI.debug.temp.o
                                0x1a8e (size before relaxing)
- .debug_str     0x00002e68      0x305 C:\Users\polit\AppData\Local\Temp\ccAoBZ9c.debug.temp.o
+ .debug_str     0x00002e85      0x305 C:\Users\polit\AppData\Local\Temp\cc4EmvK5.debug.temp.o
                                0x209f (size before relaxing)
- .debug_str     0x0000316d       0x6b C:\Users\polit\AppData\Local\Temp\cctvB1vq.debug.temp.o
+ .debug_str     0x0000318a       0x6b C:\Users\polit\AppData\Local\Temp\ccaLtt2s.debug.temp.o
                                 0x40b (size before relaxing)
- .debug_str     0x000031d8       0x58 C:\Users\polit\AppData\Local\Temp\cc4YZt5C.debug.temp.o
+ .debug_str     0x000031f5       0x58 C:\Users\polit\AppData\Local\Temp\ccSEmafQ.debug.temp.o
                                0x104f (size before relaxing)
- .debug_str     0x00003230      0x129 C:\Users\polit\AppData\Local\Temp\ccZVPAgd.debug.temp.o
+ .debug_str     0x0000324d      0x129 C:\Users\polit\AppData\Local\Temp\ccCvgTgX.debug.temp.o
                                 0x50d (size before relaxing)
- .debug_str     0x00003359       0x7a C:\Users\polit\AppData\Local\Temp\ccKU7A6s.debug.temp.o
+ .debug_str     0x00003376       0x7a C:\Users\polit\AppData\Local\Temp\cc0q5MIj.debug.temp.o
                                0x10d3 (size before relaxing)
- .debug_str     0x000033d3      0x161 C:\Users\polit\AppData\Local\Temp\ccp8YItJ.debug.temp.o
+ .debug_str     0x000033f0      0x161 C:\Users\polit\AppData\Local\Temp\ccAKtkoG.debug.temp.o
                                0x110e (size before relaxing)
- .debug_str     0x00003534       0xc7 C:\Users\polit\AppData\Local\Temp\ccBBIxke.debug.temp.o
+ .debug_str     0x00003551       0xc7 C:\Users\polit\AppData\Local\Temp\cc81oKFp.debug.temp.o
                                 0x723 (size before relaxing)
- .debug_str     0x000035fb      0x127 C:\Users\polit\AppData\Local\Temp\cc7mIADJ.debug.temp.o
+ .debug_str     0x00003618      0x127 C:\Users\polit\AppData\Local\Temp\cckwYSk7.debug.temp.o
                                 0x4c2 (size before relaxing)
- .debug_str     0x00003722       0xe8 C:\Users\polit\AppData\Local\Temp\ccuhQdjY.debug.temp.o
+ .debug_str     0x0000373f       0xe8 C:\Users\polit\AppData\Local\Temp\ccyCvLqt.debug.temp.o
                                 0x31f (size before relaxing)
- .debug_str     0x0000380a       0x5e C:\Users\polit\AppData\Local\Temp\ccXcnyad.debug.temp.o
+ .debug_str     0x00003827       0x5e C:\Users\polit\AppData\Local\Temp\ccEgiaqP.debug.temp.o
                                 0x18f (size before relaxing)
 
 .comment        0x00000000       0x45
- .comment       0x00000000       0x45 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+ .comment       0x00000000       0x45 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                  0x46 (size before relaxing)
 
-.debug_frame    0x00000000      0x480
- .debug_frame   0x00000000      0x2e0 C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
- .debug_frame   0x000002e0       0x4c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
- .debug_frame   0x0000032c       0x28 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixsfdi.o)
- .debug_frame   0x00000354       0x2c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o)
- .debug_frame   0x00000380       0x30 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldf3.o)
- .debug_frame   0x000003b0       0xac c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x0000045c       0x24 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixunsdfsi.o)
+.debug_frame    0x00000000      0x438
+ .debug_frame   0x00000000      0x298 C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+ .debug_frame   0x00000298       0x4c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x000002e4       0x28 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixsfdi.o)
+ .debug_frame   0x0000030c       0x2c c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o)
+ .debug_frame   0x00000338       0x30 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldf3.o)
+ .debug_frame   0x00000368       0xac c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x00000414       0x24 c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixunsdfsi.o)
 
 .debug_line_str
                 0x00000000      0x60c
  .debug_line_str
-                0x00000000      0x3ce C:\Users\polit\AppData\Local\Temp\cc901LRz.debug.temp.o
+                0x00000000      0x3ce C:\Users\polit\AppData\Local\Temp\ccc6l9QY.debug.temp.o
  .debug_line_str
-                0x000003ce       0x11 C:\Users\polit\AppData\Local\Temp\ccekZqNM.debug.temp.o
+                0x000003ce       0x11 C:\Users\polit\AppData\Local\Temp\ccQ1QSNl.debug.temp.o
                                 0x35e (size before relaxing)
  .debug_line_str
-                0x000003df       0x16 C:\Users\polit\AppData\Local\Temp\ccLHTYUZ.debug.temp.o
+                0x000003df       0x16 C:\Users\polit\AppData\Local\Temp\ccw0mmGI.debug.temp.o
                                 0x343 (size before relaxing)
  .debug_line_str
-                0x000003f5       0x34 C:\Users\polit\AppData\Local\Temp\ccAoBZ9c.debug.temp.o
+                0x000003f5       0x34 C:\Users\polit\AppData\Local\Temp\cc4EmvK5.debug.temp.o
                                 0x382 (size before relaxing)
  .debug_line_str
-                0x00000429       0x16 C:\Users\polit\AppData\Local\Temp\cctvB1vq.debug.temp.o
+                0x00000429       0x16 C:\Users\polit\AppData\Local\Temp\ccaLtt2s.debug.temp.o
                                  0xd7 (size before relaxing)
  .debug_line_str
-                0x0000043f       0x14 C:\Users\polit\AppData\Local\Temp\cc4YZt5C.debug.temp.o
+                0x0000043f       0x14 C:\Users\polit\AppData\Local\Temp\ccSEmafQ.debug.temp.o
                                 0x2ee (size before relaxing)
  .debug_line_str
-                0x00000453       0x27 C:\Users\polit\AppData\Local\Temp\ccZVPAgd.debug.temp.o
+                0x00000453       0x27 C:\Users\polit\AppData\Local\Temp\ccCvgTgX.debug.temp.o
                                 0x237 (size before relaxing)
  .debug_line_str
-                0x0000047a       0x24 C:\Users\polit\AppData\Local\Temp\ccKU7A6s.debug.temp.o
+                0x0000047a       0x24 C:\Users\polit\AppData\Local\Temp\cc0q5MIj.debug.temp.o
                                 0x2fd (size before relaxing)
  .debug_line_str
-                0x0000049e       0x2a C:\Users\polit\AppData\Local\Temp\ccp8YItJ.debug.temp.o
+                0x0000049e       0x2a C:\Users\polit\AppData\Local\Temp\ccAKtkoG.debug.temp.o
                                 0x2fd (size before relaxing)
  .debug_line_str
-                0x000004c8       0x10 C:\Users\polit\AppData\Local\Temp\ccBBIxke.debug.temp.o
+                0x000004c8       0x10 C:\Users\polit\AppData\Local\Temp\cc81oKFp.debug.temp.o
                                  0xaf (size before relaxing)
  .debug_line_str
-                0x000004d8       0x12 C:\Users\polit\AppData\Local\Temp\cc7mIADJ.debug.temp.o
+                0x000004d8       0x12 C:\Users\polit\AppData\Local\Temp\cckwYSk7.debug.temp.o
                                  0xce (size before relaxing)
  .debug_line_str
-                0x000004ea       0x33 C:\Users\polit\AppData\Local\Temp\ccuhQdjY.debug.temp.o
+                0x000004ea       0x33 C:\Users\polit\AppData\Local\Temp\ccyCvLqt.debug.temp.o
                                  0xe7 (size before relaxing)
  .debug_line_str
-                0x0000051d       0x14 C:\Users\polit\AppData\Local\Temp\ccXcnyad.debug.temp.o
+                0x0000051d       0x14 C:\Users\polit\AppData\Local\Temp\ccEgiaqP.debug.temp.o
                                  0x56 (size before relaxing)
  .debug_line_str
                 0x00000531       0xce c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
@@ -1163,7 +1164,7 @@ AHB2clockFreq                                     build/obj/config/board.o (symb
                                                   build/obj/drivers/UART/UART.o (symbol from plugin)
 Adc2DmaReadings                                   build/obj/./main.o (symbol from plugin)
 AdcDmaReadings                                    build/obj/./main.o (symbol from plugin)
-BLDCbrd.c.7b792131                                C:\Users\polit\AppData\Local\Temp\ccQHGRWt.debug.temp.o
+BLDCbrd.c.7b792131                                C:\Users\polit\AppData\Local\Temp\ccQf6ppL.debug.temp.o
 Buffer<256>::read(char*)                          build/obj/drivers/UART/UART.o (symbol from plugin)
 Buffer<256>::write(char)                          build/obj/drivers/UART/UART.o (symbol from plugin)
 BusFault_Handler                                  build/obj/drivers/startup/startup_stm32g474retx.o
@@ -1196,7 +1197,7 @@ DMA1_Channel1_IRQHandler                          build/obj/drivers/startup/star
 DMA1_Channel2_IRQHandler                          build/obj/drivers/startup/startup_stm32g474retx.o
 DMA1_Channel3_IRQHandler                          build/obj/drivers/startup/startup_stm32g474retx.o
 DMA1_Channel4_IRQHandler                          build/obj/drivers/startup/startup_stm32g474retx.o
-DMA1_Channel5_IRQHandler                          C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+DMA1_Channel5_IRQHandler                          C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/drivers/startup/startup_stm32g474retx.o
                                                   build/obj/./main.o (symbol from plugin)
 DMA1_Channel6_IRQHandler                          build/obj/drivers/startup/startup_stm32g474retx.o
@@ -1231,14 +1232,14 @@ FMAC_IRQHandler                                   build/obj/drivers/startup/star
 FMC_IRQHandler                                    build/obj/drivers/startup/startup_stm32g474retx.o
 FPU_IRQHandler                                    build/obj/drivers/startup/startup_stm32g474retx.o
 GPIO::GPIO(GPIO_TypeDef*, unsigned char, GPIOmode, GPIOtype, GPIOspeed, GPIOpull, unsigned char) build/obj/drivers/gpio/gpio.o (symbol from plugin)
-GPIO::GPIO(GPIO_TypeDef*, unsigned char, GPIOmode, GPIOtype, GPIOspeed, GPIOpull, unsigned char) build/obj/drivers/gpio/gpio.o (symbol from plugin)
                                                   build/obj/config/board.o (symbol from plugin)
+GPIO::GPIO(GPIO_TypeDef*, unsigned char, GPIOmode, GPIOtype, GPIOspeed, GPIOpull, unsigned char) build/obj/drivers/gpio/gpio.o (symbol from plugin)
 GPIO::reset()                                     build/obj/drivers/gpio/gpio.o (symbol from plugin)
-                                                  build/obj/./main.o (symbol from plugin)
 GPIO::set()                                       build/obj/drivers/gpio/gpio.o (symbol from plugin)
                                                   build/obj/./main.o (symbol from plugin)
 GPIO::setPinMode(GPIOmode)                        build/obj/drivers/gpio/gpio.o (symbol from plugin)
 GPIO::toggle()                                    build/obj/drivers/gpio/gpio.o (symbol from plugin)
+                                                  build/obj/./main.o (symbol from plugin)
 HD44780::HD44780(I2C*, unsigned char, unsigned char, unsigned char) build/obj/lib/lcd/hd44780.o (symbol from plugin)
 HD44780::HD44780(I2C*, unsigned char, unsigned char, unsigned char) build/obj/lib/lcd/hd44780.o (symbol from plugin)
 HD44780::Init()                                   build/obj/lib/lcd/hd44780.o (symbol from plugin)
@@ -1270,8 +1271,8 @@ I2C3_EV_IRQHandler                                build/obj/drivers/startup/star
 I2C4_ER_IRQHandler                                build/obj/drivers/startup/startup_stm32g474retx.o
 I2C4_EV_IRQHandler                                build/obj/drivers/startup/startup_stm32g474retx.o
 I2C::I2C(I2C_TypeDef*)                            build/obj/drivers/i2c/i2c.o (symbol from plugin)
-                                                  build/obj/config/board.o (symbol from plugin)
 I2C::I2C(I2C_TypeDef*)                            build/obj/drivers/i2c/i2c.o (symbol from plugin)
+                                                  build/obj/config/board.o (symbol from plugin)
 I2C::recieveByte(unsigned char)                   build/obj/drivers/i2c/i2c.o (symbol from plugin)
                                                   build/obj/lib/lcd/hd44780.o (symbol from plugin)
                                                   build/obj/./main.o (symbol from plugin)
@@ -1301,8 +1302,8 @@ PID::PID()                                        build/obj/lib/PID/pid.o (symbo
 PID::PID(float*, float*, float*, float, float, float, PIDCD_TypeDef) build/obj/lib/PID/pid.o (symbol from plugin)
 PID::PID(float*, float*, float*, float, float, float, PIDCD_TypeDef) build/obj/lib/PID/pid.o (symbol from plugin)
 PID::PID(float*, float*, float*, float, float, float, PIDPON_TypeDef, PIDCD_TypeDef) build/obj/lib/PID/pid.o (symbol from plugin)
-PID::PID(float*, float*, float*, float, float, float, PIDPON_TypeDef, PIDCD_TypeDef) build/obj/lib/PID/pid.o (symbol from plugin)
                                                   build/obj/./main.o (symbol from plugin)
+PID::PID(float*, float*, float*, float, float, float, PIDPON_TypeDef, PIDCD_TypeDef) build/obj/lib/PID/pid.o (symbol from plugin)
 PID::SetControllerDirection(PIDCD_TypeDef)        build/obj/lib/PID/pid.o (symbol from plugin)
 PID::SetMode(PIDMode_TypeDef)                     build/obj/lib/PID/pid.o (symbol from plugin)
                                                   build/obj/./main.o (symbol from plugin)
@@ -1334,8 +1335,8 @@ SPI3_IRQHandler                                   build/obj/drivers/startup/star
 SPI4_IRQHandler                                   build/obj/drivers/startup/startup_stm32g474retx.o
 SVC_Handler                                       build/obj/drivers/startup/startup_stm32g474retx.o
 Serial::Serial(USART_TypeDef*, int)               build/obj/drivers/UART/UART.o (symbol from plugin)
-Serial::Serial(USART_TypeDef*, int)               build/obj/drivers/UART/UART.o (symbol from plugin)
                                                   build/obj/config/board.o (symbol from plugin)
+Serial::Serial(USART_TypeDef*, int)               build/obj/drivers/UART/UART.o (symbol from plugin)
 Serial::available()                               build/obj/drivers/UART/UART.o (symbol from plugin)
 Serial::bufferFlush()                             build/obj/drivers/UART/UART.o (symbol from plugin)
                                                   build/obj/./main.o (symbol from plugin)
@@ -1365,10 +1366,10 @@ States::picker                                    build/obj/lib/states/states.o 
 States::setInitState(StateNames)                  build/obj/lib/states/states.o (symbol from plugin)
 States::setState(StateNames)                      build/obj/lib/states/states.o (symbol from plugin)
 States::updateState()                             build/obj/lib/states/states.o (symbol from plugin)
-SysTick_Handler                                   C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+SysTick_Handler                                   C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/drivers/startup/startup_stm32g474retx.o
                                                   build/obj/drivers/clock_manager/clock_manager.o (symbol from plugin)
-SystemInit                                        C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+SystemInit                                        C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/drivers/startup/system_stm32g4xx.o (symbol from plugin)
                                                   build/obj/drivers/startup/startup_stm32g474retx.o
 TIM1_BRK_TIM15_IRQHandler                         build/obj/drivers/startup/startup_stm32g474retx.o
@@ -1379,7 +1380,7 @@ TIM20_BRK_IRQHandler                              build/obj/drivers/startup/star
 TIM20_CC_IRQHandler                               build/obj/drivers/startup/startup_stm32g474retx.o
 TIM20_TRG_COM_IRQHandler                          build/obj/drivers/startup/startup_stm32g474retx.o
 TIM20_UP_IRQHandler                               build/obj/drivers/startup/startup_stm32g474retx.o
-TIM2_IRQHandler                                   C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+TIM2_IRQHandler                                   C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/drivers/startup/startup_stm32g474retx.o
                                                   build/obj/./main.o (symbol from plugin)
 TIM2loopFlag                                      build/obj/./main.o (symbol from plugin)
@@ -1392,10 +1393,10 @@ TIM8_BRK_IRQHandler                               build/obj/drivers/startup/star
 TIM8_CC_IRQHandler                                build/obj/drivers/startup/startup_stm32g474retx.o
 TIM8_TRG_COM_IRQHandler                           build/obj/drivers/startup/startup_stm32g474retx.o
 TIM8_UP_IRQHandler                                build/obj/drivers/startup/startup_stm32g474retx.o
-UART.cpp.e6a4d66a                                 C:\Users\polit\AppData\Local\Temp\ccLHTYUZ.debug.temp.o
-                                                  C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+UART.cpp.e6a4d66a                                 C:\Users\polit\AppData\Local\Temp\ccw0mmGI.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
 UART4_IRQHandler                                  build/obj/drivers/startup/startup_stm32g474retx.o
-UART5_IRQHandler                                  C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+UART5_IRQHandler                                  C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/drivers/startup/startup_stm32g474retx.o
                                                   build/obj/config/board.o (symbol from plugin)
 UARTprevTime                                      build/obj/./main.o (symbol from plugin)
@@ -1425,7 +1426,7 @@ __aeabi_dsub                                      c:/users/polit/desktop/embedde
 __aeabi_f2d                                       c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o)
 __aeabi_f2lz                                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixsfdi.o)
-                                                  C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                                                  C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
 __aeabi_f2ulz                                     c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o)
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixsfdi.o)
 __aeabi_fadd                                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
@@ -1435,7 +1436,7 @@ __aeabi_i2d                                       c:/users/polit/desktop/embedde
 __aeabi_i2f                                       c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
 __aeabi_l2d                                       c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
 __aeabi_l2f                                       c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
-                                                  C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                                                  C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
 __aeabi_ui2d                                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_fixunssfdi.o)
 __aeabi_ui2f                                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
@@ -1443,7 +1444,7 @@ __aeabi_ul2d                                      c:/users/polit/desktop/embedde
 __aeabi_ul2f                                      c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
 __cxa_pure_virtual                                build/obj/lib/stubs/cpp_stubs.o (symbol from plugin)
 __dso_handle                                      build/obj/lib/stubs/c_stubs.o (symbol from plugin)
-__errno                                           C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+__errno                                           C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/lib/stubs/c_stubs.o (symbol from plugin)
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sysconf.o)
 __extendsfdf2                                     c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
@@ -1552,14 +1553,14 @@ __subdf3                                          c:/users/polit/desktop/embedde
 __subsf3                                          c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubsf3.o)
 __swrite                                          c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
-_close                                            C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+_close                                            C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/lib/stubs/c_stubs.o (symbol from plugin)
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-closer.o)
 _close_r                                          c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-closer.o)
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
 _ebss                                             build/obj/drivers/startup/startup_stm32g474retx.o
 _edata                                            build/obj/drivers/startup/startup_stm32g474retx.o
-_eheap                                            C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+_eheap                                            C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/lib/stubs/new_delete.o (symbol from plugin)
 _estack                                           build/obj/drivers/startup/startup_stm32g474retx.o
 _exit                                             build/obj/lib/stubs/c_stubs.o (symbol from plugin)
@@ -1585,11 +1586,11 @@ _impure_ptr                                       c:/users/polit/desktop/embedde
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-reent.o)
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-malloc.o)
-_init                                             C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+_init                                             C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/lib/stubs/c_stubs.o (symbol from plugin)
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
 _kill                                             build/obj/lib/stubs/c_stubs.o (symbol from plugin)
-_lseek                                            C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+_lseek                                            C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/lib/stubs/c_stubs.o (symbol from plugin)
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lseekr.o)
 _lseek_r                                          c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-lseekr.o)
@@ -1598,13 +1599,13 @@ _malloc_r                                         c:/users/polit/desktop/embedde
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-malloc.o)
 _malloc_trim_r                                    c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
-_read                                             C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+_read                                             C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/lib/stubs/c_stubs.o (symbol from plugin)
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-readr.o)
 _read_r                                           c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-readr.o)
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
 _reclaim_reent                                    c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-reent.o)
-_sbrk                                             C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+_sbrk                                             C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/lib/stubs/new_delete.o (symbol from plugin)
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sbrkr.o)
 _sbrk_r                                           c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sbrkr.o)
@@ -1612,37 +1613,39 @@ _sbrk_r                                           c:/users/polit/desktop/embedde
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
 _sbss                                             build/obj/drivers/startup/startup_stm32g474retx.o
 _sdata                                            build/obj/drivers/startup/startup_stm32g474retx.o
-_sheap                                            C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+_sheap                                            C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/lib/stubs/new_delete.o (symbol from plugin)
 _sidata                                           build/obj/drivers/startup/startup_stm32g474retx.o
-_write                                            C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+_write                                            C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/lib/stubs/c_stubs.o (symbol from plugin)
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-writer.o)
 _write_r                                          c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-writer.o)
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
 accell                                            build/obj/./main.o (symbol from plugin)
 acceltime                                         build/obj/./main.o (symbol from plugin)
-adc.c.fab37161                                    C:\Users\polit\AppData\Local\Temp\cc7mIADJ.debug.temp.o
-                                                  C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+adc.c.e416742b                                    C:\Users\polit\AppData\Local\Temp\cckwYSk7.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
 adc1Ch1                                           build/obj/config/board.o (symbol from plugin)
 adc1Ch8                                           build/obj/config/board.o (symbol from plugin)
 adc1Ch9                                           build/obj/config/board.o (symbol from plugin)
 adc2Ch12                                          build/obj/config/board.o (symbol from plugin)
 adc2Ch17                                          build/obj/config/board.o (symbol from plugin)
+adc2Ch5                                           build/obj/config/board.o (symbol from plugin)
+adc3Ch5                                           build/obj/config/board.o (symbol from plugin)
 adc_init                                          build/obj/drivers/adc/adc.o (symbol from plugin)
                                                   build/obj/./main.o (symbol from plugin)
-board.cpp.d168e321                                C:\Users\polit\AppData\Local\Temp\ccekZqNM.debug.temp.o
-                                                  C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
-c_stubs.c.0e2ae3c6                                C:\Users\polit\AppData\Local\Temp\ccXcnyad.debug.temp.o
-                                                  C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+board.cpp.4c1100be                                C:\Users\polit\AppData\Local\Temp\ccQ1QSNl.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+c_stubs.c.0e2ae3c6                                C:\Users\polit\AppData\Local\Temp\ccEgiaqP.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
 checkFlag                                         build/obj/./main.o (symbol from plugin)
 clockFreq                                         build/obj/config/board.o (symbol from plugin)
-clock_manager.cpp.f7602457                        C:\Users\polit\AppData\Local\Temp\ccAoBZ9c.debug.temp.o
-                                                  C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+clock_manager.cpp.f7602457                        C:\Users\polit\AppData\Local\Temp\cc4EmvK5.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
 cosf                                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_cos.o)
-                                                  C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                                                  C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/./main.o (symbol from plugin)
-cpp_stubs.cpp.9b99d88a                            C:\Users\polit\AppData\Local\Temp\cc8HZnZ0.debug.temp.o
+cpp_stubs.cpp.9b99d88a                            C:\Users\polit\AppData\Local\Temp\ccColeVA.debug.temp.o
 dataReadyToPrint                                  build/obj/./main.o (symbol from plugin)
 delay(unsigned long)                              build/obj/config/board.o (symbol from plugin)
                                                   build/obj/lib/lcd/hd44780.o (symbol from plugin)
@@ -1661,16 +1664,16 @@ filterediQ                                        build/obj/./main.o (symbol fro
 floorf                                            c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_floor.o)
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
 free                                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-malloc.o)
-                                                  C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                                                  C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/lib/stubs/new_delete.o (symbol from plugin)
 g_pfnVectors                                      build/obj/drivers/startup/startup_stm32g474retx.o
 generateSine(unsigned long*, unsigned long, unsigned long, unsigned long) build/obj/./main.o (symbol from plugin)
 get_heap_size()                                   build/obj/lib/stubs/new_delete.o (symbol from plugin)
-gpio.cpp.95cbe42e                                 C:\Users\polit\AppData\Local\Temp\cctvB1vq.debug.temp.o
-                                                  C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
-hd44780.cpp.9118021e                              C:\Users\polit\AppData\Local\Temp\ccMwaQPY.debug.temp.o
-i2c.cpp.ebfe27b6                                  C:\Users\polit\AppData\Local\Temp\cc4YZt5C.debug.temp.o
-                                                  C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+gpio.cpp.95cbe42e                                 C:\Users\polit\AppData\Local\Temp\ccaLtt2s.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
+hd44780.cpp.9118021e                              C:\Users\polit\AppData\Local\Temp\ccgZ5GX2.debug.temp.o
+i2c.cpp.ebfe27b6                                  C:\Users\polit\AppData\Local\Temp\ccSEmafQ.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
 i2c3                                              build/obj/config/board.o (symbol from plugin)
                                                   build/obj/./main.o (symbol from plugin)
 i2cData                                           build/obj/./main.o (symbol from plugin)
@@ -1689,19 +1692,18 @@ lastAngleOffsetChange                             build/obj/./main.o (symbol fro
 lastPrintTime                                     build/obj/./main.o (symbol from plugin)
 lastTimeAngle                                     build/obj/./main.o (symbol from plugin)
 lastacceltime                                     build/obj/./main.o (symbol from plugin)
-led1                                              build/obj/config/board.o (symbol from plugin)
-                                                  build/obj/./main.o (symbol from plugin)
 led2                                              build/obj/config/board.o (symbol from plugin)
+                                                  build/obj/./main.o (symbol from plugin)
 led4                                              build/obj/config/board.o (symbol from plugin)
 led5                                              build/obj/config/board.o (symbol from plugin)
                                                   build/obj/./main.o (symbol from plugin)
-main                                              C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+main                                              C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/./main.o (symbol from plugin)
                                                   build/obj/drivers/startup/startup_stm32g474retx.o
-main.cpp.ae106a92                                 C:\Users\polit\AppData\Local\Temp\cc901LRz.debug.temp.o
-                                                  C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+main.cpp.244dd4d1                                 C:\Users\polit\AppData\Local\Temp\ccc6l9QY.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
 malloc                                            c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-malloc.o)
-                                                  C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                                                  C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/lib/stubs/new_delete.o (symbol from plugin)
 map(float, float, float, float, float)            build/obj/config/board.o (symbol from plugin)
 memset                                            c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-memset.o)
@@ -1710,37 +1712,37 @@ milis                                             build/obj/drivers/clock_manage
                                                   build/obj/config/board.o (symbol from plugin)
                                                   build/obj/./main.o (symbol from plugin)
 motor                                             build/obj/./main.o (symbol from plugin)
-motor.c.9a475f96                                  C:\Users\polit\AppData\Local\Temp\cciUwnes.debug.temp.o
+motor.c.9a475f96                                  C:\Users\polit\AppData\Local\Temp\ccyoRoAb.debug.temp.o
 motorProcessLastTime                              build/obj/./main.o (symbol from plugin)
 motorSpeed                                        build/obj/./main.o (symbol from plugin)
 motorState                                        build/obj/./main.o (symbol from plugin)
-new_delete.cpp.62cfa163                           C:\Users\polit\AppData\Local\Temp\ccZVPAgd.debug.temp.o
-                                                  C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+new_delete.cpp.62cfa163                           C:\Users\polit\AppData\Local\Temp\ccCvgTgX.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
 normalizedCoeff                                   build/obj/./main.o (symbol from plugin)
-operator delete(void*)                            C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+operator delete(void*)                            C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/lib/stubs/new_delete.o (symbol from plugin)
 operator delete(void*, std::nothrow_t)            build/obj/lib/stubs/new_delete.o (symbol from plugin)
-operator delete(void*, unsigned int)              C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+operator delete(void*, unsigned int)              C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/lib/stubs/new_delete.o (symbol from plugin)
-operator delete[](void*)                          C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+operator delete[](void*)                          C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/lib/stubs/new_delete.o (symbol from plugin)
 operator delete[](void*, std::nothrow_t)          build/obj/lib/stubs/new_delete.o (symbol from plugin)
-operator delete[](void*, unsigned int)            C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+operator delete[](void*, unsigned int)            C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/lib/stubs/new_delete.o (symbol from plugin)
-operator new(unsigned int)                        C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+operator new(unsigned int)                        C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/lib/stubs/new_delete.o (symbol from plugin)
 operator new(unsigned int, std::nothrow_t)        build/obj/lib/stubs/new_delete.o (symbol from plugin)
-operator new[](unsigned int)                      C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+operator new[](unsigned int)                      C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/lib/stubs/new_delete.o (symbol from plugin)
 operator new[](unsigned int, std::nothrow_t)      build/obj/lib/stubs/new_delete.o (symbol from plugin)
-pid.cpp.c944f1da                                  C:\Users\polit\AppData\Local\Temp\ccBBIxke.debug.temp.o
-                                                  C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+pid.cpp.c944f1da                                  C:\Users\polit\AppData\Local\Temp\cc81oKFp.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
 pidOUT                                            build/obj/./main.o (symbol from plugin)
 pidUd                                             build/obj/./main.o (symbol from plugin)
 pidUq                                             build/obj/./main.o (symbol from plugin)
 prevTick                                          build/obj/./main.o (symbol from plugin)
 printProcessLastTime                              build/obj/./main.o (symbol from plugin)
-pwm.cpp.ffcd975a                                  C:\Users\polit\AppData\Local\Temp\ccHpGeTO.debug.temp.o
+pwm.cpp.ffcd975a                                  C:\Users\polit\AppData\Local\Temp\ccWneUCd.debug.temp.o
 scalbnf                                           c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_scalbn.o)
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
 serialPrintInterval                               build/obj/./main.o (symbol from plugin)
@@ -1752,23 +1754,23 @@ setiD                                             build/obj/./main.o (symbol fro
 setiQ                                             build/obj/./main.o (symbol from plugin)
 sineFreq                                          build/obj/./main.o (symbol from plugin)
 sinf                                              c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libm.a(libm_a-sf_sin.o)
-                                                  C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+                                                  C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
                                                   build/obj/./main.o (symbol from plugin)
 slopeInterval                                     build/obj/./main.o (symbol from plugin)
-states.cpp.1114ac00                               C:\Users\polit\AppData\Local\Temp\ccp8YItJ.debug.temp.o
-                                                  C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+states.cpp.1114ac00                               C:\Users\polit\AppData\Local\Temp\ccAKtkoG.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
 std::__throw_bad_alloc()                          build/obj/lib/stubs/cpp_stubs.o (symbol from plugin)
 std::__throw_bad_function_call()                  build/obj/lib/stubs/cpp_stubs.o (symbol from plugin)
 std::__throw_length_error(char const*)            build/obj/lib/stubs/cpp_stubs.o (symbol from plugin)
 sysconf                                           c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-sysconf.o)
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
                                                   c:/users/polit/desktop/embedded/arm_12.2/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
-system_stm32g4xx.c.3da40204                       C:\Users\polit\AppData\Local\Temp\ccuhQdjY.debug.temp.o
-                                                  C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+system_stm32g4xx.c.3da40204                       C:\Users\polit\AppData\Local\Temp\ccyCvLqt.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
 theta                                             build/obj/./main.o (symbol from plugin)
 ticks                                             build/obj/config/board.o (symbol from plugin)
-typeConverter.cpp.dd50d242                        C:\Users\polit\AppData\Local\Temp\ccKU7A6s.debug.temp.o
-                                                  C:\Users\polit\AppData\Local\Temp\ccFOJuwg.ltrans0.ltrans.o
+typeConverter.cpp.dd50d242                        C:\Users\polit\AppData\Local\Temp\cc0q5MIj.debug.temp.o
+                                                  C:\Users\polit\AppData\Local\Temp\cc0h4ySp.ltrans0.ltrans.o
 typeConverter::IntToString(int, char*)            build/obj/lib/typeConverter/typeConverter.o (symbol from plugin)
                                                   build/obj/drivers/UART/UART.o (symbol from plugin)
 typeConverter::fractionalToString(float, char*, unsigned char) build/obj/lib/typeConverter/typeConverter.o (symbol from plugin)

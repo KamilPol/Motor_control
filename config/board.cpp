@@ -22,16 +22,18 @@ GPIO PWMtim1ch2N (GPIOB, 0, GPIOmode::AF, GPIOtype::PushPull, GPIOspeed::Low, GP
 GPIO PWMtim1ch3 (GPIOA, 10, GPIOmode::AF, GPIOtype::PushPull, GPIOspeed::Low, GPIOpull::None, 6);
 GPIO PWMtim1ch3N (GPIOB, 9, GPIOmode::AF, GPIOtype::PushPull, GPIOspeed::Low, GPIOpull::None, 12);
 
-GPIO adc1Ch1 (GPIOA, 0, GPIOmode::Analog);
-GPIO adc1Ch8 (GPIOC, 2, GPIOmode::Analog);
-GPIO adc1Ch9 (GPIOC, 3, GPIOmode::Analog);
+GPIO adc1Ch1 (GPIOA, 0, GPIOmode::Analog); //original and custom phase current ADC1 ch1
+GPIO adc1Ch8 (GPIOC, 2, GPIOmode::Analog); //original phase current ADC1 ch8
+GPIO adc1Ch9 (GPIOC, 3, GPIOmode::Analog); //original phase current ADC1 ch9
 GPIO adc2Ch12 (GPIOB, 2, GPIOmode::Analog); //Vin
 GPIO adc2Ch17 (GPIOB, 11, GPIOmode::Analog); //Encoder
 
+GPIO adc3Ch5 (GPIOB, 13, GPIOmode::Analog); //custom phase current ADC3 ch5
+GPIO adc2Ch5 (GPIOC, 4, GPIOmode::Analog); //custom phase current ADC2 ch5
 //GPIO adc (GPIOA, 4, GPIOmode::Analog); //dac
 //GPIO dac (GPIOA, 4, GPIOmode::Output, GPIOtype::PushPull, GPIOspeed::Low, GPIOpull::None, 0);
 
-GPIO led1 (GPIOC, 4, GPIOmode::Output, GPIOtype::PushPull, GPIOspeed::Low, GPIOpull::None, 0);
+// GPIO led1 (GPIOC, 4, GPIOmode::Output, GPIOtype::PushPull, GPIOspeed::Low, GPIOpull::None, 0); // custom changed to phase current measurement ADC2 ch5
 GPIO led2 (GPIOB, 10, GPIOmode::Output, GPIOtype::PushPull, GPIOspeed::Low, GPIOpull::None, 0);
 //GPIO led3 (GPIOB, 11, GPIOmode::Output, GPIOtype::PushPull, GPIOspeed::Low, GPIOpull::None, 0);
 GPIO led4 (GPIOC, 11, GPIOmode::Output, GPIOtype::PushPull, GPIOspeed::Low, GPIOpull::None, 0);

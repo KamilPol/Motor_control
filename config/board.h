@@ -24,7 +24,7 @@ extern I2C i2c3;
 extern GPIO uartTX;
 extern GPIO uartRX;
 extern GPIO Led4PD_1;
-extern GPIO led1 ;
+//extern GPIO led1 ;
 extern GPIO led2 ;
 //extern GPIO led3 ;
 extern GPIO led4 ;
